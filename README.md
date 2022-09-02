@@ -1,6 +1,6 @@
 # 66DaysOfData
 
-Day 0: 31 Aug 2022
+## Day 0: 31 Aug 2022
 
 - setup roadmap
 - Learned about structural pattern matching in python 3.10
@@ -22,7 +22,7 @@ Links 🔗
 - [shlex — Simple lexical analysis — Python 3.10.6 documentation](https://docs.python.org/3/library/shlex.html)
 - [Lecture 03: Troubleshooting & Testing (FSDL 2022) - YouTube](https://www.youtube.com/watch?v=RLemHNAO5Lw)
 
-Day 1: 1 Sep 2022
+## Day 1: 1 Sep 2022
 
 - assess multivariate normality with qq plot or Shapiro-Wilk Test
 - learned about creating an R packages with devtools

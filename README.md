@@ -59,3 +59,27 @@ Links 🔗
 - [The Data Scientist Show - Time series modeling in supply chain, how to present like a McKinsey consultant, save the environment with data science - Sunishchal Dev - the data scientist show048](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy82NWQzYmI3NC9wb2RjYXN0L3Jzcw/episode/NzQ1MTAxMGYtNzNmNy00MzMxLWFjZGMtNjI1ZjVlNWVlMGI1?sa=X&ved=0CAUQkfYCahcKEwiIkq-F6ff5AhUAAAAAHQAAAAAQNQ)
 - [Nested Cross-Validation for Machine Learning with Python](https://machinelearningmastery.com/nested-cross-validation-for-machine-learning-with-python/)
 - [Understanding t-Tests: 1-sample, 2-sample, and Paired t-Tests](https://blog.minitab.com/en/adventures-in-statistics-2/understanding-t-tests-1-sample-2-sample-and-paired-t-tests)
+
+## Day 4: 3 Sep 2022
+
+- started MLOps zoomcamp
+- fsdl lecture 4
+  - a lot of ML is dealing with datasets
+  - file system = fundemental unit of a "file", not versioned and easily overwritten, on a disk
+  - object storage = API over filesystem, fundamental unit is an object, usually binary, versioning and redundancy built
+  - database = mental model: everything is actually in RAM, but software makes sure everything is persisted to disk
+  - data warehouse: store for OLAP vs database (OLTP)
+    - ETL - data sources -> ETL -> warehouse
+    - OLAP : column-oriented (mean length of comments past 30 days)
+    - OLTP : row-oriented (comments for a given user)
+  - data lake : unstructured data from different sources (eg logs, databases)
+    - ELT dump everything in first
+  - data lake + house = snowflake & databricks
+  - airflow alternatives
+    - prefect: <https://www.prefect.io/>
+    - dagster: <https://dagster.io/>
+
+Links 🔗
+
+- [DataTalksClub/mlops-zoomcamp: Free MLOps course from DataTalks.Club](https://github.com/DataTalksClub/mlops-zoomcamp)
+- [Lecture 04: Data Management - YouTube](https://www.youtube.com/watch?v=Jlm4oqW41vY)

@@ -83,3 +83,33 @@ Links 🔗
 
 - [DataTalksClub/mlops-zoomcamp: Free MLOps course from DataTalks.Club](https://github.com/DataTalksClub/mlops-zoomcamp)
 - [Lecture 04: Data Management - YouTube](https://www.youtube.com/watch?v=Jlm4oqW41vY)
+
+## Day 5: 4 Sep 2022
+
+- started week 2 of mlops, experiment tracking with mlflow
+- AB testing podcast
+  - Novelty Effect : people interacting with website/service just because it's shiny and new, causing a spike in data. Solution: use a longer test duration to allow cool down from spike of interest to ensure representative sample.
+  - Cannibalization: ex: releasing a discount on blenders to people who were already going to buy blenders, pulling purchases forward
+  - cohort analysis
+- continuing lecture 4 fsdl
+  - self-supervised learning
+    - use parts of data to label other parts (mask sentences and predict and take patches of images and predict relationship between patches)
+    - "contrasitve" training: minimize distance between image and text caption, and maximize distance bewteen image and other text
+  - data augmentations
+    - image: crop, skew, flip, etc. ([torchvision](https://pytorch.org/vision/stable/index.html))
+      - simCLR - used augmentation to train model without labels
+    - tabular: delete some cells to simulate missing data
+    - text: replace words with synonym, change order ([nlpaug](https://github.com/makcedward/nlpaug))
+    - audio: change speed, insert pauses, add audio effects
+  - privacy ML
+    - federated learning: train global model from data on local devices without requiring access to data
+    - differential privacy: aggregating data to mask individual points
+    - learning on encrypted data
+
+Links 🔗
+
+- [MLflow - A platform for the machine learning lifecycle | MLflow](https://mlflow.org/)
+- [A/B testing and growth analytics at AirBnb, metrics store-Nick Handel-the data scientist show#037 - YouTube](https://www.youtube.com/watch?v=5AH0zToK0e4)
+- [Selection Bias in Online Experimentation](https://medium.com/airbnb-engineering/selection-bias-in-online-experimentation-c3d67795cceb)
+- [Glossary of A/B Testing Terms and Abbreviations](https://www.analytics-toolkit.com//glossary/)
+- [google-research/simclr: SimCLRv2 - Big Self-Supervised Models are Strong Semi-Supervised Learners](https://github.com/google-research/simclr)

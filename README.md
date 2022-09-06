@@ -82,7 +82,7 @@ Links 🔗
 Links 🔗
 
 - [DataTalksClub/mlops-zoomcamp: Free MLOps course from DataTalks.Club](https://github.com/DataTalksClub/mlops-zoomcamp)
-- [Lecture 04: Data Management - YouTube](https://www.youtube.com/watch?v=Jlm4oqW41vY)
+- [Lecture 04: Data Management](https://www.youtube.com/watch?v=Jlm4oqW41vY)
 
 ## Day 5: 4 Sep 2022
 
@@ -91,7 +91,7 @@ Links 🔗
   - Novelty Effect : people interacting with website/service just because it's shiny and new, causing a spike in data. Solution: use a longer test duration to allow cool down from spike of interest to ensure representative sample.
   - Cannibalization: ex: releasing a discount on blenders to people who were already going to buy blenders, pulling purchases forward
   - cohort analysis
-- continuing lecture 4 fsdl
+- continuing lecture 4 fsdl : data management
   - self-supervised learning
     - use parts of data to label other parts (mask sentences and predict and take patches of images and predict relationship between patches)
     - "contrasitve" training: minimize distance between image and text caption, and maximize distance bewteen image and other text
@@ -113,3 +113,24 @@ Links 🔗
 - [Selection Bias in Online Experimentation](https://medium.com/airbnb-engineering/selection-bias-in-online-experimentation-c3d67795cceb)
 - [Glossary of A/B Testing Terms and Abbreviations](https://www.analytics-toolkit.com//glossary/)
 - [google-research/simclr: SimCLRv2 - Big Self-Supervised Models are Strong Semi-Supervised Learners](https://github.com/google-research/simclr)
+
+## Day 6: 5 Sep 2022
+
+- Created a simple Python Package - [datastuff](https://github.com/benthecoder/datastuff)
+  - [poetry](https://python-poetry.org/docs/) : manage dependency and packaging
+  - [pre-commit](https://github.com/pre-commit/pre-commit): ensure proper code formatting before commits
+  - [scriv](https://github.com/nedbat/scriv) : changelog management and generation
+  - [tox](https://tox.wiki/en/latest/) : automatic testing and linting
+  - codecov: get coverage reports
+  - github actions: CI/CD for linting and tresting and publishing to PyPI
+- started lecture 5 fsdl : deployment
+  - start with prototyping : streamlit / gradio
+  - architectures
+    - model in service : package model within your web server, UI + model loaded together
+    - model in database : preprocess -> load -> batch prediction -> store in database (model is run offline)
+    - model as service : run model on its own web server, backend interact with model by sending requests and receiving responses
+
+Links 🔗
+
+- [How to create a Python package in 2022 | Mathspp](https://mathspp.com/blog/how-to-create-a-python-package-in-2022)
+- [Lecture 05: Deployment (FSDL 2022)](https://www.youtube.com/watch?v=W3hKjXg7fXM)

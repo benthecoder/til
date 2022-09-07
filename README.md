@@ -134,3 +134,31 @@ Links 🔗
 
 - [How to create a Python package in 2022 | Mathspp](https://mathspp.com/blog/how-to-create-a-python-package-in-2022)
 - [Lecture 05: Deployment (FSDL 2022)](https://www.youtube.com/watch?v=W3hKjXg7fXM)
+
+## Day 7: 6 Sep 2022
+
+- Watched Lecture 1 of FSDL 2021
+  - universal function approximation theoreom
+    - def: give any cont. f(x), if a 2-layer NN has enough hidden units, there is a choice of Ws that allow it to approx. f(x)
+    - in other words, extremenly large neural networks can represent anything
+  - conditioning NNs
+    - weight initialization
+    - normalization
+    - second order methods (computationally expensive): newton's method, natural gradient
+      - adagrad, Adam approximates second order
+    - automatic differentiation
+      - only need to program forward function f(x, w), PyTorch automatically computes all derivatives.
+  - NN architecture considerations
+    - data efficiency
+      - encode prior knowledge into architecture
+        - CV: CNNs = spatial translation invariance (CNNs simulate how our eye works!)
+        - NLP: RNN = temporal invariance (rules of language in any position of the sequence)
+    - optimization landscape / conditioning
+      - depth over width, skip connections, normalization
+    - computational / parameter efficiency
+  - CUDA = NVIDIA’s language/API for programming on the graphics card
+
+Links 🔗
+
+- [Lecture 1: Deep Learning Fundamentals FSDL 2021](https://www.youtube.com/watch?v=fGxWfEuUu0w&list=PL1T8fO7ArWlcWg04OgNiJy91PywMKT2lv&index=1)
+- [A visual proof that neural nets can compute any function](http://neuralnetworksanddeeplearning.com/chap4.html)

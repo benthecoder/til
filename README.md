@@ -174,3 +174,34 @@ Links 🔗
 - [The Log: What every software engineer should know about real-time data's unifying abstraction | LinkedIn Engineering](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
 - [Scaling Spark Streaming for Logging Event Ingestion | by Hao Wang | The Airbnb Tech Blog | Medium](https://medium.com/airbnb-engineering/scaling-spark-streaming-for-logging-event-ingestion-4a03141d135d)
 - [CS 230 - Recurrent Neural Networks Cheatsheet](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks)
+
+## Day 9: 8 Sep 2022
+
+- Feature stores
+  - a data management layer for machine learning that allows to share & discover features and create more effective machine learning pipelines.
+  - they make it easy to
+    - automate feature computation, backfills, logging
+    - share and reuse feature pipelines across teams
+    - track feature version, lineage, metadata
+    - monitoring health of feature pipeline
+  - main components
+    - Serving: serve with high-performance API backed by low-latency database
+    - Storage:
+      - online : model training (months - years of data in data warehouse/lakes like S3, BigQuery)
+      - offline : model serving/inference (lastest data that models the current state of the world in key-value stores like Redis, Cassandra)
+    - Transformation
+      - batch transform : data warehouse/lakes (ex: product category)
+      - streaming transform : kafka, kinesis (ex: # of clicks in last 30 min)
+      - on-demand transform : application (ex: similarity score between listing and search query or user ip) \*data available at the time of prediction
+    - Monitoring
+      - track data quality for drift and training-serving skew
+      - monitor operational metrics (capacity on storage and throughput and latency on serving)
+    - Registry : single source of truth for info about a feature
+      - explore, develop, collaborate, and publish new definitions
+      - schedule and configure data ingestion, transformation and storage
+      - metadata for feature definition (ownership, lineage tracking)
+
+Links 🔗
+
+- [Feature Store For ML](https://www.featurestore.org/)
+- [What is a Feature Store? | Tecton](https://www.tecton.ai/blog/what-is-a-feature-store/)

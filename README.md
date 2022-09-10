@@ -205,3 +205,37 @@ Links 🔗
 
 - [Feature Store For ML](https://www.featurestore.org/)
 - [What is a Feature Store? | Tecton](https://www.tecton.ai/blog/what-is-a-feature-store/)
+
+## Day 10: 9 Sep 2022
+
+- lecture 5 fsdl continued
+  - rest APIs : serve predictions in response to HTTP request
+    - grpc (used in tf serving) and graphql are alternatives
+  - dependency management
+    - constraint dependency of model : [ONNX](https://onnx.ai/) - define network in any language and run anywhere
+    - container : docker (VM without OS with docker engine) or use ([Cog](https://github.com/replicate/cog), [BentoML](https://www.bentoml.com/))
+  - performance optimization
+    - GPU? = Pros: same hardware for training and increase throughput, Cons: complex to setup
+    - concurrency = multiple copies of model on different CPUs/cores (careful thread tuning)
+    - distillation = tran smaller model to imitate larger one ([distilbert](https://huggingface.co/docs/transformers/model_doc/distilbert))
+    - quantization = execute all operation of model with smaller numerical repr (INT8), tradeoff in accuracy
+    - caching = some inputs are more common than others (basic: use functools.cache)
+    - batching = gather inputs, run prediction, split and return to individual users
+    - share GPU = run multiple models on the same GPU
+    - model serving libraries = [Ray Serve](https://docs.ray.io/en/latest/serve/index.html)
+  - horizontal scaling = split traffic across multiple machine that has a copy of model
+    - container orchestration : kubernetes manages docker containers and run across machines [Kubeflow](https://www.kubeflow.org/)
+    - serverless : package model and dependency into .zip or docker container with a single entry point (`model.predict()`) -> deploy to AWS lambda
+  - model rollout : how you manage and update model services
+    - roll out gradually : incrementally test new model
+    - roll back instantly : if something's wrong, pull back model instantly
+    - split traffic between versions : test differences between old and new (A/B test)
+
+Links 🔗
+
+- [Docker overview](https://docs.docker.com/get-started/overview/#docker-architecture)
+- [How We Scaled Bert To Serve 1+ Billion Daily Requests on CPU](https://www.youtube.com/watch?v=Nw77sEAn_Js)
+- [Research Guide: Model Distillation Techniques for Deep Learning](https://heartbeat.comet.ml/research-guide-model-distillation-techniques-for-deep-learning-4a100801c0eb)
+- [Introduction to Quantization on PyTorch](https://pytorch.org/blog/introduction-to-quantization-on-pytorch/)
+- [🤗 Optimum](https://huggingface.co/docs/optimum/index)
+- [functools — Higher-order functions and operations on callable objects — Python 3.10.7 documentation](https://docs.python.org/3/library/functools.html)

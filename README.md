@@ -239,3 +239,14 @@ Links 🔗
 - [Introduction to Quantization on PyTorch](https://pytorch.org/blog/introduction-to-quantization-on-pytorch/)
 - [🤗 Optimum](https://huggingface.co/docs/optimum/index)
 - [functools — Higher-order functions and operations on callable objects — Python 3.10.7 documentation](https://docs.python.org/3/library/functools.html)
+
+## Day 12: 10 Sep 2022
+
+- Multi-armed bandit
+  - Goal: determine best or most profitable outcome through a series of choices
+
+Links 🔗
+
+- [When Life Gives You Lemons | TigYog](https://tigyog.app/d/L:X07z8laLyz/r/when-life-gives-you-lemons)
+- [The Multi-Armed Bandit Problem and Its Solutions | Lil'Log](https://lilianweng.github.io/posts/2018-01-23-multi-armed-bandit/)
+- [Multi-armed bandit - Optimizely](https://www.optimizely.com/optimization-glossary/multi-armed-bandit/)

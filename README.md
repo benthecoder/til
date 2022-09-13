@@ -251,7 +251,7 @@ Links 🔗
 - [The Multi-Armed Bandit Problem and Its Solutions | Lil'Log](https://lilianweng.github.io/posts/2018-01-23-multi-armed-bandit/)
 - [Multi-armed bandit - Optimizely](https://www.optimizely.com/optimization-glossary/multi-armed-bandit/)
 
-## Day 13: 12 Sep 2022
+## Day 12: 11 Sep 2022
 
 - watched refactoring data science project
   - protocol vs ABC
@@ -265,3 +265,11 @@ Links 🔗
 - [Python Type Hints - Duck typing with Protocol - Adam Johnson](https://adamj.eu/tech/2021/05/18/python-type-hints-duck-typing-with-protocol/)
 - [Sequential — PyTorch 1.12 documentation](https://pytorch.org/docs/stable/generated/torch.nn.Sequential.html)
 - [Every Data Scientist Should Know This Design Principle](https://aigents.co/data-science-blog/publication/every-data-scientist-should-know-this-design-principle)
+
+## Day 13: 12 Sep 2022
+
+- recapped course 1 - supervised machine learning
+
+Links 🔗
+
+- [Supervised Machine Learning: Regression and Classification | Coursera](https://www.coursera.org/learn/machine-learning)

@@ -268,8 +268,18 @@ Links 🔗
 
 ## Day 13: 12 Sep 2022
 
+- starting working on data science interview questions
 - recapped course 1 - supervised machine learning
 
 Links 🔗
 
 - [Supervised Machine Learning: Regression and Classification | Coursera](https://www.coursera.org/learn/machine-learning)
+
+## Day 14: 13 Sep 2022
+
+- split-plot design
+- did more interview questions by interviewqs
+
+Links 🔗
+
+- [14.3 - The Split-Plot Designs | STAT 503](https://online.stat.psu.edu/stat503/lesson/14/14.3)

@@ -283,3 +283,9 @@ Links 🔗
 Links 🔗
 
 - [14.3 - The Split-Plot Designs | STAT 503](https://online.stat.psu.edu/stat503/lesson/14/14.3)
+
+## Day 15: 14 Sep 2022
+
+- 2 more interview questions by interviewqs
+
+Links 🔗

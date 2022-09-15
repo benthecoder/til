@@ -287,5 +287,8 @@ Links 🔗
 ## Day 15: 14 Sep 2022
 
 - 2 more interview questions by interviewqs
+- read through kaggle notebooks for nlp and time series
 
 Links 🔗
+
+- [NLP with Disaster Tweets - EDA, Cleaning and BERT | Kaggle](https://www.kaggle.com/code/gunesevitan/nlp-with-disaster-tweets-eda-cleaning-and-bert#0.-Introduction-and-References)

@@ -305,7 +305,7 @@ Links 🔗
 ## Day 17: 18 Sep 2022
 
 - finished week 1 of advanced learning algorithms ML specialization
-  - learned about sequential, activation functions, logistic unit, vectorization, numpy broadcasting
+  - learned about sequential, activation functions, epochs, batches, logistic unit, vectorization, numpy broadcasting
 
 Links 🔗
 

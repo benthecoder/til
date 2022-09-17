@@ -292,3 +292,21 @@ Links 🔗
 Links 🔗
 
 - [NLP with Disaster Tweets - EDA, Cleaning and BERT | Kaggle](https://www.kaggle.com/code/gunesevitan/nlp-with-disaster-tweets-eda-cleaning-and-bert#0.-Introduction-and-References)
+
+## Day 16: 15 Sep 2022
+
+- sql questions on datalemur
+- advanced learning algorithms ML specialization Andrew NG week 1
+
+Links 🔗
+
+- [SQL Server EXISTS and NOT EXISTS](https://blog.devart.com/sql-exists-and-not-exists.html)
+
+## Day 17: 18 Sep 2022
+
+- finished week 1 of advanced learning algorithms ML specialization
+  - learned about sequential, activation functions, logistic unit, vectorization, numpy broadcasting
+
+Links 🔗
+
+- [Broadcasting — NumPy v1.23 Manual](https://numpy.org/doc/stable/user/basics.broadcasting.html)

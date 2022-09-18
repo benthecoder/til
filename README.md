@@ -302,7 +302,7 @@ Links 🔗
 
 - [SQL Server EXISTS and NOT EXISTS](https://blog.devart.com/sql-exists-and-not-exists.html)
 
-## Day 17: 18 Sep 2022
+## Day 17: 16 Sepp 2022
 
 - finished week 1 of advanced learning algorithms ML specialization
   - learned about sequential, activation functions, epochs, batches, logistic unit, vectorization, numpy broadcasting
@@ -310,3 +310,17 @@ Links 🔗
 Links 🔗
 
 - [Broadcasting — NumPy v1.23 Manual](https://numpy.org/doc/stable/user/basics.broadcasting.html)
+
+## Day 18: 17 Sep 2022
+
+- week 2 of advanced learning algorithms ML specialization
+  - activation functions
+    - why relu > sigmoid?
+      - faster to compute
+      - learns faster
+  - softmax
+    - multiclass classification, generalizes loss function into -log a_i for multiple classes
+
+Links 🔗
+
+- [machine learning - What are the advantages of ReLU over sigmoid function in deep neural networks? - Cross Validated](https://stats.stackexchange.com/questions/126238/what-are-the-advantages-of-relu-over-sigmoid-function-in-deep-neural-networks)

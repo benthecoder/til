@@ -324,3 +324,34 @@ Links 🔗
 Links 🔗
 
 - [machine learning - What are the advantages of ReLU over sigmoid function in deep neural networks? - Cross Validated](https://stats.stackexchange.com/questions/126238/what-are-the-advantages-of-relu-over-sigmoid-function-in-deep-neural-networks)
+
+## Day 19: 18 Sep 2022
+
+- continual learning
+  - most valuable signals to monitor by importance
+    - outcomes and feedback by user (clicks, churn, flags, likes, interactions, etc.)
+    - model performance metrics (offline metrics: accuracy)
+    - proxy metrics (correlated with bad model performance i.e. repetitive outputs, fewer personalized responses)
+    - data quality (accuracy, completeness, consistency, timeliness, et.)
+    - distribution drift
+    - system metrics
+
+Links 🔗
+
+- [Lecture 06: Continual Learning (FSDL 2022) - YouTube](https://www.youtube.com/watch?v=nra0Tt3a-Oc)
+
+## Day 20: 19 Sep 2022
+
+- foundational models
+  - transfer learning : fast training on little data
+    - lot of data -> large model (costly)
+    - much less data -> pretrained model + new layers
+  - word2vec learns embedding that maximises cosine similarity of words that frequently co-occur
+  - transformer components
+    - self-attention
+    - positional encoding
+    - layer normalization
+
+Links 🔗
+
+- [Lecture 07: Foundation Models (FSDL 2022) - YouTube](https://www.youtube.com/watch?v=Rm11UeGwGgk&t=1087s)

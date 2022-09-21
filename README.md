@@ -355,3 +355,31 @@ Links 🔗
 Links 🔗
 
 - [Lecture 07: Foundation Models (FSDL 2022) - YouTube](https://www.youtube.com/watch?v=Rm11UeGwGgk&t=1087s)
+
+## Day 21: 20 Sep 2022
+
+- foundation models
+  - generative pretrained transformer (GPT/GPT-2) is decoder only (masked self-attention) which means you can only look at points before your input
+  - BERT is encoder only (no attention masking)
+  - T5: text-to-text transfer transformer (input and output are text strings)
+  - GPT-3 (175B params)
+    - zero-shot : (t5 model) give description of task and get prediction
+    - one-shot : give one example and input
+    - few-shot : give few examples and input
+    - the more shots & larget the model -> the better performance (still increasing)
+  - instruct-GPT
+    - had humans rank GPT-3 output and use RL to fine-tine model
+  - retrieval-enhanced transformer (RETRO)
+    - learn langauge in params, and retrieve facts from large database
+    - BERT-encode sentences, store in large DB, then fetch matching sentences and put into prompt.
+  - Chinchilla (trained over 400 LM's from 16 to 500B)
+    - found that most LLMs are undertrained
+    - PAY ATTENTION TO DATASETS
+
+Links 🔗
+
+- [GPT-2: 1.5B Release](https://openai.com/blog/gpt-2-1-5b-release/)
+- [Google AI Blog: Open Sourcing BERT: State-of-the-Art Pre-training for Natural Language Processing](https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html)
+- [Google AI Blog: Exploring Transfer Learning with T5: the Text-To-Text Transfer Transformer](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html)
+- [Aligning Language Models to Follow Instructions](https://openai.com/blog/instruction-following/)
+- [Improving language models by retrieving from trillions of tokens](https://www.deepmind.com/publications/improving-language-models-by-retrieving-from-trillions-of-tokens)

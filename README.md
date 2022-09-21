@@ -240,7 +240,7 @@ Links 🔗
 - [🤗 Optimum](https://huggingface.co/docs/optimum/index)
 - [functools — Higher-order functions and operations on callable objects — Python 3.10.7 documentation](https://docs.python.org/3/library/functools.html)
 
-## Day 12: 10 Sep 2022
+## Day 11: 10 Sep 2022
 
 - Multi-armed bandit
   - Goal: determine best or most profitable outcome through a series of choices
@@ -257,7 +257,7 @@ Links 🔗
   - protocol vs ABC
   - runner class for train vs test
   - function composition (PyTorch: Seqeuential())
-  - ## information expert principle: the way data flows informs the design
+  - information expert principle: the way data flows informs the design
 
 Links 🔗
 

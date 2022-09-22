@@ -383,3 +383,21 @@ Links 🔗
 - [Google AI Blog: Exploring Transfer Learning with T5: the Text-To-Text Transfer Transformer](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html)
 - [Aligning Language Models to Follow Instructions](https://openai.com/blog/instruction-following/)
 - [Improving language models by retrieving from trillions of tokens](https://www.deepmind.com/publications/improving-language-models-by-retrieving-from-trillions-of-tokens)
+
+## Day 22: 21 Sep 2022
+
+- semantic search
+  - text + query both embedded with LLMs -> compute cosine similarity between both vectors
+  - challenge is computation, libraries like FAISS and ScaNN makes it feasible
+  - open source: DeepSet Haystack, deepset, jina
+- transformers
+  - positional encoding (allows NN learn order of sequence)
+  - self-attention
+    - attention: gives text model mechanism to "look at" every signle word in input sentence when making decision about prediction
+    - self-attention: gives model ability to automatically build up meaningful underlying meaning and patttern in langauge. ex: it can understand a word in the context of words around it (crashed the server vs server in restaurant)
+
+Links 🔗
+
+- [Transformers, Explained: Understand the Model Behind GPT-3, BERT, and T5](https://daleonai.com/transformers-explained)
+- [[1409.0473] Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
+- [Illustrated Guide to Transformers Neural Network: A step by step explanation - YouTube](https://www.youtube.com/watch?v=4Bdc55j80l8&t=207s)

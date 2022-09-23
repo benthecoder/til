@@ -401,3 +401,18 @@ Links 🔗
 - [Transformers, Explained: Understand the Model Behind GPT-3, BERT, and T5](https://daleonai.com/transformers-explained)
 - [[1409.0473] Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
 - [Illustrated Guide to Transformers Neural Network: A step by step explanation - YouTube](https://www.youtube.com/watch?v=4Bdc55j80l8&t=207s)
+
+## Day 23: 22 Sep 2022
+
+- word segmentation
+  - tokenization is a general segmentation problem, what if text is a stream of characters, how do you know where to split into sentence?
+  - Chinese word segmentation is a hard problem as there is no visual representation of word boundaries. 爱国人 can be 爱国 / 人 or 爱 / 国人
+- normalization
+  - stemming and lemmatization both convert an inflected word form to a canonical word form
+  - stemmers : a quick and lightweight way to reduce vocab size but sacrifices information (popular for info retrieval)
+  - lemmetization: convert to meaningful base form, looks at context of word. (good choice for compiling vocab)
+  - "Another normalization task involves identifying non-standard words, including numbers, abbreviations, and dates, and mapping any such tokens to a special vocabulary. For example, every decimal number could be mapped to a single token 0.0, and every acronym could be mapped to AAA. This keeps the vocabulary small and improves the accuracy of many language modeling tasks"
+
+Links 🔗
+
+- [Text segmentation - Wikipedia](https://en.wikipedia.org/wiki/Text_segmentation)

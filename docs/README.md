@@ -427,39 +427,8 @@ Links 🔗
 
 ## Day 25: 24 Sep 2022
 
-- CLIP (Contrastive Language–Image Pre-training)
-  - transfoer to encode text, resnet/visual transfomer to encode image
-  - does contrastive training (maximize cosine similarity of correct image-text pair)
-  - inference?
-    - zero-shot : encode new label, see which embedding is closest to image embedding
-  - image -> embedding and text -> embedding, not directly image -> text and vice versa
-  - you can search image by text and vice versa since CLIP embeds image and text into a shared space
-  - image generation
-- unCLIP (DALL-E 2)
-  - CLIP : text + image encoder
-  - prior : map text embedding to image embedding
-    - why do you need prior? there are infinitely many text description that matches a single image
-  - decoder : map image embedding to image
-- Diffusion models
-  - X_T (pure noise) <-> X_t <-> X_t-1 <-> X_0 (original vector)
-  - X_T is pure noise, X_0 is original image
-  - add noise to original vector going from X_t-1 to X_t
-  - train model to denoise vector, with information on timestep [X_t, t] to X_t-1
-  - can generate infinite training data with different types of noise
-  - trained model can go from pure noise to original vector (or interpolation)
-  - add additional features e.g. embeddings, captions, labels
-  - entire sequence
-    - [encode text, clip txt embedding, diffusion time steps, noised image embedding] -> de-noised image embedding
-  - unCLIP decoder
-    - classic U-net
-    - basic idea is diffusion model is trained to go from image of random noise to progressively higher-res images
-  - stable diffusion
-    - like CLIP but diffuse in lower-dim latent space, and then decode back into pixel space
-    - trick to work on smaller dataset
+- CLIP
 
 Links 🔗
 
-- [CLIP: Connecting Text and Images](https://openai.com/blog/clip/)
-- [How DALL-E 2 Actually Works](https://www.assemblyai.com/blog/how-dall-e-2-actually-works/)
-- [An overview of Unet architectures for semantic segmentation and biomedical image segmentation | AI Summer](https://theaisummer.com/unet-architectures/)
-- [What are Diffusion Models? | Lil'Log](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
+-

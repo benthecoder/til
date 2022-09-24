@@ -416,3 +416,11 @@ Links 🔗
 Links 🔗
 
 - [Text segmentation - Wikipedia](https://en.wikipedia.org/wiki/Text_segmentation)
+
+## Day 24: 23 Sep 2022
+
+- started learning scala
+
+Links 🔗
+
+- [benthecoder/scala: learning scala](https://github.com/benthecoder/scala)

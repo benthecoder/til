@@ -463,3 +463,40 @@ Links 🔗
 - [How DALL-E 2 Actually Works](https://www.assemblyai.com/blog/how-dall-e-2-actually-works/)
 - [An overview of Unet architectures for semantic segmentation and biomedical image segmentation | AI Summer](https://theaisummer.com/unet-architectures/)
 - [What are Diffusion Models? | Lil'Log](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
+
+## Day 26: 25 Sep 2022
+
+- Build the future Sam Altman
+  - how to pick what's important to work on?
+    - choose intersection of what you're good at, what you enjoy, and what way you can create value fo the world
+  - how to get things done
+    - three things: focus, personal connection and self-belief
+  - advice for twenties
+    - work hard and get better every day, leverage compound effect
+    - "work harder than most people think you should"
+  - when to give up?
+    - base on an internal, not external (critics), decision, when you run out of ideas and something isn't working
+  - taking risks
+    - risk is not doing something that you will spend the rest of your life regretting
+    - history belongs to the doers
+  - "when you're thinking about a startup, it's really worthwhile to think about something you're willing to make a very long-term commitment to because that is where the current void in the market is"
+  - the most successful people have strong opinions strongly held about the future
+- What is Kafka?
+  - capable of ingesting and processing trillions of records per day without any perceptible performance lag as volumes scale
+  - 3 primary capabilities
+    - enables applications to publish or subscribe to data or event streams
+    - stores records accurately (sequential order) in a fault-tolerant way
+    - processes records in real-time
+  - 4 APIs
+    - Producer API: allows apps to make streams of data, creates records and produces to topics (an ordered list of events that persists temporarily depending on storage)
+    - Consumer API: subscribes to one or more topics and listens and ingests data
+    - Streams API: Producer -> transform data (Streams) -> Consumer. In a simple application, Producer -> Consumer is enough where data doesn't change.
+    - Connector API: Reusable producer and consumer (package code for other developers to reuse and integrate for their purposes)
+- Watched a bit of lecture 1 of Stanford CS224N NLP
+
+Links 🔗
+
+- [Sam Altman : How to Build the Future - YouTube](https://www.youtube.com/watch?v=sYMqVwsewSg)
+- [Apache Kafka - IBM](https://www.ibm.com/cloud/learn/apache-kafka)
+- [What is Kafka? - YouTube](https://www.youtube.com/watch?v=aj9CDZm0Glc)
+- [Stanford CS224N: NLP with Deep Learning | Winter 2021 | Lecture 1 - Intro & Word Vectors - YouTube](https://www.youtube.com/watch?v=rmVRLeJRkl4&list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ)

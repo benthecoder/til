@@ -500,3 +500,38 @@ Links 🔗
 - [Apache Kafka - IBM](https://www.ibm.com/cloud/learn/apache-kafka)
 - [What is Kafka? - YouTube](https://www.youtube.com/watch?v=aj9CDZm0Glc)
 - [Stanford CS224N: NLP with Deep Learning | Winter 2021 | Lecture 1 - Intro & Word Vectors - YouTube](https://www.youtube.com/watch?v=rmVRLeJRkl4&list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ)
+
+## Day 27: 26 Sep 2022
+
+- Experimentation : A way for companies to understand if product efforts are working
+  - process: build a small version, launch to a small percentage of users, measure impact, learn and try again
+  - example: impact of a new price comparison tool at Amazon. launch a basic version of the tool, measure purchase behaviour between groups, make decision
+  - statistics of sampling requires a meaningfully sized base of users for proper statistically significant experiments
+  - experimentation logsitics
+    - feature flagging and randomization
+      - completely random sampling of small percentage of users who gets the feature, also keep track of who sees and doesn't see to tie that back to user behaviour and impact of experiment
+    - measuring metrics
+      - amazon: purchase volumne, other experiments: time on page, conversion rate, etc.
+    - run time and statistical significance
+      - "waiting to reach statistical significance" = waiting until sample size is large enough to be representative of whole population
+    - managing experimental volume
+      - multiple experiments by different teams require paying attention to which users are in which experiments, ideally one user should see only one experiment.
+- Bayesian Statistics
+  - Frequentist inference : parameters in model are unknown but fixed
+  - Bayesian statistics: unknown and uncertain
+    - we put prior on them to express uncertainty about them.
+    - it makes doing inference flexible, you can trasnform parameters and transform them back later, and we don't have to make as strong distributional assumptions
+  - what is a counterfactual?
+    - example: effect of masking policy. Factual world where Covid happened where some schools are masked and some arent. Turn back time, and change mask policy and observe effect. That's the counterfactual world.Essentially have two worlds where everything else is constant (the same kids, same activities, same community, etc.) except for the mask policy.
+    - To create this counterfactual world -> randomization
+  - "The important part is deeply engaging with the subject matter and researchers in the field and understanding the assumptions and communicating it better"
+
+Links 🔗
+
+- [[Technically dispatch] what is A/B testing and what did LinkedIn do wrong](https://technically.substack.com/p/technically-dispatch-what-is-ab-testing)
+- [Experiments at Airbnb](https://medium.com/airbnb-engineering/experiments-at-airbnb-e2db3abf39e7)
+- [Under the Hood of Uber's Experimentation Platform | Uber Blog](https://www.uber.com/blog/xp/)
+- [Challenges in Experimentation | Lyft Engineering](https://eng.lyft.com/challenges-in-experimentation-be9ab98a7ef4)
+- [Experimentation @ AIRBNB](https://medium.com/@benedictxneo/list/experimentation-40c2327e8667)
+- [SDS 607: Inferring Causality - SuperDataScience](https://www.superdatascience.com/podcast/inferring-causality)
+- [Causal Inference 3: Counterfactuals](https://www.inference.vc/causal-inference-3-counterfactuals/)

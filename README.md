@@ -535,3 +535,34 @@ Links 🔗
 - [Experimentation @ AIRBNB](https://medium.com/@benedictxneo/list/experimentation-40c2327e8667)
 - [SDS 607: Inferring Causality - SuperDataScience](https://www.superdatascience.com/podcast/inferring-causality)
 - [Causal Inference 3: Counterfactuals](https://www.inference.vc/causal-inference-3-counterfactuals/)
+
+## Day 28: 27 Sep 2022
+
+- check no of rows fast
+  - `s = !wc -l {TRAIN_PATH}`
+  - `n_rows = int(s[0].split(' ')[0])+1`
+- anomaly detection
+  - anomalies = certain patterns (or incidents) in a set of data samples that do not conform to an agreed-upon notion of normal behavior in a given context
+  - two approaches
+    - 1\. rule-based
+      - uses a set of rules which rely on knowledge of domain experts
+      - experts specify characteristics of rule-based functions to discover anomalies
+      - bad: expensive, time-consuming at scale, requires constant supervision to stay up-to-date, biased, and suitable for real-time analysis
+    - 2\. model-based
+      - scalable and suited for real time analysis
+      - highly rely on availablity (often labeled) context-specific data
+      - three kinds
+        - supervised : use labeled data to distinguish between anomalous and benign
+        - semi-supervised : small set of benign + large amount of unlabeled data, learns distribution of benign samples and leverage that knowledge for identifying anomalous samples at inference time.
+        - unsupervised : do not require any labeled data samples
+  - multi-label task
+    - accuracy, precision, recall, f0.5, f1, and f2 scores (Fbeta measures), exact match ratio (EMR) score, Hamming loss, and Hamming score
+
+Links 🔗
+
+- [How to import a CSV file of 55 million rows | Kaggle](https://www.kaggle.com/code/szelee/how-to-import-a-csv-file-of-55-million-rows/notebook)
+- [Reducing DataFrame memory size by ~65% | Kaggle](https://www.kaggle.com/code/arjanso/reducing-dataframe-memory-size-by-65/notebook)
+- [Machine Learning for Fraud Detection in Streaming Services](https://netflixtechblog.medium.com/machine-learning-for-fraud-detection-in-streaming-services-b0b4ef3be3f6)
+- [[2203.02124] Abuse and Fraud Detection in Streaming Services Using Heuristic-Aware Machine Learning](https://arxiv.org/abs/2203.02124)
+- [A Gentle Introduction to the Fbeta-Measure for Machine Learning](https://machinelearningmastery.com/fbeta-measure-for-machine-learning/)
+- [Metrics for Multilabel Classification | Mustafa Murat ARAT](https://mmuratarat.github.io/2020-01-25/multilabel_classification_metrics)

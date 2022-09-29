@@ -566,3 +566,27 @@ Links 🔗
 - [[2203.02124] Abuse and Fraud Detection in Streaming Services Using Heuristic-Aware Machine Learning](https://arxiv.org/abs/2203.02124)
 - [A Gentle Introduction to the Fbeta-Measure for Machine Learning](https://machinelearningmastery.com/fbeta-measure-for-machine-learning/)
 - [Metrics for Multilabel Classification | Mustafa Murat ARAT](https://mmuratarat.github.io/2020-01-25/multilabel_classification_metrics)
+
+## Day 29: 28 Sep 2022
+
+- Testing in Python
+  - Levels of testing
+    - unit testing : test independent modules and functions
+    - integration testing : test how functions interact with each other
+    - system testing : testing the entire system
+    - acceptance testing: test whether system's operation aligns with business requirement
+  - Mocking
+    - replace object in plac eof a dependency that has certain expectations
+    - example: testing a function that sends an email. you don't want to send an email everytime you run the test, so you mock the email sending function and check if it was called with the right arguments
+  - fixtures
+    - a particular environment that must be set up before a test is run
+    - example: a test that requires a database connection. you can create a fixture that creates a database connection and returns it, and then use that fixture in the test
+- 2 SQL questions on data lemur
+
+Links 🔗
+
+- [Testing practices for data science applications using Python](https://medium.com/data-science-at-microsoft/testing-practices-for-data-science-applications-using-python-71c271cd8b5e)
+- [PYTEST DS example](https://github.com/Jazz4299/PYTEST)
+- [pytest: How to mock in Python](https://changhsinlee.com/pytest-mock/)
+- [pytest fixtures: explicit, modular, scalable — pytest documentation](https://docs.pytest.org/en/6.2.x/fixture.html#what-fixtures-are)
+- [abhivaikar/howtheytest: A collection of public resources about how software companies test their software](https://github.com/abhivaikar/howtheytest)

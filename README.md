@@ -590,3 +590,24 @@ Links 🔗
 - [pytest: How to mock in Python](https://changhsinlee.com/pytest-mock/)
 - [pytest fixtures: explicit, modular, scalable — pytest documentation](https://docs.pytest.org/en/6.2.x/fixture.html#what-fixtures-are)
 - [abhivaikar/howtheytest: A collection of public resources about how software companies test their software](https://github.com/abhivaikar/howtheytest)
+
+## Day 30: 29 Sep 2022
+
+- How to lead
+  - there is not a single archetype
+  - 3 qualities
+    - great communicator : clear, concise communication
+      - advice: jot down your thoughts and think how to express it in clearer and clearer ways
+    - good judgement on people : be able to identify and hire the right people
+      - advice: meet a lot of people and hone your instincts
+    - strong personal integrity and commitment
+      - integrity = standing for something meaningful beyond themselves and being motivated by things outside of their narrow personal interest, avoid behaviour that diminishes trust and credibility like favoritism, conflict of interest
+      - Commitment = making your work into a life mission, people see this and respect it and follow it
+      - advice: hold yourself accountable to the transparency test
+  - success metric for leadership is trust
+    - art of trust : show empathy and good judgement, having good timing in confronting issues
+    - science of trust : be right about empirical questions in your business
+
+Links 🔗
+
+- [How to Lead : YC Startup Library | Y Combinator](https://www.ycombinator.com/library/6s-how-to-lead)

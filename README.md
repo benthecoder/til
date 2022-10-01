@@ -611,3 +611,13 @@ Links 🔗
 Links 🔗
 
 - [How to Lead : YC Startup Library | Y Combinator](https://www.ycombinator.com/library/6s-how-to-lead)
+
+## Day 31: 30 Sep 2022
+
+- MLops MLFlow lectures
+- to make `.gitignore` work for files that have been commited, do `git rm -rf --cached .`
+- creating profiles with aws cli : `aws configure --profile {profile_name}`
+
+Links 🔗
+
+- [MLOps Zoomcamp 2.6 - MLflow in practice](https://www.youtube.com/watch?v=1ykg4YmbFVA&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK&index=17)

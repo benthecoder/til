@@ -621,3 +621,12 @@ Links 🔗
 Links 🔗
 
 - [MLOps Zoomcamp 2.6 - MLflow in practice](https://www.youtube.com/watch?v=1ykg4YmbFVA&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK&index=17)
+
+## Day 32: 1 Oct 2022
+
+- MLops Prefect lectures
+
+Links 🔗
+
+- [Prefect - The New Standard in Dataflow Automation - Prefect](https://www.prefect.io/)
+- [Why Not Airflow? | Prefect Docs](https://docs-v1.prefect.io/core/about_prefect/why-not-airflow.html#the-scheduler-service)

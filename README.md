@@ -630,3 +630,24 @@ Links 🔗
 
 - [Prefect - The New Standard in Dataflow Automation - Prefect](https://www.prefect.io/)
 - [Why Not Airflow? | Prefect Docs](https://docs-v1.prefect.io/core/about_prefect/why-not-airflow.html#the-scheduler-service)
+
+## Day 33: 2 Oct 2022
+
+- mlops deployment lectures
+  - 3 ways of deploying models
+    - batch offline
+    - web services
+    - streaming
+- what is dbt
+  - a tool for data transformation in data warehouse
+  - it's more than organizing .sql files and running them for you + managing DDL:
+    - Built in testing
+    - Built in dependency management for your models
+    - Focus on version control
+    - CI
+    - Orchestration with dbt Cloud
+    - Jinja, which enables some pretty neat functionality
+
+Links 🔗
+
+- [Learn Analytics Engineering with dbt](https://courses.getdbt.com/collections)

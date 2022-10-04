@@ -651,3 +651,22 @@ Links 🔗
 Links 🔗
 
 - [Learn Analytics Engineering with dbt](https://courses.getdbt.com/collections)
+
+## Day 34: 3 Oct 2022
+
+- Michael Seibel's Learnings
+  - successful seed round != product-market fit
+  - Don't take on too many problems / products
+  - Understand business model (example: pricing for SMB, but selling to Enterprise)
+  - Understand when it's right time to sell
+  - Don't assume investors will be LARGE differentiator
+  - Establish best practices around hiring (i.e. intelligent interview process, clear mission/culture, roles/responsibilities)
+  - Establish best practices around management
+  - Create transparency around how the business is doing (business KPIs and product KPIs)
+  - Clearly defining roles/responsibilities between the founders
+  - Have level three (intense, but pragmatic) conversations to alleviate tensions between founders
+  - Don't assume Series A will be as easy to raise as seed/angel rounds
+
+Links 🔗
+
+- [A Decade of Learnings from Y Combinator's CEO Michael Seibel - YouTube](https://www.youtube.com/watch?v=0MGNf1BIuxA)

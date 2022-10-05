@@ -670,3 +670,17 @@ Links 🔗
 Links 🔗
 
 - [A Decade of Learnings from Y Combinator's CEO Michael Seibel - YouTube](https://www.youtube.com/watch?v=0MGNf1BIuxA)
+
+## Day 35: 4 Oct 2022
+
+- Linux commands
+  - `nohup tar -zxvf {tar_file} &` to expand tar files
+    - `nohup` - makes program ignore HUP signal, allowing it to run after user logs out
+    - `&` - related to shell job control, allowing users to continue work in curreent shell session
+  - `top` - shows running processes
+  - `ps -ef | grep {process_name}` - grab specific process
+  - `kill -9 {pid}` to kill process
+
+Links 🔗
+
+- [Data Science at the Command Line, 2e](https://datascienceatthecommandline.com/2e/index.html)

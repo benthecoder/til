@@ -684,3 +684,37 @@ Links 🔗
 Links 🔗
 
 - [Data Science at the Command Line, 2e](https://datascienceatthecommandline.com/2e/index.html)
+
+## Day 36: 5 Oct 2022
+
+- finished all easy SQL questions on data lemur
+- learnings
+  - subquery vs CTE
+    - subquery is not reusable.
+    - CTE is reusable, easier to read and maintainable and can be used recursively
+  - `=` vs `LIKE`
+    - = is used for exact match
+    - LIKE matches strings character by character
+  - postgrtesql findings
+    - `DATE_PART('year', {date_column}::DATE)` - returns year of date
+    - `ROUND(division_res::DECIMAL, 2)` ROUND requires type to be numeric, division is type double, cast to DECIMAL for it to work
+    - `GROUP BY 1` - group by first column
+    - ways to count events
+      - `COUNT(CASE WHEN event_type = 'click' THEN 1 ELSE NULL END)`
+      - `SUM(CASE WHEN event_type = 'click' THEN 1 ELSE 0 END)`
+      - `SUM(1) FILTER (WHERE event_type = 'click')`
+    - check if action is 1 day after sign up with `INTERVAL`
+      - `texts.action_date = emails.signup_date + INTERVAL '1 day'`
+  - why do we need window functions?
+    - definition: to operate on a subset of rows in a table
+    - basic operations in SQL apply to whole datasets
+      - where - filters whole table
+      - functions - applies to entire column
+      - group by - every aggregate field will be grouped by every non-aggregate field
+    - if you want to operate in two different ways, you can either make CTEs or subqueries and do a self join, or you can use window functions
+
+Links 🔗
+
+- [sql - Difference between CTE and SubQuery? - Stack Overflow](https://stackoverflow.com/questions/706972/difference-between-cte-and-subquery)
+- [CTEs versus Subqueries · Alisa in Techland](https://www.alisa-in.tech/post/2019-10-02-ctes/)
+- [SQL Window Functions: I guess that's why they call it window pain · Alisa in Techland](https://www.alisa-in.tech/post/2021-02-19-window/)

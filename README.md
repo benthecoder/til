@@ -1,5 +1,16 @@
 # 66DaysOfData
 
+## Progress
+
+|           Course/Book           |        Status         |
+| :-----------------------------: | :-------------------: |
+| Machine Learning Specialization |   Course 2, Week 2    |
+|         MLOps Zoomcamp          | Week 4: ML Deployment |
+|    Data Engineering Zoomcamp    |   Week 2 : Airflow    |
+|      Statistics Done Wrong      |       Chapter 1       |
+|           Hands on ML           |       Chapter 4       |
+|          Fluent Python          |       Chapter 5       |
+
 ## Day 1: 31 Aug 2022
 
 - setup roadmap
@@ -718,3 +729,43 @@ Links 🔗
 - [sql - Difference between CTE and SubQuery? - Stack Overflow](https://stackoverflow.com/questions/706972/difference-between-cte-and-subquery)
 - [CTEs versus Subqueries · Alisa in Techland](https://www.alisa-in.tech/post/2019-10-02-ctes/)
 - [SQL Window Functions: I guess that's why they call it window pain · Alisa in Techland](https://www.alisa-in.tech/post/2021-02-19-window/)
+
+## Day 37: 6 Oct 2022
+
+- ethics of ML
+  - is the model fair
+    - fairness is possible but requires trade-offs
+    - example -> COMPAS : predicting rearrest probability and to be less biased, calibrated for all racial groups
+      - more false positive for black and more false negative for white
+      - there is no way to make it fair for all groups, equalizing FPR and PPV across groups would be unfair to white people instead
+      - always ask, "Should this model be built at all?"
+    - representation in ML - model cards that explains what the model can and cannot do
+  - is the system accountable
+    - accountability is easier than interpretability
+    - explanation and accountability are human rights
+    - off-the-shelf methods for introspecting DNNs are not robust
+  - who owns the data?
+    - large datasets are crawled from the internet
+    - data governance
+    - dataset cards
+    - data ethics checklist
+  - medicine leads the way for responsible ML
+    - ML did not work well for COVID due to bad practices and lack of sufficient external validation and testing.
+    - medicine has strong culture of ethics that equips it to handle serious problems
+      - Hippocratic oath : do no harm
+      - tech : move fast and break things (BAD FOR MEDICINE)
+    - clinical trials standards -> ML SPIRIT-AI and CONSORT-AI initiative
+    - progress is being made, but error analysis (Adverse Event Analysis), data handling and code access is worst compliance
+    - "medical algorithmic audit" for medical ML
+      - adversarial testing : coming up with different inputs into model, behavioural check
+
+Links 🔗
+
+- [Lecture 09: Ethics (FSDL 2022)](https://www.youtube.com/watch?v=7FQpbYTqjAA&list=PL1T8fO7ArWleMMI8KPJ_5D5XSlovTW_Ur)
+- [Attack discrimination with smarter machine learning](https://research.google.com/bigpicture/attacking-discrimination-in-ml/)
+- Reverse Engineer DNN - [Transformer Circuits Thread](https://transformer-circuits.pub/)
+- [Machine Learning CO2 Impact Calculator](https://mlco2.github.io/impact/#compute)
+- [CodeCarbon.io](https://codecarbon.io/)
+- [Have I Been Trained?](https://haveibeentrained.com/)
+- [Model Cards](https://huggingface.co/docs/hub/model-cards)
+- [ethics checklist for data science projects](https://deon.drivendata.org/examples/)

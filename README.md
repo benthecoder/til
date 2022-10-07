@@ -2,14 +2,14 @@
 
 ## Progress
 
-|           Course/Book           |        Status         |
-| :-----------------------------: | :-------------------: |
-| Machine Learning Specialization |   Course 2, Week 2    |
-|         MLOps Zoomcamp          | Week 4: ML Deployment |
-|    Data Engineering Zoomcamp    |   Week 2 : Airflow    |
-|      Statistics Done Wrong      |       Chapter 1       |
-|           Hands on ML           |       Chapter 4       |
-|          Fluent Python          |       Chapter 5       |
+|                           Course/Book                           |        Status         |
+| :-------------------------------------------------------------: | :-------------------: |
+| [Machine Learning Specialization](https://tinyurl.com/2kydp9km) |   Course 2, Week 2    |
+|         [MLOps Zoomcamp](https://tinyurl.com/2eyfcvbq)          | Week 4: ML Deployment |
+|    [Data Engineering Zoomcamp](https://tinyurl.com/2egmk5yx)    |   Week 2 : Airflow    |
+|                      Statistics Done Wrong                      |       Chapter 1       |
+|                           Hands on ML                           |       Chapter 4       |
+|                          Fluent Python                          |       Chapter 5       |
 
 ## Day 1: 31 Aug 2022
 

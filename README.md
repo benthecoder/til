@@ -769,3 +769,64 @@ Links 🔗
 - [Have I Been Trained?](https://haveibeentrained.com/)
 - [Model Cards](https://huggingface.co/docs/hub/model-cards)
 - [ethics checklist for data science projects](https://deon.drivendata.org/examples/)
+
+## Day 38: 8 Oct 2022
+
+- statistics class
+  - one and two way anova
+    - one way : how one factor affects the response
+    - two way: how two factors affect the response
+  - doing analysis
+    - start with anova table
+    - use f test based on type III to answer "standard" factorial questions
+      - what are means, differences/contrasts that answer important questions
+      - how precise are means, differences, contrasts
+      - most useful number in ANOVA table is often MSE
+      - plot the means in a way that communicates the key results
+    - useful things to check
+      - check residuals (important if effects have large SEs)
+        - look for equal variance, additive effects
+        - if not reasonable correcting often increases power
+      - if balanced data
+        - check if Type I SS == Type III SS (should be same when balanced)
+      - check d.f for highest order interaction
+        - should be product of main effect d.f.
+        - if not, missing data
+- hands on ml chapter 4
+
+  - normal equation
+    - closed-form solution (mathematical equation that gives the result directly) to finding weights that minimizes cost function
+  - pseudoinverse (uses SVD)
+    - more efficient that Normal equation and hadnle edge case (m < n) can still define a pseudoinverse whereas X.T \* X is not invertible
+  - gradient descent
+    - batch (better name : full gradient descent)
+      - trains on full training set but still faster than normal equation
+      - convergance rate is $O(1/\epsilon)$ iterations with fixed learning rate
+    - stochastic
+      - pickes random instance in training set at every step and computes gradients based only on that single instance
+      - possible to train on huge training set as only one instance needs to be in memory at each iteration (can be implemented as out-of-core algorithm)
+      - stochastic (random) nature is good for jumping out of local minima but bad for settling at minimum, so we implement a learning schedule that gradually reduces the learning rate
+      - training must be IID to ensure parameters get pulled toward global optimum, shuffle instances during training or at beginning of each epoch
+    - mini-batch
+      - computes gradient on small random set of instances called mini-batches
+      - main advantage over stochastic : performance boost from hardware optimization of matrix operations
+  - regularized linear regression
+    - ridge
+      - uses l2 norm
+      - sets weights close to zero
+    - lasso
+      - uses l1 norm
+      - sets weight to zero -> automatically performs feature selection and outputs a sparse model
+    - elastic net
+      - middle ground between ridge and lasso
+      - uses mix ratio r to controll mix of l1 and l2 (r = 0 -> ridge, r = 1 -> lasso)
+    - advice
+      - always have a bit of regularization
+      - scale the data before regularization
+      - ridege is good default if you want to keep all features
+      - use lasso to reduce features but elastic net if lasso is erratic when m > n or several features are strongly correlated
+
+Links 🔗
+
+- [Anova – Type I/II/III SS explained](https://md.psych.bio.uni-goettingen.de/mv/unit/lm_cat/lm_cat_unbal_ss_explained.html#:~:text=The%20Type%20III%20SS%20will,weighted%20squares%20of%20means%20analysis.)
+- [Visualizing regularization and the L1 and L2 norms | by Chiara Campagnola | Towards Data Science](https://towardsdatascience.com/visualizing-regularization-and-the-l1-and-l2-norms-d962aa769932)

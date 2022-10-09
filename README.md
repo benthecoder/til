@@ -793,7 +793,6 @@ Links 🔗
         - should be product of main effect d.f.
         - if not, missing data
 - hands on ml chapter 4
-
   - normal equation
     - closed-form solution (mathematical equation that gives the result directly) to finding weights that minimizes cost function
   - pseudoinverse (uses SVD)
@@ -830,3 +829,12 @@ Links 🔗
 
 - [Anova – Type I/II/III SS explained](https://md.psych.bio.uni-goettingen.de/mv/unit/lm_cat/lm_cat_unbal_ss_explained.html#:~:text=The%20Type%20III%20SS%20will,weighted%20squares%20of%20means%20analysis.)
 - [Visualizing regularization and the L1 and L2 norms | by Chiara Campagnola | Towards Data Science](https://towardsdatascience.com/visualizing-regularization-and-the-l1-and-l2-norms-d962aa769932)
+
+## Day 39: 8 Oct 2022
+
+- TAMU datathon day
+- `git gc` when facing hangups in git push
+
+Links 🔗
+
+- [TAMU Datathon](https://tamudatathon.com/)

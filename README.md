@@ -838,3 +838,16 @@ Links 🔗
 Links 🔗
 
 - [TAMU Datathon](https://tamudatathon.com/)
+- [benthecoder/gas_turbine_viz](https://github.com/benthecoder/gas_turbine_viz)
+- [benthecoder/bloomberg_nlp](https://github.com/benthecoder/bloomberg_nlp)
+
+## Day 40: 10 Oct 2022
+
+- `R CMD build` to build R packages
+- `R CMD install` to install R packages
+- `tempdir()` to create temporary directory `tempfile()` to create temporary file
+
+Links 🔗
+
+- [Building and installing an R package](https://kbroman.org/pkg_primer/pages/build.html)
+- [Temporary Storage in R | Jonathan Trattner](https://www.jdtrat.com/blog/temporary-storage-in-r/)

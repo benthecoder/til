@@ -770,7 +770,7 @@ Links 🔗
 - [Model Cards](https://huggingface.co/docs/hub/model-cards)
 - [ethics checklist for data science projects](https://deon.drivendata.org/examples/)
 
-## Day 38: 8 Oct 2022
+## Day 38: 7 Oct 2022
 
 - statistics class
   - one and two way anova
@@ -841,7 +841,7 @@ Links 🔗
 - [benthecoder/gas_turbine_viz](https://github.com/benthecoder/gas_turbine_viz)
 - [benthecoder/bloomberg_nlp](https://github.com/benthecoder/bloomberg_nlp)
 
-## Day 40: 10 Oct 2022
+## Day 40: 9 Oct 2022
 
 - `R CMD build` to build R packages
 - `R CMD install` to install R packages
@@ -851,3 +851,14 @@ Links 🔗
 
 - [Building and installing an R package](https://kbroman.org/pkg_primer/pages/build.html)
 - [Temporary Storage in R | Jonathan Trattner](https://www.jdtrat.com/blog/temporary-storage-in-r/)
+
+## Day 41: 10 Oct 2022
+
+- learned about Fugue
+- learned about adding progress bars to R with library(progress) and library(progressR) for furrr
+
+Links 🔗
+
+- [Fugue in 10 minutes — Fugue Tutorials](https://fugue-tutorials.readthedocs.io/tutorials/quick_look/ten_minutes.html)
+- [r-lib/progress: Progress bar in your R terminal](https://github.com/r-lib/progress)
+- [Progress notifications with progressr • furrr](https://furrr.futureverse.org/articles/progress.html)

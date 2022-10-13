@@ -862,3 +862,24 @@ Links 🔗
 - [Fugue in 10 minutes — Fugue Tutorials](https://fugue-tutorials.readthedocs.io/tutorials/quick_look/ten_minutes.html)
 - [r-lib/progress: Progress bar in your R terminal](https://github.com/r-lib/progress)
 - [Progress notifications with progressr • furrr](https://furrr.futureverse.org/articles/progress.html)
+
+## Day 42: 11 Oct 2022
+
+- vectorization speed up in pandas
+  - `np.where` for logical conditions
+  - `np.select` for 2+ logical conditions
+  - ndarray type casting is faster than .dt accessor for date values
+
+Links 🔗
+
+-[1000x faster data manipulation: vectorizing with Pandas and Numpy - YouTube](https://www.youtube.com/watch?v=nxWginnBklU)
+
+## Day 43: 12 Oct 2022
+
+- worked on experts.ai nlp, yfinance and news api to build company monitoring app
+- did statistics homework on blocking and factorial analysis
+
+Links 🔗
+
+- [How AI Image Generators Work (Stable Diffusion / Dall-E)](https://www.youtube.com/watch?v=1CIpzeNxIhU&t=28s)
+- [Expert.ai](https://www.expert.ai/)

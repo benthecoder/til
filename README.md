@@ -883,3 +883,27 @@ Links 🔗
 
 - [How AI Image Generators Work (Stable Diffusion / Dall-E)](https://www.youtube.com/watch?v=1CIpzeNxIhU&t=28s)
 - [Expert.ai](https://www.expert.ai/)
+
+## Day 44: 13 Oct 2022
+
+- factor analysis
+  - what? taking a bunch of variables and reducing them to a smaller number of factors
+  - goal : find latent variables
+  - based on common factor model
+  - rotation: diffferent ways to rotate the factors to make them more interpretable
+  - ex: grades for many students
+    - latent variables : language ability and technical ability
+    - specific factors : measure impact of one specific measured variable on the latent variable (english skill on language and math skill on technical, etc.)
+  - mathematical model
+    - apply matrix decomposition to correlation matrix where diagonal entries are replaced by 1 - var(diagonal)
+- distance measures in ML
+  - Euclidean : shortest path between objects (l1 norm)
+  - manhattan : rectilinear distance between objects (l2 norm)
+  - minkowski : generalization of euclidian and manhattan, you can control which to use depending on data with h (L-h norm)
+  - hamming : distance between two binary vectors / similarity measure for nominal data
+  - cosine similarity : cosine of angle between two vectors, determines if two vectors point to similar directions
+
+Links 🔗
+
+- [What is the difference between PCA and Factor Analysis? | by Joos Korstanje | Towards Data Science](https://towardsdatascience.com/what-is-the-difference-between-pca-and-factor-analysis-5362ef6fa6f9)
+- [4 Distance Measures for Machine Learning](https://machinelearningmastery.com/distance-measures-for-machine-learning/)

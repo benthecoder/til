@@ -907,3 +907,13 @@ Links 🔗
 
 - [What is the difference between PCA and Factor Analysis? | by Joos Korstanje | Towards Data Science](https://towardsdatascience.com/what-is-the-difference-between-pca-and-factor-analysis-5362ef6fa6f9)
 - [4 Distance Measures for Machine Learning](https://machinelearningmastery.com/distance-measures-for-machine-learning/)
+
+## Day 45: 14 Oct 2022
+
+- active learning
+  - build better ml models using fewer labeled data by strategically choosing samples, known as pool-based active learning (uses "uncertainty sampling" to choose samples)
+  - other approaches : stream-based selective sampling, membership query synthesis, etc.
+
+Links 🔗
+
+- [Active Learning | Bnomial](https://articles.bnomial.com/active-learning)

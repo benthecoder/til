@@ -911,9 +911,28 @@ Links 🔗
 ## Day 45: 14 Oct 2022
 
 - active learning
-  - build better ml models using fewer labeled data by strategically choosing samples, known as pool-based active learning (uses "uncertainty sampling" to choose samples)
+  - idea: build better ml models using fewer labeled data by strategically choosing samples
+  - process: pool-based active learning (uses "uncertainty sampling" to choose samples)
+    1. label small percentage of data
+    2. select samples randomly or strategically that provides most information
+    3. train model, use it to predict labels for remaining samples
+    4. use prediction and confidence in two ways
+       1. add any samples with high confidence to labeled data (assumes high trust in data)
+       2. valid approach is to skip first few iterations before automatically adding samples to labeled data
+       3. request labels for samples with low confidence (crucial part of active learning)
+       4. amount of information from high-confidence samples is low, low-confidence samples indicate our model needs help, so we focus labelling efforts on them.
+    5. use improved labeled dataset to train new model and repeat process.
   - other approaches : stream-based selective sampling, membership query synthesis, etc.
 
 Links 🔗
 
 - [Active Learning | Bnomial](https://articles.bnomial.com/active-learning)
+
+## Day 46: 15 Oct 2022
+
+- hackwashu hackathon all day
+- fast.ai nlp lesson 1
+
+Links 🔗
+
+- [What is NLP? (NLP video 1)](https://www.youtube.com/watch?v=cce8ntxP_XI)

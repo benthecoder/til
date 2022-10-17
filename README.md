@@ -936,3 +936,24 @@ Links 🔗
 Links 🔗
 
 - [What is NLP? (NLP video 1)](https://www.youtube.com/watch?v=cce8ntxP_XI)
+
+## Day 47: 16 Oct 2022
+
+- fast.ai nlp lesson 2
+- stop words: long considered standard techniques, but they can often hurt your performance if using deep learning. Stemming, lemmatization, and removing stop words all involve throwing away information. However, they can still be useful when working with simpler models.
+- SVD is an exact decomposition, since the matrices it creates are big enough to fully cover the original matrix. SVD is extremely widely used in linear algebra, and specifically in data science, including:
+  - semantic analysis
+  - collaborative filtering/recommendations (winning entry for Netflix Prize)
+  - calculate Moore-Penrose pseudoinverse
+  - data compression
+  - principal component analysis
+- started SVM chapter hands on ml
+  - think of SVM as a linear model that tries to separate the classes by as wide a street as possible
+  - SVMs are sensitive to feature scales, so you should always scale them
+  - soft and hard margin classification
+    - soft : allow some misclassifications, controlled by hyperparameter C (width of margin, higher C = narrower margin)
+    - hard : no misclassifications
+
+Links 🔗
+
+- [Topic Modeling with SVD & NMF (NLP video 2) - YouTube](https://www.youtube.com/watch?v=tG3pUwmGjsc&t=2142s)

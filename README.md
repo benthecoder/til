@@ -940,13 +940,16 @@ Links 🔗
 ## Day 47: 16 Oct 2022
 
 - fast.ai nlp lesson 2
-- stop words: long considered standard techniques, but they can often hurt your performance if using deep learning. Stemming, lemmatization, and removing stop words all involve throwing away information. However, they can still be useful when working with simpler models.
-- SVD is an exact decomposition, since the matrices it creates are big enough to fully cover the original matrix. SVD is extremely widely used in linear algebra, and specifically in data science, including:
-  - semantic analysis
-  - collaborative filtering/recommendations (winning entry for Netflix Prize)
-  - calculate Moore-Penrose pseudoinverse
-  - data compression
-  - principal component analysis
+  - stop words: long considered standard techniques, but they can often hurt your performance if using deep learning. Stemming, lemmatization, and removing stop words all involve throwing away information. However, they can still be useful when working with simpler models.
+  - SVD: singular value decomposition, used to reduce dimensionality of matrix
+    - an exact decomposition, since the matrices it creates are big enough to fully cover the original matrix.
+    - topics are orthogonal since words that appear frequently in one topic will appear rarely in another.
+    - SVD is extremely widely used in linear algebra, and specifically in data science, including:
+      - semantic analysis
+      - collaborative filtering/recommendations (winning entry for Netflix Prize)
+      - calculate Moore-Penrose pseudoinverse
+      - data compression
+      - principal component analysis
 - started SVM chapter hands on ml
   - think of SVM as a linear model that tries to separate the classes by as wide a street as possible
   - SVMs are sensitive to feature scales, so you should always scale them
@@ -957,3 +960,20 @@ Links 🔗
 Links 🔗
 
 - [Topic Modeling with SVD & NMF (NLP video 2) - YouTube](https://www.youtube.com/watch?v=tG3pUwmGjsc&t=2142s)
+
+## Day 48: 17 Oct 2022
+
+- NMF (non-negative matrix factorization) fast.ai nlp lesson 2
+  - SVD constraints factors to be orthogonal, NMF constraints them to be non-negative
+  - factorization of non-negative dataset V -> non negative matrices W \* H
+    - positive factors are more easily interpretable
+    - negative factors in SVD does not make sense (ex: negative weight for word in topic)
+- randomized svd faster than regular svd
+  - randomized algorithms has advantages
+    - inherently stable
+    - matrix vector products can be computed in parallel
+
+Links 🔗
+
+- [NMF — A visual explainer and Python Implementation](https://towardsdatascience.com/nmf-a-visual-explainer-and-python-implementation-7ecdd73491f8)
+- [Randomized Singular Value Decomposition](https://gregorygundersen.com/blog/2019/01/17/randomized-svd/)

@@ -977,3 +977,26 @@ Links 🔗
 
 - [NMF — A visual explainer and Python Implementation](https://towardsdatascience.com/nmf-a-visual-explainer-and-python-implementation-7ecdd73491f8)
 - [Randomized Singular Value Decomposition](https://gregorygundersen.com/blog/2019/01/17/randomized-svd/)
+
+## Day 49: 18 Oct 2022
+
+- NLP week 3
+  - factorization and matrix decomposition
+    - multiplication 2 x 2 = 4
+      - prime factorization = decomposing intergers into something else
+        - nice property of factors being prime
+        - harder than multiplication (heart of encryption)
+      - think of factorization as the opposite of multiplication
+    - matric decomposition
+      - a way of taking matrices apart and come up with matrices with nice properties
+      - what are nice propertices of matrices in SVD?
+        - A = USV
+        - U (columns) and V (rows) are orthonormal (orthogonal to each other and pairwise normalized)
+        - S is diagonal matrix with singular values (captures how important each factor is in descending order)
+      - nice properties of NMF
+        - non negative
+        - often end up being sparse
+
+Links 🔗
+
+- [Topic Modeling & SVD revisited (NLP video 3) - YouTube](https://www.youtube.com/watch?v=lRZ4aMaXPBI)

@@ -1000,3 +1000,26 @@ Links 🔗
 Links 🔗
 
 - [Topic Modeling & SVD revisited (NLP video 3) - YouTube](https://www.youtube.com/watch?v=lRZ4aMaXPBI)
+
+## Day 50: 19 Oct 2022
+
+- [Iterative](https://iterative.ai/)
+  - [DVC](https://github.com/iterative/dvc): Data Version Control (ML Experiments, Pipelines, Git for data)
+    - data versioning : large datasets are replaced with metafiles that point to the actual data
+    - data storage: on-premises or cloud storage can be used
+    - reproducible: pipelines, dependency graphs and codified data and artifacts
+  - [CML](https://github.com/iterative/cml): Continuous Machine Learning is CI/CD for Machine Learning Projects
+    - automate model training and evaluation
+    - ml experiment
+    - changing datasets
+- pytest
+  - fixtures and mocks
+
+Links 🔗
+
+- [Iterative](https://github.com/iterative)
+- [Data Version Control · DVC](https://dvc.org/doc/user-guide/overview)
+- [CML · Continuous Machine Learning](https://cml.dev/doc/usage)
+- [How Data Scientists Can Improve Their Productivity | Iterative](https://iterative.ai/blog/how-data-scientists-can-improve-their-productivity)
+- [htorrence/pytest_examples: Reference package for unit tests](https://github.com/htorrence/pytest_examples)
+- [Unit Testing for Data Scientists - Hanna Torrence - YouTube](https://www.youtube.com/watch?v=Da-FL_1i6ps)

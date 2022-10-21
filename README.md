@@ -1023,3 +1023,43 @@ Links 🔗
 - [How Data Scientists Can Improve Their Productivity | Iterative](https://iterative.ai/blog/how-data-scientists-can-improve-their-productivity)
 - [htorrence/pytest_examples: Reference package for unit tests](https://github.com/htorrence/pytest_examples)
 - [Unit Testing for Data Scientists - Hanna Torrence - YouTube](https://www.youtube.com/watch?v=Da-FL_1i6ps)
+
+## Day 51: 20 Oct 2022
+
+- Clustering
+  - distance measures
+    - common: euclidian and manhattan
+    - euclidian: (not robust to outlires)
+    - Manhattan, Minkowski, or Gower distances (robust to outlieres)
+      - Gower distance measure: mixed features
+    - correlation-based (good for data with large magnitude differences but similar behaviour like [customer purchases](https://bradleyboehmke.github.io/HOML/kmeans.html#fig:correlation-distance-example))
+    - cosine distance: text data
+  - k means
+    - algo: pick k random centroids, assign each instance to the closest centroid, move the centroids to the center of the instances that were assigned to them, repeat until convergence. cost function is the sum of squared distances between each instance and its closest centroid.
+    - what's the right K?
+      - predetermined by domain expert
+      - k = sqrt(n/2) (not good for large datasets)
+      - elbow method: plot cost function vs k, pick k where cost function starts to flatten out
+  - hierarchical clustering
+    - creates hierarchy of clusters
+    - advantage: does not require you to specify the number of clusters and creates a dendrogram, however at the end you still have to decide where to cut the dendrogram to get the number of clusters you want
+    - two types:
+      - agglomerative (AGNES): bottom up approach, start with each instance in its own cluster, then merge the two closest clusters, repeat until all instances are in one cluster
+      - divisive (DIANA): top down approach, start with all instances in one cluster, then split the cluster into two, repeat until each instance is in its own cluster
+    - determine number of clusters
+      - gap statistics: maximum gap between the log of the average within-cluster sum of squares and the log of the average between-cluster sum of squares
+  - model-based clustering
+    - previous methods directly derives from data, model-based incoroprates a measure of probability or uncertainty to the cluster assignments
+    - provides soft assignment of instances to clusters (probability of each instance belonging to each cluster) and automatically determines the number of clusters
+    - key idea: data are considered as coming from a mixture of underlying probability distributions
+    - The most popular approach is the Gaussian mixture model (GMM), wehre each obs is assumed to be distributed as one of k-multivariate normal distributions
+    - idea of probabilistic cluster assignment is useful as you can identify observations with high or low cluster uncertainty. Ex: marketing, if person is 50% being assigned to two clusters, provide them with combination of marketing solutions for both clusters.
+    - how to capture different structures of cluster?
+      - covariance matrix describes the geometry of the clusters; namely, the volume, shape, and orientation of the clusters, which allows GMMs to [capture different cluster structures](https://bradleyboehmke.github.io/HOML/model-clustering.html#fig:visualize-different-covariance-models)
+    - limitations
+      - require underlying distribution to be normal, results are heavily dependent on that assumption
+      - computationally expensive in high dimensional spaces, problem is it's heavily overparameterized. solution is to do dimensionality reduction, but that can lead to loss of information
+
+Links 🔗
+
+- [Clustering | Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML/kmeans.html)

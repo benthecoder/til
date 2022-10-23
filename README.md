@@ -1063,3 +1063,19 @@ Links 🔗
 Links 🔗
 
 - [Clustering | Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML/kmeans.html)
+
+## Day 52: 21 Oct 2022
+
+- Working on Notion NLP
+
+Links 🔗
+
+- [benthecoder/notion_nlp: Adds NLP to Notion](https://github.com/benthecoder/notion_nlp)
+
+## Day 53: 22 Oct 2022
+
+- makeUC hackathon
+
+Links 🔗
+
+- [weichunnn/connectify](https://github.com/weichunnn/connectify)

@@ -8,7 +8,7 @@
 |         [MLOps Zoomcamp](https://tinyurl.com/2eyfcvbq)          | Week 4: ML Deployment |
 |    [Data Engineering Zoomcamp](https://tinyurl.com/2egmk5yx)    |   Week 2 : Airflow    |
 |                      Statistics Done Wrong                      |       Chapter 1       |
-|                           Hands on ML                           |       Chapter 4       |
+|                           Hands on ML                           |       Chapter 5       |
 |                          Fluent Python                          |       Chapter 5       |
 
 ## Day 1: 31 Aug 2022
@@ -1079,3 +1079,22 @@ Links 🔗
 Links 🔗
 
 - [weichunnn/connectify](https://github.com/weichunnn/connectify)
+
+## Day 54: 23 Oct 2022
+
+- TSNE
+  - goal: is to take a set of points in high-dimensional space and find a faithful representation of those points in a lower-dimensional space, typically 2d
+  - it's incredibly flexibly and you can find structure where other dim. reduction techniques fails
+  - "Perplexity"
+    - a tunable parameter which is a guess about the number of neighbors each point has
+    - this parameter has a complex effect and may be more nuanced than just setting typical values between 5 and 50
+    - Getting the most from t-SNE may mean analyzing multiple plots with different perplexities.
+  - most important thing: there is no fixed steps to yield a stable result, different datasets require different number of iterations
+  - note:
+    - cluster sizes in a t-SNE plot are not indicative of the actual cluster sizes in the original data
+    - distances between well-separated clusters in a t-SNE plot may mean nothing
+    - at low perplexities, you might see dramatic clusters, but they are random noise and meaningless
+
+Links 🔗
+
+- [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/)

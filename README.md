@@ -1098,3 +1098,23 @@ Links 🔗
 Links 🔗
 
 - [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/)
+
+## Day 55: 25 Oct 2022
+
+- JSON is slow
+  - `"type" : 0"` takes 9 bytes to represent single byte (4 for key, 2 for quotes, 1 for colon, 1 for comma)
+  - `"timestamp" : 1666295748665` takes 27 bytes when it could just be `95748665`
+  - alternative? [deku](https://docs.rs/deku/latest/deku/)
+  - "JSON is like the python of language, slow but convenient to use"
+- Python 3.11 new features
+  - 10-60% faster than Python 3.10
+  - better error messages
+- Hypothesis testing
+
+Links 🔗
+
+- [Is JSON Blazingly Fast or...? - YouTube](https://www.youtube.com/watch?v=MuCK81q1edU)
+- [It's time... for PYTHON 3.11! - YouTube](https://www.youtube.com/watch?v=ueTXYhtlnjA)
+  - [code](https://github.com/mCodingLLC/VideosSampleCode/tree/master/videos/109_python_311_release)
+- [Probably Overthinking It: There is still only one test](https://allendowney.blogspot.com/2016/06/there-is-still-only-one-test.html)
+- [John Rauser keynote: "Statistics Without the Agonizing Pain" -- Strata + Hadoop 2014 - YouTube](https://www.youtube.com/watch?v=5Dnw46eC-0o)

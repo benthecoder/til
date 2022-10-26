@@ -1099,7 +1099,7 @@ Links 🔗
 
 - [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/)
 
-## Day 55: 25 Oct 2022
+## Day 55: 24 Oct 2022
 
 - JSON is slow
   - `"type" : 0"` takes 9 bytes to represent single byte (4 for key, 2 for quotes, 1 for colon, 1 for comma)
@@ -1118,3 +1118,24 @@ Links 🔗
   - [code](https://github.com/mCodingLLC/VideosSampleCode/tree/master/videos/109_python_311_release)
 - [Probably Overthinking It: There is still only one test](https://allendowney.blogspot.com/2016/06/there-is-still-only-one-test.html)
 - [John Rauser keynote: "Statistics Without the Agonizing Pain" -- Strata + Hadoop 2014 - YouTube](https://www.youtube.com/watch?v=5Dnw46eC-0o)
+
+## Day 56: 25 Oct 2022
+
+- precision: TP / (TP + FP) (how many of the positive predictions were correct)
+  - high precision = cost of false negatives, failing to identify who has the disease
+- recall: TP / (TP + FN) (how many of the positive cases were predicted correctly)
+  - high recall = cost of false positives, misdiagnose people who don't have the disease
+- F1-score : harmonic mean of precision and recall
+  - completely ignores true negatives, misleading for unbalanced classes
+- Many other techniques exis for model evaluation, including calibration, popular diagnostic tools (specificity, likelihood ratios, etc.), and expectation frameworks
+- ROC curve = True-Positive Rate (TPR) versus False-Positive Rate (FPR)
+  - It allows us to understand how that performance changes as a function of the model's classification threshold
+- AUC ranges in value from 0 to 1, with higher numbers indicating better performance. A perfect classifier will have an AUC of 1, while a perfectly random classifier an AUC of 0.5
+- probabilistic interpretation
+  - The AUC is the probability that the model will rank a randomly chosen positive example more highly than a randomly chosen negative example.
+- the AUC metric treats all classification errors equally, ignoring the potential consequences of ignoring one type over another
+
+Links 🔗
+
+- [Precision & Recall](https://mlu-explain.github.io/precision-recall/)
+- [ROC & AUC](https://mlu-explain.github.io/roc-auc/)

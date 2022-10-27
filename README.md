@@ -1139,3 +1139,40 @@ Links 🔗
 
 - [Precision & Recall](https://mlu-explain.github.io/precision-recall/)
 - [ROC & AUC](https://mlu-explain.github.io/roc-auc/)
+
+## Day 57: 26 Oct 2022
+
+- correlation matrix = standardized covariance matrix
+- PCA
+  - a method of finding low-dimensional representation of data that retains as much original variation as possible
+  - in PCA, each pc are a linear combination of the original p features
+  - reducing features to latent (unobserved) variables can remove multicollinearity and improve predictive accuracy
+  - first PC captures the largest amount of variance in the data, it is simply a line that minimizes teh total squared distance from each point to its orthogonal projection onto the line, second PC is orthogonal to first, a linear combination of features that has maximal variance that is uncorrelated with first PC
+  - how are PCs calculated?
+    - eigenvector corresponding to largest eigenvalue of feature covaraince matrix is teh set of loadings that explains the greatest proportion of feature variability
+    - recap: eigenvector = vector that doesn't change direction when a linear transformation is applied to it, eigenvalue = scalar that tells you how much the eigenvector is stretched or squished by the linear transformation
+  - standardize (using correlation) when
+    - different variables have greatly different variances
+    - you want more emphasis on describing correlation than variance
+  - scores are measure of contribution of the variable to the variation of PC
+  - to interpret scores, look at both size and sign
+- Factor Analysis
+  - "inversion" of PCA
+  - we model observed variables as linear functions of the "factors"
+  - in pca we create new variables that are linear combinations of the observed variables
+  - in PCA, interpretation is not very clean as one variable can contribute significantly to more than one of the components
+  - with factor rotation, each variable contributes significantly to only one component
+- PCA vs Factor Analysis
+  - similar: both are linear methods for reducing dimensionality, both transform data linearly, both claim we can use few linear combinations to explain most of the variation in the data
+  - difference:
+    - PCs are ordered from highest to lowest information, retains only a few PCs
+    - aims to find latent variable that make sense, loadings are rotated to improve interpretability. it also estimates specific effects (factors)
+  - use PCA to reduce dimensionality, prepare data
+  - use Factor Analysis to find latent variables, interpret data
+
+Links 🔗
+
+- [6. Singular Value Decomposition (SVD) - YouTube](https://www.youtube.com/watch?v=rYz83XPxiZo)
+- [Principal Component Analysis explained visually](https://setosa.io/ev/principal-component-analysis/)
+- [Eigenvectors and Eigenvalues explained visually](https://setosa.io/ev/eigenvectors-and-eigenvalues/)
+- [Lesson 12: Factor Analysis | STAT 505](https://online.stat.psu.edu/stat505/lesson/12)

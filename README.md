@@ -1176,3 +1176,32 @@ Links 🔗
 - [Principal Component Analysis explained visually](https://setosa.io/ev/principal-component-analysis/)
 - [Eigenvectors and Eigenvalues explained visually](https://setosa.io/ev/eigenvectors-and-eigenvalues/)
 - [Lesson 12: Factor Analysis | STAT 505](https://online.stat.psu.edu/stat505/lesson/12)
+
+## Day 58: 27 Oct 2022
+
+1. Draw more pictures
+   - draw diagrams of architecture, define notations for different domains, create modeling tools
+2. Review at the right level
+   - make design review part of the process, run the code, promote use of patterns, dont obsess over syntax, focus on algorithms
+3. Value stability
+   - write quality documentation, take deep interest into how frameworks work
+4. Invent it here
+   - take control of dependencies and evalutate cost/benefit of external libraries
+5. Learn to test
+   - understand whole scope of testing, not all tests can be automated, take non-functional test seriously
+6. Master the tools
+   - learn keyboard shortcuts, master IDE, be comfortable with terminal, automate boring stuff
+7. Focus on fundamentals
+   - focus on re-usable skills, algorithms, DS, clean code, design principles, avoid spending time (re) learnign next shiny framework
+8. Remain accountable
+   - focus principles over process - understand the why, be professional, take responsiblity and be accountable for your work
+9. Prepare for rain
+   - think about career, educate yourself, stay in demand, prepare for extreme changes (downturns, layoffs, etc.)
+10. Remember what matters
+    - time passes more quickly than you think, enjoy the journey, be kind to yourself, be kind to others
+
+Links 🔗
+
+- [10 Programming Lessons From the Past • Garth Gilmour & Eamonn Boyle](https://www.youtube.com/watch?v=IlDIV5gaTP0&t=1463s)
+- [The Art of Visualising Software Architecture - YouTube](https://www.youtube.com/watch?v=zcmU-OE452k)
+- [Testing quadrant](https://medium.com/yoursproductly/61-why-pms-must-understand-the-agile-testing-quadrants-to-help-plan-their-product-qa-efforts-710ba6356002)

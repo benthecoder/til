@@ -1205,3 +1205,50 @@ Links 🔗
 - [10 Programming Lessons From the Past • Garth Gilmour & Eamonn Boyle](https://www.youtube.com/watch?v=IlDIV5gaTP0&t=1463s)
 - [The Art of Visualising Software Architecture - YouTube](https://www.youtube.com/watch?v=zcmU-OE452k)
 - [Testing quadrant](https://medium.com/yoursproductly/61-why-pms-must-understand-the-agile-testing-quadrants-to-help-plan-their-product-qa-efforts-710ba6356002)
+
+## Day 59: 28 Oct 2022
+
+- how to learn
+  - learn about yourself (what do you like, what allows you to enter a state of flow?)
+  - acquire those skills (choose to do the same thing over and over again for 10,000 hours until you become great at it)
+
+Links 🔗
+
+- [LEARN, EARN or QUIT | My job/career advice for 2022 | Garry Tan's Founders Journey Ep. 4 - YouTube](https://www.youtube.com/watch?v=eLelgy5zRv4&t=557s)
+
+## Day 60: 29 Oct 2022
+
+- Feature selection
+  - filter methods (ranking methods)
+    - process: rank features -> select highest ranking features
+    - pros: model agnostic and fast
+    - cons: ignores feature redundancy, feature interaction and feature-model interaction
+    - examples
+      - chi-square : categorical vars and cat. target
+      - anova : continuous vars and cat. target
+      - correlation : continuous vars and continuous target
+      - mutual information
+      - variance
+  - wrapper methods
+    - process: create subset feature -> train model on subset -> get model performance -> select best subset
+    - pros: feature model and feature interaction
+    - cons : not model agnostic and computationally expensive
+    - examples:
+      - exhaustive search, forward search, backward search
+  - embedded methods
+    - process: train model -> derive feature importance -> remove non-important features
+    - pros : fast and captures feature interaction
+    - cons: limited to some models, not model agnostic
+    - examples
+      - lasso
+      - tree derived feature importance
+      - regression coefficients
+  - other methods
+    - feature permutation, probe features, mRMR (minimum-Redundancy-Maximum-Relevance), Recursive Feature Elimination (RFE), cluster based feature selection (CBFS), population stability index, information value
+  -
+
+Links 🔗
+
+- [Grokking Stable Diffusion.ipynb - Colaboratory](https://colab.research.google.com/drive/1dlgggNa5Mz8sEAGU0wFCHhGLFooW_pf1?usp=sharing)
+- [solegalli/DataTalks.Club2022](https://github.com/solegalli/DataTalks.Club2022)
+- [Feature-engine — 1.3.0](https://feature-engine.readthedocs.io/en/1.3.x/index.html)

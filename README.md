@@ -1244,8 +1244,8 @@ Links 🔗
       - tree derived feature importance
       - regression coefficients
   - other methods
-    - feature permutation, probe features, mRMR (minimum-Redundancy-Maximum-Relevance), Recursive Feature Elimination (RFE), cluster based feature selection (CBFS), population stability index, information value
-  -
+    - feature permutation, probe features, mRMR (minimum-Redundancy-Maximum-Relevance), Recursive Feature Elimination (RFE), cluster based feature selection (CBFS),
+    - statistics: population stability index, information value
 
 Links 🔗
 

@@ -1,4 +1,4 @@
-# 66DaysOfData
+# Today I Learned
 
 ## Progress
 
@@ -1252,3 +1252,40 @@ Links 🔗
 - [Grokking Stable Diffusion.ipynb - Colaboratory](https://colab.research.google.com/drive/1dlgggNa5Mz8sEAGU0wFCHhGLFooW_pf1?usp=sharing)
 - [solegalli/DataTalks.Club2022](https://github.com/solegalli/DataTalks.Club2022)
 - [Feature-engine — 1.3.0](https://feature-engine.readthedocs.io/en/1.3.x/index.html)
+
+## Day 61: 30 Oct 2022
+
+- ANOVA
+  - robustness
+    - robust against departures from normality when sample size is large enough
+    - robust against unequal variances when sample sizes are equal
+  - type I and II
+    - type I (alpha) = probability of rejecting the null hypothesis when it is true
+    - type II (beta) = probability of failing to reject null hypothesis when it is false
+    - power (1 - beta) = probability of correctly rejecting null hypothesis when it is false
+    - best case : low alpha and high power
+  - anova assumptions
+    - normality
+      - if violated: power (ability to detect true difference) decreases
+      - evaluation: QQ plot and histogram of residuals
+    - homogeneity of variance
+      - if violated and sample size are unequal: type I increases if smaller group has larger varaince and power decreases if larger group has larger variance
+      - evaluation: residual plot / statistical tests - Bartlett (inaccurate if slightly nonnormal), Brown-Forsythe (best but can be resource intensive with large groups), Levene (standard test), and O’Brien (modified Levene)
+    - independence
+      - if violated: type I error rate increase (if positive correlation) and power decrease (if negative correlation)
+      - evaluation: know source of data, examples of correlated data : complex survey designs, repeated measures, data gathered over time
+- PETS = privacy-enhancing technologies
+  - based on Yao's "millionaires problem" - is it possible for two millionares to discover who is richer without revealing their wealth?
+  - "secure multi-party computation" - Allows two or more parties to compute on their shared data, without any party revealing any of their private data.
+  - "zero-knowledge proofs" - Allows a person to prove to another person that they know something is true, without revealing any information on how they know it is true.
+  - "fully homomorphic encryption" - holy grail of cryptography, in which it is possible to run analytics on encrypted data without decrypting it first
+    - ex: register password: password is encrypted -> sent to server to check whether it has been breached without server being able to identify the password
+  - "differential privacy" - add noise to data to preserve privacy of individuals
+    - ex: official statistics: simple averages can reveal private info about people from minority groups
+
+Links 🔗
+
+- [Python Virtual Environment & Packaging Workflow | Peter Baumgartner](https://www.peterbaumgartner.com/blog/python-virtual-environment-package-workflow/)
+- [Ways I Use Testing as a Data Scientist | Peter Baumgartner](https://www.peterbaumgartner.com/blog/testing-for-data-science/?s=08)
+- [50 Useful Vim Commands - VimTricks](https://vimtricks.com/p/50-useful-vim-commands/)
+- [Can a new form of cryptography solve the internet’s privacy problem? | Data protection | The Guardian](https://www.theguardian.com/technology/2022/oct/29/privacy-problem-tech-enhancing-data-political-legal)

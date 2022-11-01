@@ -1289,3 +1289,14 @@ Links 🔗
 - [Ways I Use Testing as a Data Scientist | Peter Baumgartner](https://www.peterbaumgartner.com/blog/testing-for-data-science/?s=08)
 - [50 Useful Vim Commands - VimTricks](https://vimtricks.com/p/50-useful-vim-commands/)
 - [Can a new form of cryptography solve the internet’s privacy problem? | Data protection | The Guardian](https://www.theguardian.com/technology/2022/oct/29/privacy-problem-tech-enhancing-data-political-legal)
+
+## Day 62: 31 Oct 2022
+
+- split plot design
+  - special case of factorial treatment structure
+  - used when some factors are harder (more expensive) to change than others
+  - consists of two experiments with different experimental units of different "sizes"
+
+Links 🔗
+
+- [14.3 - The Split-Plot Designs | STAT 503](https://online.stat.psu.edu/stat503/lesson/14/14.3)

@@ -1300,3 +1300,28 @@ Links 🔗
 Links 🔗
 
 - [14.3 - The Split-Plot Designs | STAT 503](https://online.stat.psu.edu/stat503/lesson/14/14.3)
+
+## Day 63: 1 Nov 2022
+
+- factorial design
+  - experiemnt with two more more factors, each with discrete possible levels and whose experimental units take on all possible combinations of levels of the factors
+  - experimental units (eu) is the entity a researcher wants to make inferences about, e.g. a person, a group, a company, a country
+  - vast majority of factorial experiments, each factor has two levels, with two factors taking two levels, there would be 4 treatment combinations in total - 2x2 factorial design
+  - however experimenting with 10 factors at two levels produces 2^10 = 1024 treatment combinations, which becomes infeasible due to high cost, in these cases, use fractional factorial designs
+  - full factorial design
+    - what?: all possible combinations of factors
+    - how? : each factor has two levels (A and B) and each level is assigned to a group of experimental units
+    - why? : to determine the effect of each factor on the response variable
+  - fractional factorial design
+    - what?: subset of all possible combinations of factors
+    - how? : random sampling, orthogonal arrays, response surface methods
+    - why? : reduce number of experiments, reduce cost, reduce time
+
+Links 🔗
+
+- [5.3.3. How do you select an experimental design?](https://www.itl.nist.gov/div898/handbook/pri/section3/pri33.htm)
+- [Design of Experiments](https://online.stat.psu.edu/stat503/)
+- [CRAN Task View: Design of Experiments (DoE) & Analysis of Experimental Data](https://cran.r-project.org/web/views/ExperimentalDesign.html)
+- [Experimental Design and Analysis](https://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf)
+- [Design and Analysis of Experiments with R](http://www.ru.ac.bd/stat/wp-content/uploads/sites/25/2019/03/502_07_00_Lawson_Design-and-Analysis-of-Experiments-with-R-2017.pdf)
+- [Design of Experiments | Coursera](https://www.coursera.org/specializations/design-experiments)

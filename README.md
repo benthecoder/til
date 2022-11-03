@@ -1325,3 +1325,29 @@ Links 🔗
 - [Experimental Design and Analysis](https://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf)
 - [Design and Analysis of Experiments with R](http://www.ru.ac.bd/stat/wp-content/uploads/sites/25/2019/03/502_07_00_Lawson_Design-and-Analysis-of-Experiments-with-R-2017.pdf)
 - [Design of Experiments | Coursera](https://www.coursera.org/specializations/design-experiments)
+
+## Day 64: 2 Nov 2022
+
+- Expected means square (EMS)
+  - what? : expected values of certain statistics arising in partitions of SS in ANOVA
+  - used for determining which statistics should be in denominator in F-test for testing a null hypothesis that a particular effect is absent
+  - note:
+    - test statistic = ratio of two mean squares where the E(numerator) differes from E(denominator) by the variance component or fixed factor we're interested in. Thus, under assumption of H0, both numerator and denominator of F ratio has same EMS
+    - varaince component = the variance of the response variable due to a particular factor
+- basic principles of DOE
+  - randomization
+    - essential component of any experiemnt to have validity. assigning treatments to experimental units has to be a random process when doing a comparative experiment to eliminate potential biases
+  - replication
+    - heart of all statistics, more replicates = more precise estimates. ex: confidence interval width depends on standard error = sqrt(s^2/n), to reduce it we need to reduce error in estimate of mean by increasing n (estimate becomes less variable as sample size increases CLT). The other (harder) option is reduce error varaince, this is where blocking comes in
+  - blocking
+    - main idea is to make unknown error variance to be as small as possible, goal is to find out about treatment factor, but in addition to this, we want to include any blocking factors that can explain away the variation.
+  - multi-factor design
+    - one factor at a time is inefficient, multi-factor : 2k, 3k, rsm, etc. includes combination of multiple factors. You learn not only primary factors but also other factors - interactions and confounding factors
+  - confounding
+    - typically avoid, but in complex experiments, confounding can be used to advantage. ex: interested in main effects but not interactions -> confound interactions to reduce sample size -> reduce cost of experiment but still have good info on main effects
+
+Links 🔗
+
+- [13.4 - Finding Expected Mean Squares | STAT 503](https://online.stat.psu.edu/stat503/lesson/13/13.4)
+- [Applied Statistics: STAT 500 notes](https://online.stat.psu.edu/stat500/)
+- [1.2 - The Basic Principles of DOE | STAT 503](https://online.stat.psu.edu/stat503/lesson/1/1.2)

@@ -1351,3 +1351,26 @@ Links 🔗
 - [13.4 - Finding Expected Mean Squares | STAT 503](https://online.stat.psu.edu/stat503/lesson/13/13.4)
 - [Applied Statistics: STAT 500 notes](https://online.stat.psu.edu/stat500/)
 - [1.2 - The Basic Principles of DOE | STAT 503](https://online.stat.psu.edu/stat503/lesson/1/1.2)
+
+## Day 65: 3 Nov 2022
+
+- stat 475
+  - multidimensional scaling
+    - an attempt to make a 2d representation of how "close" different "things" are.
+    - a means of visualizing the level of similarity of individual cases of dataset
+    - used to translate information about the pairwise distances among a set of objects or individuals into a configuration of points mapped into an abstract Cartesian space
+    - technical: a set of related ordination techniques used in information visualization, in particular to display the information contained in a distance matrix.
+    - given a distance matrix with the distances between each pair of objects in a set, and a chose number of dimensions, N, an MDS algo places each object into an N-dim space such that the between-object distances are preserved as well as possible. For N = 1, 2, 3 it can be visualized on a scatterplot.
+  - hotelling T^2
+    - what? : a test statistic used to test whether the mean of a multivariate normal distribution is equal to a given vector
+    - how? : T^2 = (x - mu)' \* S^-1 \* (x - mu) where x is a sample mean vector, mu is a hypothesized mean vector, S is a covariance matrix
+- notes on writing well
+  - Occam's razor: the shorter writing is usually better, as it is clearer and more vivid. e.g. "big" is clearer than "humungous"
+  - Optimize for the truth: early writings are always rough approximations to the truth, revise over and over and ask whether each sentence can be sharper and if we truly believe the sentnece
+  - good writing = good psychology: good writing is a relationship between the reader and the text, useful advice is about how to change that relationship. good writers build up a theory of that relationship. Good writing is really an expercise in applied psychology
+
+Links 🔗
+
+- [notes-on-writing/notes_on_writing.md](https://github.com/mnielsen/notes-on-writing/blob/master/notes_on_writing.md)
+- [Multidimensional Scaling](https://towardsdatascience.com/multidimensional-scaling-d84c2a998f72)
+- [7.1.3 - Hotelling’s T-Square | STAT 505](https://online.stat.psu.edu/stat505/lesson/7/7.1/7.1.3)

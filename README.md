@@ -1374,3 +1374,14 @@ Links 🔗
 - [notes-on-writing/notes_on_writing.md](https://github.com/mnielsen/notes-on-writing/blob/master/notes_on_writing.md)
 - [Multidimensional Scaling](https://towardsdatascience.com/multidimensional-scaling-d84c2a998f72)
 - [7.1.3 - Hotelling’s T-Square | STAT 505](https://online.stat.psu.edu/stat505/lesson/7/7.1/7.1.3)
+
+## Day 66: 4 Nov 2022
+
+- NA Connect 2022
+  - tensorflow lite
+  - similarity based machine learning
+
+Links 🔗
+
+- [North America Connect 2022](https://rsvp.withgoogle.com/events/na-connect-2022)
+- [Machine Learning Explainability Workshop I Stanford - YouTube](https://www.youtube.com/playlist?list=PLoROMvodv4rPh6wa6PGcHH6vMG9sEIPxL)

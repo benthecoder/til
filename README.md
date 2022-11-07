@@ -1377,7 +1377,7 @@ Links 🔗
 
 ## Day 66: 4 Nov 2022
 
-- NA Connect 2022
+- NA Connect 2022 Day 1
   - tensorflow lite
   - similarity based machine learning
 
@@ -1385,3 +1385,27 @@ Links 🔗
 
 - [North America Connect 2022](https://rsvp.withgoogle.com/events/na-connect-2022)
 - [Machine Learning Explainability Workshop I Stanford - YouTube](https://www.youtube.com/playlist?list=PLoROMvodv4rPh6wa6PGcHH6vMG9sEIPxL)
+
+## Day 67: 5 Nov 2022
+
+- NA Connect 2022 Day 2
+
+Links 🔗
+
+## Day 68: 6 Nov 2022
+
+- problem with CSV files
+  - they are slow to query: SQL and CSV do not play well together.
+  - they are difficult to store efficiently: CSV files take a lot of disk space.
+- CSV are row-oriented while parquet is column oriented
+- why is it better than row storing?
+  - parquet files are much smaller (compressed column by column)
+    - A CSV file of 1TB becomes a Parquet file of around 100GB (10% of the original size.
+  - parquet files are much faster to query
+    - sql query selects and aggregates subset of columns do you don't have to scan other columns, reduces I/O
+  - parquet files are cheaper to store in cloud storage
+
+Links 🔗
+
+- [Forecasting something that never happened: how we estimated past promotions profitability](https://medium.com/artefact-engineering-and-data-science/forecasting-something-that-never-happened-how-we-estimated-past-promotions-profitability-5f55cfa1d477)
+- [A Parquet file is all you need | Towards Data Science](https://towardsdatascience.com/a-parquet-file-is-all-you-need-962df86886bb)

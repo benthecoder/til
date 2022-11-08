@@ -1409,3 +1409,25 @@ Links 🔗
 
 - [Forecasting something that never happened: how we estimated past promotions profitability](https://medium.com/artefact-engineering-and-data-science/forecasting-something-that-never-happened-how-we-estimated-past-promotions-profitability-5f55cfa1d477)
 - [A Parquet file is all you need | Towards Data Science](https://towardsdatascience.com/a-parquet-file-is-all-you-need-962df86886bb)
+
+## Day 0: 7 Nov 2022
+
+- set_output(transform = "pandas") to get pandas output from sklearn
+- What is the distributional hypothesis in NLP? Where is it used, and how far does it hold true?
+  - According to the distributional hypothesis, words occurring in the same contexts tend to have similar meanings (original source: Distributional Structure by Zellig S. Harris, 1954). In other words, the more similar the meanings of two words are, the more often they appear in similar contexts. So, for example, the words cat and dog often occur in similar contexts and are more related (both are mammals and pets) than a cat and a sandwich. Looking at large datasets, this may hold more or less, but it is easy to construct individual counter-examples.
+  - The distributional hypothesis is the main idea behind Word2vec, and many natural language transformer models rely on this idea (for example, the masked language model in BERT and the next-word pretraining task used in GPT).
+- What is the difference between stateless and stateful training? And when to use which
+  - Both stateless (re)training and stateful training refer to different ways of training a production model. Stateless training is like a sliding window that retrains the model on different parts of the data from a given data stream.
+  - In stateful training, we train the model on an initial batch of data and then update it periodically (as opposed to retraining it) when new data arrives.
+  - One paradigm is not universally better than the other. However, an advantage of stateful training is that it doesn’t require permanent data storage. On the other hand, storing data, if possible, is still a good idea because the model might suffer from “bad” updates, and (temporarily) switching to stateless retraining might make sense.
+- What is the difference between recursion and dynamic programming?
+  - In recursion, we divide a problem into smaller subproblems in an iterative fashion, often called “divide-and-conquer.”
+  - Dynamic programming avoids computing solutions to the same subproblems by storing solutions to subproblems in a data structure that allows fast (constant time) look-ups, for example, dictionaries. Storing the subproblems is also often called “memoization” (not to be confused with “memorization”).
+  - In practice, we often apply dynamic programming to recursive algorithms.
+
+Links 🔗
+
+- [Ahead of AI #2: Transformers, Fast and Slow | Revue](https://newsletter.sebastianraschka.com/issues/ahead-of-ai-2-transformers-fast-and-slow-1402662)
+- [koaning/embetter: just a bunch of useful embeddings](https://github.com/koaning/embetter?utm_campaign=Ahead%20of%20AI&utm_medium=email&utm_source=Revue%20newsletter)
+- [[2210.06280] Language Models are Realistic Tabular Data Generators](https://arxiv.org/abs/2210.06280?utm_campaign=Ahead%20of%20AI&utm_medium=email&utm_source=Revue%20newsletter)
+- [A Short Chronology Of Deep Learning For Tabular Data](https://sebastianraschka.com/blog/2022/deep-learning-for-tabular-data.html?utm_campaign=Ahead%20of%20AI&utm_medium=email&utm_source=Revue%20newsletter)

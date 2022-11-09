@@ -1410,7 +1410,7 @@ Links 🔗
 - [Forecasting something that never happened: how we estimated past promotions profitability](https://medium.com/artefact-engineering-and-data-science/forecasting-something-that-never-happened-how-we-estimated-past-promotions-profitability-5f55cfa1d477)
 - [A Parquet file is all you need | Towards Data Science](https://towardsdatascience.com/a-parquet-file-is-all-you-need-962df86886bb)
 
-## Day 0: 7 Nov 2022
+## Day 69: 7 Nov 2022
 
 - set_output(transform = "pandas") to get pandas output from sklearn
 - What is the distributional hypothesis in NLP? Where is it used, and how far does it hold true?
@@ -1431,3 +1431,22 @@ Links 🔗
 - [koaning/embetter: just a bunch of useful embeddings](https://github.com/koaning/embetter?utm_campaign=Ahead%20of%20AI&utm_medium=email&utm_source=Revue%20newsletter)
 - [[2210.06280] Language Models are Realistic Tabular Data Generators](https://arxiv.org/abs/2210.06280?utm_campaign=Ahead%20of%20AI&utm_medium=email&utm_source=Revue%20newsletter)
 - [A Short Chronology Of Deep Learning For Tabular Data](https://sebastianraschka.com/blog/2022/deep-learning-for-tabular-data.html?utm_campaign=Ahead%20of%20AI&utm_medium=email&utm_source=Revue%20newsletter)
+
+## Day 70: 8 Nov 2022
+
+- multiple linear regression recap
+  - coefficeints: change in Y associated with 1-unit chang ein x1 while holding other predictors constant
+  - categorical predictors that are nominal should be indicator variables, cannot impose order
+  - R^2: how well regression mode explains observed data
+  - SSE: how much variation in observed y values is not explained by model relationship
+  - adjusted r^2: penalizes for adding predictors that don't improve model, if adjusted r^2 is a lot lower than r^2, then the model is overfitting
+  - model utility: are all predictors useful? a join test based on F distribution, testing if all coefficients are 0
+  - anova on reduced and full model: if p-value is low, then the model is useful, if p-value is high, then the model is not useful
+  - multicollinearity: predictors are correlated with each other, can be detected by looking at correlation matrix
+    - what? it's not an error, but a lack of information in dataset
+    - how to detect? plots and correlation tables, significant F-statistic for overall test of model but no single predictor is significant, estimated effect of covariate has opposite sign of what you expect
+
+Links 🔗
+
+- [Lesson12_MultRegression](https://www.colorado.edu/amath/sites/default/files/attached-files/lesson12_multregression.pdf)
+- [10.8 - Reducing Data-based Multicollinearity | STAT 462](https://online.stat.psu.edu/stat462/node/181/)

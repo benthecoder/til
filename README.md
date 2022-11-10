@@ -1450,3 +1450,26 @@ Links 🔗
 
 - [Lesson12_MultRegression](https://www.colorado.edu/amath/sites/default/files/attached-files/lesson12_multregression.pdf)
 - [10.8 - Reducing Data-based Multicollinearity | STAT 462](https://online.stat.psu.edu/stat462/node/181/)
+
+## Day 71: 9 Nov 2022
+
+- transformers
+  - use cases
+    - language translation : Meta's [No Language Left Behind](https://ai.facebook.com/blog/nllb-200-high-quality-machine-translation/?utm_campaign=Ahead%20of%20AI&utm_medium=email&utm_source=Revue%20newsletter), a transformer model capable of translating between 200 languages.
+    - protein folding : alphaFold2 model is based on the language transformers, Meta released [ESM Metagenomic Atlas](https://esmatlas.com/explore?at=1%2C1%2C21.999999344348925), 60x times fster than AlphaFold2
+    - question answering : better chatbots, next gen Q&A systems
+  - AGI?
+    - mechanisms that help transformers to self-improve via a pre-training algorithm distillation based on RL
+  - environmental cost
+    - BLOOM, a 176B parameter transformer model, required 1,082,990 GPU hours (on cutting edge Nvidia A100s) and emitted approximately 50.5 tonnes of CO2 in total
+  - resources
+
+Links 🔗
+
+- [Attention Is All You Need](https://www.explainpaper.com/papers/attention)s
+- [[2210.11610] Large Language Models Can Self-Improve](https://arxiv.org/abs/2210.11610?utm_campaign=Ahead%20of%20AI&utm_medium=email&utm_source=Revue%20newsletter)
+- [amazon-science/mintaka: Dataset from the paper "Mintaka: A Complex, Natural, and Multilingual Dataset for End-to-End Question Answering" (COLING 2022)](https://github.com/amazon-science/mintaka?utm_campaign=Ahead%20of%20AI&utm_medium=email&utm_source=Revue%20newsletter)
+- [[2211.02001] Estimating the Carbon Footprint of BLOOM, a 176B Parameter Language Model](https://arxiv.org/abs/2211.02001?utm_campaign=Ahead%20of%20AI&utm_medium=email&utm_source=Revue%20newsletter)
+- [Introduction to Deep Learning](https://sebastianraschka.com/blog/2021/dl-course.html)
+- [(1) 2022.02 Transformers - Lucas Beyers](https://www.youtube.com/watch?v=UpfcyzoZ644)
+- [karpathy/minGPT: A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training](https://github.com/karpathy/minGPT?utm_campaign=Ahead%20of%20AI&utm_medium=email&utm_source=Revue%20newsletter)

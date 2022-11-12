@@ -1467,9 +1467,81 @@ Links 🔗
 Links 🔗
 
 - [Attention Is All You Need](https://www.explainpaper.com/papers/attention)s
-- [[2210.11610] Large Language Models Can Self-Improve](https://arxiv.org/abs/2210.11610?utm_campaign=Ahead%20of%20AI&utm_medium=email&utm_source=Revue%20newsletter)
-- [amazon-science/mintaka: Dataset from the paper "Mintaka: A Complex, Natural, and Multilingual Dataset for End-to-End Question Answering" (COLING 2022)](https://github.com/amazon-science/mintaka?utm_campaign=Ahead%20of%20AI&utm_medium=email&utm_source=Revue%20newsletter)
-- [[2211.02001] Estimating the Carbon Footprint of BLOOM, a 176B Parameter Language Model](https://arxiv.org/abs/2211.02001?utm_campaign=Ahead%20of%20AI&utm_medium=email&utm_source=Revue%20newsletter)
+- [[2210.11610] Large Language Models Can Self-Improve](https://arxiv.org/abs/2210.11610)
+- [amazon-science/mintaka: Dataset from the paper "Mintaka: A Complex, Natural, and Multilingual Dataset for End-to-End Question Answering" (COLING 2022)](https://github.com/amazon-science/mintaka)
+- [[2211.02001] Estimating the Carbon Footprint of BLOOM, a 176B Parameter Language Model](https://arxiv.org/abs/2211.02001)
 - [Introduction to Deep Learning](https://sebastianraschka.com/blog/2021/dl-course.html)
 - [(1) 2022.02 Transformers - Lucas Beyers](https://www.youtube.com/watch?v=UpfcyzoZ644)
-- [karpathy/minGPT: A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training](https://github.com/karpathy/minGPT?utm_campaign=Ahead%20of%20AI&utm_medium=email&utm_source=Revue%20newsletter)
+- [karpathy/minGPT: A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training](https://github.com/karpathy/minGPT)
+
+## Day 72: Nov 10, 2022
+
+- NLP tricks by Vincent Warmerdam
+  - `CountVectorizer(analyzer="char", ngram_range= (2, 3))` helps capture more information and context and makes it more robust against spelling errors as it looks at characters
+  - partial_fit on sklearn helps working with larger datasets
+  - BLOOM embeddings by explosion.ai
+    - hashing trick to reduce size of embedding
+  - bulk labelling
+    - text/image -> n dimensional -> 2d (UMAP) -> text and image interface with bulk
+- block websites on mac
+  - `sudo /etc/hosts`
+  - add 127.0.0.1 www.website.com
+  - remove cache `sudo dscacheutil -flushcache`
+- Pinterest ML day 2022
+  - PinSAGE: Graph NN with 3 billion nodes and 18 billion edges produces amazing content represetation
+    - pin -> multi-modal embedding -> system
+  - ml applications
+    - Personalization / Recommendations - ranking, retrieval, etc.
+    - User Interest Modeling
+    - Ads - Targeting, Pricing, Relevance, etc.
+    - Content Understanding - Text, Computer Vision, Multimodal
+    - Notifications - Content and Scheduling
+    - Visual Search - Pinterest Lens
+    - Inclusive Al - Skintone and Hair Pattern result diversification and filtering
+    - Creating New Content - Virtual Try On, Image Composition
+  - ML modeling technology
+    - Transformers - Sequence Modeling, Content Understanding, User Understanding, Computer vision - embeddings
+    - Graph Neural Networks - Content Understanding
+    - Real Time Sequence Modeling
+    - Generative Models - Diffusion Models
+    - Two Tower Models - for retrieval
+    - Multi-Task ML
+    - Large Scale Models - 1B++ parameters
+  - ml infra
+    - \>1 exabyte of data and >400M inferences / second
+    - MLEnv - GPU Inference Acceleration: 100x speed-up using GPU serving comparing to single CPU
+    - Training
+      - TCP - Training Compute Platform
+      - Training Data Engine
+      - Centralized Feature Store, Unified Feature Representation
+      - Automatic Retraining Framework
+  - to come
+    - Representation Learning for text, videos, products, creators, search queries, notifications.
+    - Web Mining through GNNs to extract attributes (e.g. recipe for food pins) from websites to create rich content at scale.
+    - Inspirational Knowledge Graph to enable a vocabulary to communicate between ML and users to assist their journey.
+    - Learned Retrieval to holistically learn candidate generation for recommendations and search.
+    - Notification Uplift Modeling to learn the optimal intervention policy for share inspiration to Pinners outside of Pinterest.
+
+Links 🔗
+
+- [Tricks and Tools From NLP-Land? - Vincent D. Warmerdam | Munich NLP Hands-on 008 - YouTube](https://www.youtube.com/watch?v=sjiASMMbHao)
+- [koaning/embetter: just a bunch of useful embeddings](https://github.com/koaning/embetter)
+- [partial_fit: Introduction](https://calmcode.io/partial_fit/introduction.html)
+- [Compact word vectors with Bloom embeddings · Explosion](https://explosion.ai/blog/bloom-embeddings)
+- [MaartenGr/BERTopic](https://github.com/MaartenGr/BERTopic)
+- [koaning/bulk: A Simple Bulk Labelling Tool](https://github.com/koaning/bulk)
+- [PinSage: A new graph convolutional neural network for web-scale recommender systems](https://medium.com/pinterest-engineering/pinsage-a-new-graph-convolutional-neural-network-for-web-scale-recommender-systems-88795a107f48)
+
+## Day 73: Nov 11, 2022
+
+- parallel processing in Python
+  - ray
+  - dask
+  - spark
+
+Links 🔗
+
+- [Aaron Richter- Parallel Processing in Python| PyData Global 2020 - YouTube](https://www.youtube.com/watch?v=eJyjB3cNIB0)
+- [Ray: A Framework for Scaling and Distributing Python & ML Applications - YouTube](https://www.youtube.com/watch?v=LmROEotKhJA)
+- [Introduction to Distributed Computing with the Ray Framework - YouTube](https://www.youtube.com/watch?v=cEF3ok1mSo0)
+- [Peter Baumgartner: Applied NLP: Lessons from the Field (spaCy IRL 2019) - YouTube](https://www.youtube.com/watch?v=QRGMJWwOU94)

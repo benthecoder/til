@@ -1545,3 +1545,31 @@ Links 🔗
 - [Ray: A Framework for Scaling and Distributing Python & ML Applications - YouTube](https://www.youtube.com/watch?v=LmROEotKhJA)
 - [Introduction to Distributed Computing with the Ray Framework - YouTube](https://www.youtube.com/watch?v=cEF3ok1mSo0)
 - [Peter Baumgartner: Applied NLP: Lessons from the Field (spaCy IRL 2019) - YouTube](https://www.youtube.com/watch?v=QRGMJWwOU94)
+
+## Day 74: Nov 12, 2022
+
+- working on gpt3 blog title optimizer
+- ads ranking models
+  - recommender system basics:
+    - set of features for user U and set of features for item I along features C capturing context of time of recommendation (time of day, weekend, etc.) and match those features to affinity event (did user click ad or not)
+    - click/no click = F(U, I, C)
+  - models
+    - GBMs
+      - good with dense features (age, gender,) but bad with sparse features (id of user, id of ad)
+      - Those sparse features are categorical features with literally billions of categories and very few sample events. ex: consider the time series of sequence of pages visited by a user, how do you build features to capture that information?
+      - solution: a page id becomes a vector in an embedding and a sequence of page Ids can be encoded by transformers as a simple vector. And even with little information on that page, the embedding can provide a good guess by using similar user interactions to other pages.
+    - Multi-task learning
+    - mixture of experts
+    - multi-towers models
+  - stages of ads ranking
+    - first select a sub-universe of ads (1m ads)that relate to user (fast retrieval)
+    - select subset of ads (1000 ads) with simple model (fast inference)
+    - use complex model (slow inference) to rank resulting ads as accurately as possible
+    - top ranked ad is the ad you see on your screen
+    - use MIMO (multiple input, multiple output) model to simultaneously train simple and complex model for effecient 2 stage ranking
+
+Links 🔗
+
+- [1706.05098.pdf](https://arxiv.org/pdf/1706.05098.pdf)
+- [Recommending What Video to Watch Next: A Multitask Ranking System](https://daiwk.github.io/assets/youtube-multitask.pdf)
+- [Cross-Batch Negative Sampling for Training Two-Tower Recommenders](https://arxiv.org/pdf/2110.15154.pdf)

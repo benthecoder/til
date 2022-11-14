@@ -1286,7 +1286,6 @@ Links 🔗
 Links 🔗
 
 - [Python Virtual Environment & Packaging Workflow | Peter Baumgartner](https://www.peterbaumgartner.com/blog/python-virtual-environment-package-workflow/)
-- [Ways I Use Testing as a Data Scientist | Peter Baumgartner](https://www.peterbaumgartner.com/blog/testing-for-data-science/?s=08)
 - [50 Useful Vim Commands - VimTricks](https://vimtricks.com/p/50-useful-vim-commands/)
 - [Can a new form of cryptography solve the internet’s privacy problem? | Data protection | The Guardian](https://www.theguardian.com/technology/2022/oct/29/privacy-problem-tech-enhancing-data-political-legal)
 
@@ -1584,9 +1583,55 @@ Links 🔗
     - well executed paid version of spark with lots of stuff on top
   - snowflake
     - a database solution + query with SQL
+- lessons
+  - the most important attribute for a star data scientist is judgment.
+  - The fundamental mission of any data science role is not to build complex models, but how to add value to the business
+  - primary function of data science is to support business function — generate growth, improve engagement, reduce inefficiency, and ultimately, more revenue and less cost. This means:
+    - You have to understand where the business is going (company’s North Star).
+    - You have to understand how various business units such as marketing, product and engineering are currently working towards the company’s north star, and what their road maps are. Understand alignments and gaps, and how data can drive synergy.
+    - You have to understand how the data science function fits into the business organically, and how the team is developing and contributing. Where are the biggest deficiencies both technically and operationally (data quality? pipeline efficiency? Communication clarity? Value?).
+    - Then finally, how to get data, what you can learn from the data, what data product you can build cross functionally, and how that may change the business.
+  - The biggest risk of many data scientists is working in the vacuum — trying too hard to solve techinical problems without thinking about the business impact.
+  - The Why question is much more critial than How, and very often a 80% solution is superior to a 90% solution
+  - And on top of the techinical decision making — you should be driving discussions, align teams, provide solid evidence supporting your perspectives about the past and the future
+  - you also need very solid techinical foundation to deliver trustworthy findings. The crediblity of data scientist is everything — one major fallacy would lead to compromised trust, consequently banishment from the core decision tables
+  - Very often the model performance metric is not the deciding factor of whether you should proceed for production. The potential incremental gain, cost of development time, required resources, implementation complexity, computation time, interpretability, data availability, fail-safe plans, impact to other teams… and many other factors are much more important
+  - you need to be passionate about the business. You don’t come in and just explore data or build models for the sake of doing them, but you want to make the business better with your outstanding work.
+  - you want to ask yourself where you want to be first. Different companies have very different needs, since you can’t do everything from the beginning, you need to focus — whether it’s time series predictions, natural language processing, recommendation systems or image classifications, you need to figure out what the business is looking for, and make alignments with your personal goals
 
 Links 🔗
 
 - [What Does Databricks Do?](https://interconnected.blog/what-does-databricks-do/)
 - [A Random Mixbag Statistical Methods](https://medium.com/@m.sugang/a-random-mixbag-statistical-methods-74fbbfe8c3ac)
-- [What I’ve Learned as a Data Scientist](https://medium.com/@m.sugang/what-ive-learned-as-a-data-scientist-edb998ac11ec)
+- [What I’ve Learned as a Data Scientist | by Gang Su | Medium](https://medium.com/@m.sugang/what-ive-learned-as-a-data-scientist-edb998ac11ec)
+
+## Day 76: Nov 14, 2022
+
+- Testing in Data Science
+  - assert statements
+    - on intermediate calculations or processes and basic calculation and arithmetic
+    - examples
+      - check symmetric difference between two sets are 0 when merging two datasets by a common ID
+      - `assert_frame_equal` to check if two dataframes are equal
+      - `np.isclose` to check if two arrays are close
+      - tip: look at documentation and test suite of libraries you're using to find the right tools to write tests
+  - identify new tests with [Hypothesis](https://hypothesis.readthedocs.io/en/latest/)
+    - rather than explicitly state exact objects, hypthesis generates example inputs that follow certain properties you define.
+  - test on data: pandera and great expectations
+    - why? Testing data is extremely helpful if we will be repeatedly receiving new data with the same structure
+    - [pandera](https://pandera.readthedocs.io/en/stable/)
+      - define schema for data with `infer_schema`
+      - add checks to columns
+    - [great expectations](https://greatexpectations.io/)
+      - generates a template of tests for data (pandera's `infer_schema` on steroies)
+      - data docs feature, communicate data quality issues
+  - pytest
+    - fixtures: objects commonly used across tests, the utility is so that you don't have to rewrite code to create the same object over and over again
+    - arrange-act-assert pattern
+
+Links 🔗
+
+- [Ways I Use Testing as a Data Scientist | Peter Baumgartner](https://www.peterbaumgartner.com/blog/testing-for-data-science/?s=08)
+- [Arrange-Act-Assert: A Pattern for Writing Good Tests | Automation Panda](https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/)
+- [Ranking YC Companies with a Neural Net | Eric Jang](https://evjang.com/2022/04/02/yc-rank.html)
+- [Building a compelling Data Science Portfolio with writing – Weights & Biases](https://wandb.ai/parul_pandey/discussions/Building-a-compelling-Data-Science-Portfolio-with-writing--Vmlldzo4MTA4OTE)

@@ -1573,3 +1573,20 @@ Links 🔗
 - [1706.05098.pdf](https://arxiv.org/pdf/1706.05098.pdf)
 - [Recommending What Video to Watch Next: A Multitask Ranking System](https://daiwk.github.io/assets/youtube-multitask.pdf)
 - [Cross-Batch Negative Sampling for Training Two-Tower Recommenders](https://arxiv.org/pdf/2110.15154.pdf)
+- [All Words - Machine Learning Glossary](https://machinelearning.wtf/all/)
+
+## Day 75: Nov 13, 2022
+
+- databricks vs snowflake
+  - databricks
+    - data storage interface + dev environment + scheduler + spin up compute with isolated dependencies
+    - access mounted file systems
+    - well executed paid version of spark with lots of stuff on top
+  - snowflake
+    - a database solution + query with SQL
+
+Links 🔗
+
+- [What Does Databricks Do?](https://interconnected.blog/what-does-databricks-do/)
+- [A Random Mixbag Statistical Methods](https://medium.com/@m.sugang/a-random-mixbag-statistical-methods-74fbbfe8c3ac)
+- [What I’ve Learned as a Data Scientist](https://medium.com/@m.sugang/what-ive-learned-as-a-data-scientist-edb998ac11ec)

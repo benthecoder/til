@@ -1635,3 +1635,37 @@ Links 🔗
 - [Arrange-Act-Assert: A Pattern for Writing Good Tests | Automation Panda](https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/)
 - [Ranking YC Companies with a Neural Net | Eric Jang](https://evjang.com/2022/04/02/yc-rank.html)
 - [Building a compelling Data Science Portfolio with writing – Weights & Biases](https://wandb.ai/parul_pandey/discussions/Building-a-compelling-Data-Science-Portfolio-with-writing--Vmlldzo4MTA4OTE)
+
+## Day 77: Nov 15, 2022
+
+- check if blocking effective? : F > 1
+  - if random blocks model, F > 1 is equivalent to variance component > 0
+- cell mean = average Y for one combination of all factors
+- marginal mean = avg of cell means, averaged over all other factors
+- ls mean (least squares) = either cell mean or marginal mean
+- simple effect: difference or linear contrast between two cell mean
+- main effect: difference or linear contrast between two marginal mean
+- interactions exist when simple effects are not equal
+  - in other words: they concern equality of simple effects.
+  - ex: does men and women react differently to the treatment?
+- effects of unbalanced data
+  - type I SS : sequential SS, each term compared to model with "earlier" terms
+    - depends on order of terms, when unbalanced data, different order of terms can lead to different type I SS
+    - why? contrats that are orthogonal for equal sample size are not orthogonal for unequal sample size
+  - type III SS : partial SS, each term compared to model with all other terms except term of interest
+    - same for any order of terms
+    - same as SS derived using contrasts among cell means
+  - note: When a term is the last one in the model, the sequential approach and partial approach will always compare the same pair of models.
+- check for missing obsevation
+  - check if corrected total error = N - 1
+- check for missing cells
+  - check if highest interaction term SS has expected df (product of main effect dfs)
+- what is ancova?
+  - introducing a covariate to a regression model to control for a confounding variable
+  - what is covariate? a variable that is measured at the same time as the outcome variable and that might potentially confound the relationship between the independent variable and the dependent variable
+  - ex: you want to see if there is a relationship between the number of hours a student studies and their test score. However, you also know that the student's intelligence is a confounding variable. You can control for this by including intelligence as a covariate in your regression model.
+  - code example: `model <- lm(score ~ hours + intelligence, data = mydata)` where `score` is the dependent variable, `hours` is the independent variable, and `intelligence` is the covariate.
+
+Links 🔗
+
+- [Using functional analysis to model air pollution data in R | Nicola Rennie](https://nrennie.rbind.io/blog/2022-11-14-using-functional-analysis-to-model-air-pollution-data-in-r/)

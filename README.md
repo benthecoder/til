@@ -1669,3 +1669,21 @@ Links 🔗
 Links 🔗
 
 - [Using functional analysis to model air pollution data in R | Nicola Rennie](https://nrennie.rbind.io/blog/2022-11-14-using-functional-analysis-to-model-air-pollution-data-in-r/)
+
+## Day 78: Nov 16, 2022
+
+- Techniques to optimize NN model performance
+  - parallelization: splitting training data (mini) batches into chucnks and process these smaller chunks in parallel
+  - vectorization: replaces costly for loops with operations that apply the same operations to multiple elements (torch.tensor and dot product)
+  - loop tiling: change data accessing order in a loop to leverage hardware's memory layout and cache.
+  - operator fusion: combine multiple loops into one
+  - quantiation :reduce numerical precision (floats -> ints) to speed up computation and lower memory requirements (while maintaining accuracy) (lightnihg.pytorch.callbacks import QuantizationAwareTraining)
+- UMAP : Uniform Manifold Approximation and Projection for Dimension Reduction
+  - faster than tSNE
+  - UMAP overall follows the philosophy of tSNE, but introduces a number of improvements such as another cost function and the absence of normalization of high- and low-dimensional probabilities
+
+Links 🔗
+
+- [rasbt/mlxtend: A library of extension and helper modules for Python's data analysis and machine learning libraries.](https://github.com/rasbt/mlxtend)
+- [How Exactly UMAP Works. And why exactly it is better than tSNE | by Nikolay Oskolkov | Towards Data Science](https://towardsdatascience.com/how-exactly-umap-works-13e3040e1668)
+- [UMAP paper](https://arxiv.org/pdf/1802.03426.pdf)

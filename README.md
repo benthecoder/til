@@ -1729,3 +1729,32 @@ Links 🔗
 Links 🔗
 
 - [How to Get and Evaluate Startup Ideas | Startup School](https://youtu.be/Th8JoIan4dg)
+
+## Day 80: Nov 18, 2022
+
+- Federated learning
+  - a general framework that leverages data minimization tactics to enable multiple entities to collaborate in solving a machine learning problem.
+  - data minimization: the process of reducing the amount of data that is shared between entities in a federated learning system.
+  - secure aggregation: a technique that allows multiple entities to collaboratively compute a function on their local data without revealing their data to each other.
+    - Secure aggregation and secure enclaves - combining many local models into an aggregate without revealing the contribution of any user to the server.
+    - In the secure aggregation protocol, user devices agree on shared random numbers, teaming up to mask their local models in a way that preserves the aggregated result. The server won’t know how each user modified their model.
+  - training a federated model
+    - sophisticated models require many iterations of local training and federated averaging
+    - local heat map models drift apart after a significant period of local training, and the latest global model’s accuracy might degrade upon merging. Relatively frequent periodic averaging is used to avoid this
+  - outliers
+    - excluding outliers from training risks reducing accuracy for groups of people less represented in the training pool
+    - in practice the server in a federated learning system cannot directly see user training data, which makes detecting outliers in federated learning tricky
+  - differential privacy
+    - If one user’s participation can significantly affect the model (outlier), then someone observing the final model might be able to determine who participated in training, or even infer their local data
+    - Carefully bounding the impact of any possible user contribution and adding random noise to our system can help prevent this, making our training procedure differentially private
+    - In practice user models are clipped and noised rather than their raw data, or noise is applied to the combination of many clipped models. Applying the noise centrally tends to be better for model accuracy, however the un-noised models may need to be protected by technologies like trusted aggregators.
+
+Links 🔗
+
+- [How Federated Learning Protects Privacy](https://pair.withgoogle.com/explorables/federated-learning/)
+- [Diffie–Hellman key exchange - Wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)
+- [Differential privacy in (a bit) more detail - Ted is writing things](https://desfontain.es/privacy/differential-privacy-in-more-detail.html)
+- [Can a Model Be Differentially Private and Fair?](https://pair.withgoogle.com/explorables/private-and-fair/#:~:text=%E2%9A%AC%20Adding%20random%20noise%20to%20the%20gradient.)
+- [TensorFlow Federated](https://www.tensorflow.org/federated)
+- [TensorFlow Federated Tutorial Session - YouTube](https://www.youtube.com/watch?v=JBNas6Yd30A)
+- [Hidden Technical Debt in Machine Learning Systems](https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf)

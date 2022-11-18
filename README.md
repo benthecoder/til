@@ -1687,3 +1687,45 @@ Links 🔗
 - [rasbt/mlxtend: A library of extension and helper modules for Python's data analysis and machine learning libraries.](https://github.com/rasbt/mlxtend)
 - [How Exactly UMAP Works. And why exactly it is better than tSNE | by Nikolay Oskolkov | Towards Data Science](https://towardsdatascience.com/how-exactly-umap-works-13e3040e1668)
 - [UMAP paper](https://arxiv.org/pdf/1802.03426.pdf)
+
+## Day 79: Nov 17, 2022
+
+- Get and evaluate startup ideas
+  - 4 most common mistakes
+    - not solving a real problem (SISP: solution in search of problem ex: AI is cool what can AI be applied to)
+    - getting stuck on tarpit ideas (tarpit = set of ideas that have been around forever but have been stuck in tar and don't seem to get anywhere)
+      - what causes tarpit ideas? : widespread problem, seems easy to solve, structural reason why it hasn't been solved
+    - not evaluating an idea
+    - waiting for the perfect idea
+  - 10 key question for any idea
+    - Do you have a founder/market fit?: pick a good idea for my team!
+    - How big is the market?: ex: Coinbase
+    - How accute is the problem? ex: Brex
+    - Do you have competition?: Most good ideas have competition, but needs a new insight -> Yes I do
+    - Do you want this?: Do you know personally who wants this? -> I know someone who wants this, but I am not sure if I want this.
+    - Did this recently become possible or necessary? ex: Checkr
+    - Are there good proxies for this business? proxies is a large company that does something similar, but not a direct competitor. Rappi example.
+    - Is this an idea you'd want to work on for years?: boring idea is okay, and tend to be passionate over time.
+    - Is this a scalable business? Software -> check, high skilled human labor.
+    - Is this a good idea space? Do you expect is going to have a reasonable hit rate. ex: Fivetran
+  - 3 things that make ideas good
+    - hard problem ex: Stripe (credit card processing and banks)
+    - boring space ex: Gusto (payroll)
+    - existing competitors ex: DropBox (19 other competitors which had bad UI, dropbox edge was integration with OS)
+  - how to come up with ideas? (3 ways)
+    - become an expert on something valuable
+    - work at a startup
+    - build thigns you find interesting
+  - 7 recipe to generate ideas
+    - start with what your team is good at : automatic founder market fit (ex: Rezi)
+    - start with a problem you've personally encountered (ex: Vetcove)
+    - think of things you've personally wish existed (ex: DoorDash)
+    - look at things that have changed recently (ex: Covid -> Gathertown)
+    - Look for new variants of successful companies (ex: Nuvocargo)
+    - talk to people and ask them what problems they have (pick fertile idea space and talk to people in that space ex: AtoB)
+    - look for a big industry that seem broken (ripe for disruption)
+    - find a cofounder with an idea
+
+Links 🔗
+
+- [How to Get and Evaluate Startup Ideas | Startup School](https://youtu.be/Th8JoIan4dg)

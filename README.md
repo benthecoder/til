@@ -1758,3 +1758,36 @@ Links 🔗
 - [TensorFlow Federated](https://www.tensorflow.org/federated)
 - [TensorFlow Federated Tutorial Session - YouTube](https://www.youtube.com/watch?v=JBNas6Yd30A)
 - [Hidden Technical Debt in Machine Learning Systems](https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf)
+
+## Day 81: Nov 19, 2022
+
+- all roads lead to rome
+  - Ilya Sutskever - "Every Successful (Tech) Company will be an AGI company”
+  - improving a product by the same delta involves exponentially harder tech
+    - In semiconductor manufacturing, shrinking from 32nm to 14nm process nodes is pretty hard, but going from 14nm to 7nm process nodes is insanely hard, requiring you to solve intermediate problems like creating ultrapure water.
+    - Creating a simple Text-to-Speech system for ALS patients was already possible in the 1980s, but improving pronunciation for edge cases and handling inflection naturally took tremendous breakthroughs in deep learning.
+    - A decent character-level language model can be trained on a single computer, but shaving a few bits of entropy off conditional character modeling requires metaphorically lighting datacenters on fire.
+    - Autonomous highway driving is not too hard, but autonomously driving through all residential roads at a L5 level is considered by many to be AGI-complete.
+  - In order to continue adding marginal value to the customer in the coming decades, companies are going to have to get used to solving some really hard problems, eventually converging to the same hard problem: Artificial General Intelligence (AGI)
+  - data moats in era of language models
+    - Google + Meta -> capture human desire and behaviour and knowledge
+    - github -> campture human problem solving
+    - gramarly + tiktok + adobe + riot games -> capture human creativity
+    - two sigma -> simulate world to predict markets
+    - tesla -> capture human decision making in real world
+    - all this leads to human thought, creativity, desire, cognition, physical intelligence distilled into a large model.
+
+Links 🔗
+
+- [All Roads Lead to Rome: The Machine Learning Job Market in 2022 | Eric Jang](https://evjang.com/2022/04/25/rome.html)
+- [Russell Kaplan on Twitter: "Second order effects of the rise of large language models:" / Twitter](https://twitter.com/russelljkaplan/status/1513128005828165634?s=20&t=QePcsbrR-QVHtegU-3KvrQ)
+- [Reality has a surprising amount of detail](http://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail)
+- [Timing Technology: Lessons From The Media Lab · Gwern.net](https://www.gwern.net/Timing)
+
+## Day 82: Nov 20, 2022
+
+- Cyberpunk 2077 day
+
+Links 🔗
+
+- [Hallucinations re: the rendering of Cyberpunk 2077](https://c0de517e.blogspot.com/search/label/Rendering%20tutorials)

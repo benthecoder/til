@@ -1791,3 +1791,22 @@ Links 🔗
 Links 🔗
 
 - [Hallucinations re: the rendering of Cyberpunk 2077](https://c0de517e.blogspot.com/search/label/Rendering%20tutorials)
+
+## Day 83: Nov 21, 2022
+
+- how super() works
+  - base and derived class, base class is the class that is inherited from, derived class is the class that inherits from another class, it uses super() to call the base class method and then add its own functionality
+  - if a derive class looks for a method or attribute in its own class, it will find it and use it, if it doesn't find it, it will look in the base class or any of the base classes of the base class, and so on until the root.
+  - this concept is known as next in line, or formally: Method resolution order (MRO) of an object, which defines search order for attribute lookups
+- great listening
+  - is attentiveness, conveying understanding and showing a positive intention to speaker
+  - tips
+    - remove any distractions around you, TV, phones, etc. (visible presence of phone made conversations less intimate) and try not to interrupt, if you do interject, ask open-ended question that helps the speaker (how did you that make you feel?)
+    - summarize what the speaker said
+    - stay present and if you lose focus, and ask to repeat what they said
+    - take a moment to formulate your response, gives them time to think about what they said
+
+Links 🔗
+
+- [super, Python's most misunderstood feature. - YouTube](https://www.youtube.com/watch?v=X1PQ7zzltz)
+- [4 things all great listeners know - YouTube](https://www.youtube.com/watch?v=i3ku5nx4tMU)

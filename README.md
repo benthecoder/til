@@ -1810,3 +1810,40 @@ Links 🔗
 
 - [super, Python's most misunderstood feature. - YouTube](https://www.youtube.com/watch?v=X1PQ7zzltz)
 - [4 things all great listeners know - YouTube](https://www.youtube.com/watch?v=i3ku5nx4tMU)
+
+## Day 84: Nov 22, 2022
+
+- build and deploy code (CICD)
+  - server (serve front and APIs)
+    - horizontal (increase capacity by adding more servers)
+    - vertical (increase server specs)
+  - storage (database)
+  - load balancer (route traffic to server)
+  - logging (log events ex: user actions, failed requests, etc.)
+  - metrics (track performance ex: response time, memory usage, etc.)
+  - alerts (notify when something goes wrong ex: server down, high memory usage, etc.)
+- MLE skills
+  - computer science fundamentals: data structures, algorithms, object-oriented programming
+  - an in-depth understanding of production engineering best practices: monitoring, alerting, unit testing, version control, latency, throughput, scale
+  - fundamentals of machine learning and statistics: traditional models, sampling, A/B testing
+  - an informed opinion about all the currently popular trends in a machine learning stack so you can select from them (RIP Lambda architecture)
+  - an understanding of the developments in the field you specialize in (medical AI, recommendations, search, ML for security, each of which are formulated as different problems and have their own context and vocabulary)
+  - YAML
+- types of memory (The Programmer’s Brain)
+  - As a quick primer, the human brain has several types of memory, short-term, working, and long-term. Short-term memory gathers information temporarily and processes it quickly, like RAM. Long-term memory are things you’ve learned previously and tucked away, like database storage. Working memory takes the information from short-term memory and long-term memory and combines them to synthesize, or process the information and come up with a solution.
+- two types of MLE
+  - Task MLE, who is responsible for sustaining a specific ML pipeline (or small set of ML pipelines) in production. They are concerned with specific models for business-critical tasks. They are the ones paged when top-line metrics are falling, tasked with “fixing” something. They are the ones who can most likely tell you when a model was last retrained, how it was evaluated, etc.
+  - the Platform MLE, who is responsible for helping Task MLEs automate tedious parts of their jobs. Platform MLEs build pipelines (including models) that support multiple Tasks, while Task MLEs solve specific Tasks. It’s analogous to, in the SWE world, building infrastructure versus building software on top of the infrastructure.
+- reading AI research papers
+  - I’m going to break down the process of reading AI research papers into two pieces: reading wide, and reading deep. When you start learning about a new topic, you typically get more out of reading wide: this means navigating through literature reading small amounts of individual research papers. Our goal when reading wide is to build and improve our mental model of a research topic. Once you have identified key works that you want to understand well in the first step, you will want to read deep: here, you are trying to read individual papers in depth. Both reading wide and deep are necessary and complimentary, especially when you’re getting started.
+
+Links 🔗
+
+- [Anatomy of a Production App - System Design - YouTube](https://www.youtube.com/watch?v=akXP6pC0piE&list=WL&index=7)
+- [How I learn machine learning | ★❤✰ Vicki Boykis ★❤✰](https://vickiboykis.com/2022/11/10/how-i-learn-machine-learning/)
+- [Landscape of Vector Databases - Dmitry Kan - Medium](https://dmitry-kan.medium.com/landscape-of-vector-databases-d241b279f486)
+- [MLOps Is a Mess But That's to be Expected - Mihail Eric](https://www.mihaileric.com/posts/mlops-is-a-mess/)
+- [Thoughts on ML Engineering After a Year of my PhD | Shreya Shankar](https://www.shreyashankar.com/phd-year-one/)
+- [Machine Learning: The High Interest Credit Card of Technical Debt – Google Research](https://research.google/pubs/pub43146/)
+- [Harvard CS197: AI Research Experiences](https://www.cs197.seas.harvard.edu/)
+- [My Philosophy on Alerting - Google Docs](https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/edit)

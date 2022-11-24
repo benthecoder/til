@@ -1847,3 +1847,26 @@ Links 🔗
 - [Machine Learning: The High Interest Credit Card of Technical Debt – Google Research](https://research.google/pubs/pub43146/)
 - [Harvard CS197: AI Research Experiences](https://www.cs197.seas.harvard.edu/)
 - [My Philosophy on Alerting - Google Docs](https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/edit)
+
+## Day 85: Nov 23, 2022
+
+- DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
+  - what: captures the insights that clusters are dense group sof points, The idea is that if a particular point belongs to a cluster, it should be near to lots of other points in that cluster.
+  - how:
+    - choose two parameters: epsilon and minPts
+    - begin picking an arbitrary point in dataset
+    - if minPts number of points are within epsilon distance of the point, then it part of a "cluster"
+    - expand that cluster by checking all new points, if they too have more than minPoints points within a distance of epsilon, growing the cluster recursively.
+    - eventually you run out of new points to add to the cluster and pick a new arbitrary point and repeat the process
+    - now you might encounter a point that has fewer than minPts points within epsilon distance, this is a "noise point" not belogning to any cluster.
+- cache python
+  - `from functools import cache` and `@cache` allows you to cache the result of a function call, so that if you call the function with the same arguments, it will return the cached result instead of recomputing it.
+  - variant of cache is `@lru_cache` (least recently used cache) that only saves up to the maxsize most recent calls. It can save time when an expensive or I/O bound function is periodically called with the same arguments.
+
+Links 🔗
+
+- [Visualizing DBSCAN Clustering](https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/)
+- [Tracking down the Villains: Outlier Detection at Netflix | by Netflix Technology Blog | Netflix TechBlog](https://netflixtechblog.com/tracking-down-the-villains-outlier-detection-at-netflix-40360b31732)
+- [The Single Most Useful Decorator in Python - YouTube](https://www.youtube.com/watch?v=DnKxKFXB4NQ)
+- [Principal Component Analysis – Math ∩ Programming](https://jeremykun.com/2012/06/28/principal-component-analysis/)
+- [PCA, visualized for human beings | casey.li](https://casey.li/pca/)

@@ -1840,7 +1840,7 @@ Links 🔗
 Links 🔗
 
 - [Anatomy of a Production App - System Design - YouTube](https://www.youtube.com/watch?v=akXP6pC0piE&list=WL&index=7)
-- [How I learn machine learning | ★❤✰ Vicki Boykis ★❤✰](https://vickiboykis.com/2022/11/10/how-i-learn-machine-learning/)
+- [How I learn machine learning](https://vickiboykis.com/2022/11/10/how-i-learn-machine-learning/)
 - [Landscape of Vector Databases - Dmitry Kan - Medium](https://dmitry-kan.medium.com/landscape-of-vector-databases-d241b279f486)
 - [MLOps Is a Mess But That's to be Expected - Mihail Eric](https://www.mihaileric.com/posts/mlops-is-a-mess/)
 - [Thoughts on ML Engineering After a Year of my PhD | Shreya Shankar](https://www.shreyashankar.com/phd-year-one/)
@@ -1870,3 +1870,43 @@ Links 🔗
 - [The Single Most Useful Decorator in Python - YouTube](https://www.youtube.com/watch?v=DnKxKFXB4NQ)
 - [Principal Component Analysis – Math ∩ Programming](https://jeremykun.com/2012/06/28/principal-component-analysis/)
 - [PCA, visualized for human beings | casey.li](https://casey.li/pca/)
+
+## Day 86: Nov 24, 2022
+
+- profiling python code
+  - basic profiling with cProfile
+  - web based visualization with [snakeviz](https://jiffyclub.github.io/snakeviz/)
+
+```python
+import cProfile
+import pstats
+
+with cProfile.Profile() as pr:
+  my_function()
+
+stats = pstats.Stats(pr)
+stats.sort_stats(pstats.SortKey.TIME)
+stats.print_stats()
+stats.dump_stats(filename="my_stats.prof")
+```
+
+```python
+import httpx
+import asyncio
+
+def my_function():
+  # get urls
+  async with httpx.AsyncClient() as client:
+    tasks = (client.get(url) for url in urls)
+    reqs = await asyncio.gather(*tasks)
+  # process responses
+
+# to run
+asyncio.run(my_function())
+```
+
+Links 🔗
+
+- [Diagnose slow Python code. (Feat. async/await) - YouTube](https://www.youtube.com/watch?v=m_a0fN48Alw)
+- [jiffyclub/snakeviz: An in-browser Python profile viewer](https://github.com/jiffyclub/snakeviz/)
+- [The Python Profilers — Python 3.11.0 documentation](https://docs.python.org/3/library/profile.html)

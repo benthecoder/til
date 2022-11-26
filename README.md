@@ -1910,3 +1910,45 @@ Links 🔗
 - [Diagnose slow Python code. (Feat. async/await) - YouTube](https://www.youtube.com/watch?v=m_a0fN48Alw)
 - [jiffyclub/snakeviz: An in-browser Python profile viewer](https://github.com/jiffyclub/snakeviz/)
 - [The Python Profilers — Python 3.11.0 documentation](https://docs.python.org/3/library/profile.html)
+- [pyutils/line_profiler: Line-by-line profiling for Python](https://github.com/pyutils/line_profiler)
+
+## Day 87: Nov 25, 2022
+
+- why is python slow
+  - python is single threaded and runs on a single core
+  - why? Global Interpreter Lock (GIL): a mutex that prevents multiple threads from executing Python bytecodes at once. This means that only one thread can be in a state of execution at any given time. This is a problem because it means that if you have a CPU-bound task, you can’t take advantage of multiple cores.
+- solution:
+  - asyncio
+    - cooporative pausing/waiting
+    - good for I/O bound operations (network, disk, etc)
+  - threading
+    - non-cooporative pausing / interrupting
+    - good for IO bound
+    - good to do long-running operations without blocking
+  - multiprocessing
+    - each process has its own memory space and GIL, fully utilizing all cores of the CPU
+    - `imap_unordered` - returns an iterator that yields results as they become available
+    - `imap` - returns an iterator that yields results in the order that they are completed
+    - `map` - returns a list of results in the order that they are completed
+- multiprocessing pitfalls
+  - use multiprocessing where overhead of creating and commucating between them is greater than cost of just doing computation.
+    - note: only apply to things that are already taking a long time
+  - send or receive across processes boundaries that are not picklable
+    - threads share virtual memory so variable in one thread can share memory with another thread
+    - processes have their own address space and do not share memory, multiprocessing gets around this by serializing everything with pickle and uses a pipe to send the bytes across the process boundary
+  - trying to send too much data
+    - instead of passing data, send message like a string that tells process how to create data on its own (ex: filename)
+  - using multiprocessing when there's a lot of shared computation between tasks
+    - ex: fibonnaaci sequence, huge waste of computing fibonnaci numbers independently as there is a lot of overlap
+  - not optimizing chunksize
+    - items are split into chunks, and worker grabs an entire chunk of work. bigger chunks allow individual workers to take less trips back to the pool to get more work
+    - tradeoff: bigger chunk = copy more items at once across process boundaries (out of memory)
+    - consider imap / imap_unordered as it gives results as they come in with an iterator
+    - larger chunk size = faster, but more memory, smaller chunk size = slower, but less memory
+
+Links 🔗
+
+- [Unlocking your CPU cores in Python (multiprocessing) - YouTube](https://www.youtube.com/watch?v=X7vBbelRXn0)
+- [Python Multiprocessing: The Complete Guide](https://superfastpython.com/multiprocessing-in-python/)
+- [multiprocessing — Process-based parallelism — Python 3.11.0 documentation](https://docs.python.org/3/library/multiprocessing.html)
+- [concurrent.futures — Launching parallel tasks — Python 3.11.0 documentation](https://docs.python.org/3/library/concurrent.futures.html)

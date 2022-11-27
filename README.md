@@ -31,7 +31,7 @@ Links 🔗
 
 - [A Closer Look At Structural Pattern Matching // New In Python 3.10!](https://www.youtube.com/watch?v=scNNi4860kk&list=PLC0nd42SBTaMpVAAHCAifm5gN2zLk2MBo&index=1)
 - [shlex — Simple lexical analysis — Python 3.10.6 documentation](https://docs.python.org/3/library/shlex.html)
-- [Lecture 03: Troubleshooting & Testing (FSDL 2022) - YouTube](https://www.youtube.com/watch?v=RLemHNAO5Lw)
+- [Lecture 03: Troubleshooting & Testing (FSDL 2022)](https://www.youtube.com/watch?v=RLemHNAO5Lw)
 
 ## Day 2: 1 Sep 2022
 
@@ -120,7 +120,7 @@ Links 🔗
 Links 🔗
 
 - [MLflow - A platform for the machine learning lifecycle | MLflow](https://mlflow.org/)
-- [A/B testing and growth analytics at AirBnb, metrics store-Nick Handel-the data scientist show#037 - YouTube](https://www.youtube.com/watch?v=5AH0zToK0e4)
+- [A/B testing and growth analytics at AirBnb, metrics store-Nick Handel-the data scientist show#037](https://www.youtube.com/watch?v=5AH0zToK0e4)
 - [Selection Bias in Online Experimentation](https://medium.com/airbnb-engineering/selection-bias-in-online-experimentation-c3d67795cceb)
 - [Glossary of A/B Testing Terms and Abbreviations](https://www.analytics-toolkit.com//glossary/)
 - [google-research/simclr: SimCLRv2 - Big Self-Supervised Models are Strong Semi-Supervised Learners](https://github.com/google-research/simclr)
@@ -272,7 +272,7 @@ Links 🔗
 
 Links 🔗
 
-- [Refactoring A Data Science Project Part 1 - Abstraction and Composition - YouTube](https://www.youtube.com/watch?v=ka70COItN40)
+- [Refactoring A Data Science Project Part 1 - Abstraction and Composition](https://www.youtube.com/watch?v=ka70COItN40)
 - [Python Type Hints - Duck typing with Protocol - Adam Johnson](https://adamj.eu/tech/2021/05/18/python-type-hints-duck-typing-with-protocol/)
 - [Sequential — PyTorch 1.12 documentation](https://pytorch.org/docs/stable/generated/torch.nn.Sequential.html)
 - [Every Data Scientist Should Know This Design Principle](https://aigents.co/data-science-blog/publication/every-data-scientist-should-know-this-design-principle)
@@ -349,7 +349,7 @@ Links 🔗
 
 Links 🔗
 
-- [Lecture 06: Continual Learning (FSDL 2022) - YouTube](https://www.youtube.com/watch?v=nra0Tt3a-Oc)
+- [Lecture 06: Continual Learning (FSDL 2022)](https://www.youtube.com/watch?v=nra0Tt3a-Oc)
 
 ## Day 20: 19 Sep 2022
 
@@ -365,7 +365,7 @@ Links 🔗
 
 Links 🔗
 
-- [Lecture 07: Foundation Models (FSDL 2022) - YouTube](https://www.youtube.com/watch?v=Rm11UeGwGgk&t=1087s)
+- [Lecture 07: Foundation Models (FSDL 2022)](https://www.youtube.com/watch?v=Rm11UeGwGgk&t=1087s)
 
 ## Day 21: 20 Sep 2022
 
@@ -411,7 +411,7 @@ Links 🔗
 
 - [Transformers, Explained: Understand the Model Behind GPT-3, BERT, and T5](https://daleonai.com/transformers-explained)
 - [[1409.0473] Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
-- [Illustrated Guide to Transformers Neural Network: A step by step explanation - YouTube](https://www.youtube.com/watch?v=4Bdc55j80l8&t=207s)
+- [Illustrated Guide to Transformers Neural Network: A step by step explanation](https://www.youtube.com/watch?v=4Bdc55j80l8&t=207s)
 
 ## Day 23: 22 Sep 2022
 
@@ -507,10 +507,10 @@ Links 🔗
 
 Links 🔗
 
-- [Sam Altman : How to Build the Future - YouTube](https://www.youtube.com/watch?v=sYMqVwsewSg)
+- [Sam Altman : How to Build the Future](https://www.youtube.com/watch?v=sYMqVwsewSg)
 - [Apache Kafka - IBM](https://www.ibm.com/cloud/learn/apache-kafka)
-- [What is Kafka? - YouTube](https://www.youtube.com/watch?v=aj9CDZm0Glc)
-- [Stanford CS224N: NLP with Deep Learning | Winter 2021 | Lecture 1 - Intro & Word Vectors - YouTube](https://www.youtube.com/watch?v=rmVRLeJRkl4&list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ)
+- [What is Kafka?](https://www.youtube.com/watch?v=aj9CDZm0Glc)
+- [Stanford CS224N: NLP with Deep Learning | Winter 2021 | Lecture 1 - Intro & Word Vectors](https://www.youtube.com/watch?v=rmVRLeJRkl4&list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ)
 
 ## Day 27: 26 Sep 2022
 
@@ -680,7 +680,7 @@ Links 🔗
 
 Links 🔗
 
-- [A Decade of Learnings from Y Combinator's CEO Michael Seibel - YouTube](https://www.youtube.com/watch?v=0MGNf1BIuxA)
+- [A Decade of Learnings from Y Combinator's CEO Michael Seibel](https://www.youtube.com/watch?v=0MGNf1BIuxA)
 
 ## Day 35: 4 Oct 2022
 
@@ -872,7 +872,7 @@ Links 🔗
 
 Links 🔗
 
--[1000x faster data manipulation: vectorizing with Pandas and Numpy - YouTube](https://www.youtube.com/watch?v=nxWginnBklU)
+-[1000x faster data manipulation: vectorizing with Pandas and Numpy](https://www.youtube.com/watch?v=nxWginnBklU)
 
 ## Day 43: 12 Oct 2022
 
@@ -959,7 +959,7 @@ Links 🔗
 
 Links 🔗
 
-- [Topic Modeling with SVD & NMF (NLP video 2) - YouTube](https://www.youtube.com/watch?v=tG3pUwmGjsc&t=2142s)
+- [Topic Modeling with SVD & NMF (NLP video 2)](https://www.youtube.com/watch?v=tG3pUwmGjsc&t=2142s)
 
 ## Day 48: 17 Oct 2022
 
@@ -999,7 +999,7 @@ Links 🔗
 
 Links 🔗
 
-- [Topic Modeling & SVD revisited (NLP video 3) - YouTube](https://www.youtube.com/watch?v=lRZ4aMaXPBI)
+- [Topic Modeling & SVD revisited (NLP video 3)](https://www.youtube.com/watch?v=lRZ4aMaXPBI)
 
 ## Day 50: 19 Oct 2022
 
@@ -1022,7 +1022,7 @@ Links 🔗
 - [CML · Continuous Machine Learning](https://cml.dev/doc/usage)
 - [How Data Scientists Can Improve Their Productivity | Iterative](https://iterative.ai/blog/how-data-scientists-can-improve-their-productivity)
 - [htorrence/pytest_examples: Reference package for unit tests](https://github.com/htorrence/pytest_examples)
-- [Unit Testing for Data Scientists - Hanna Torrence - YouTube](https://www.youtube.com/watch?v=Da-FL_1i6ps)
+- [Unit Testing for Data Scientists - Hanna Torrence](https://www.youtube.com/watch?v=Da-FL_1i6ps)
 
 ## Day 51: 20 Oct 2022
 
@@ -1113,11 +1113,11 @@ Links 🔗
 
 Links 🔗
 
-- [Is JSON Blazingly Fast or...? - YouTube](https://www.youtube.com/watch?v=MuCK81q1edU)
-- [It's time... for PYTHON 3.11! - YouTube](https://www.youtube.com/watch?v=ueTXYhtlnjA)
+- [Is JSON Blazingly Fast or...?](https://www.youtube.com/watch?v=MuCK81q1edU)
+- [It's time... for PYTHON 3.11!](https://www.youtube.com/watch?v=ueTXYhtlnjA)
   - [code](https://github.com/mCodingLLC/VideosSampleCode/tree/master/videos/109_python_311_release)
 - [Probably Overthinking It: There is still only one test](https://allendowney.blogspot.com/2016/06/there-is-still-only-one-test.html)
-- [John Rauser keynote: "Statistics Without the Agonizing Pain" -- Strata + Hadoop 2014 - YouTube](https://www.youtube.com/watch?v=5Dnw46eC-0o)
+- [John Rauser keynote: "Statistics Without the Agonizing Pain" -- Strata + Hadoop 2014](https://www.youtube.com/watch?v=5Dnw46eC-0o)
 
 ## Day 56: 25 Oct 2022
 
@@ -2014,3 +2014,52 @@ Links 🔗
 - [25 nooby Python habits you need to ditch - YouTube](https://www.youtube.com/watch?v=qUeud6DvOWI)
 - [Logging in Python – Real Python](https://realpython.com/python-logging/)
 - [The subprocess Module: Wrapping Programs With Python – Real Python](https://realpython.com/python-subprocess/)
+
+## Day 89: Nov 27, 2022
+
+- Graph Neural Networks
+  - why graphs
+    - some data are naturally described as graphs, ex: social networks, chemical compounds, protein interactions, etc
+    - in deep learning, we assume a structure on data. images (grid of pixels), text (sequence of words), etc. The assumption of that the data has spacial locality is what most of the methods we use are built on. With graphs, the goal is to go beyond euclidian geometry.
+  - what is a graph
+    - G = (V, E)
+    - a set of vertices (nodes) and edges
+    - undirected or directed
+    - each nodes has a feature vector / embedding of some size
+    - edges have a feature vector that describes the relationship between the nodes
+    - ex: each node is a molecule, feature vector is the chemical properties of the molecule, edge is the bond between two molecules
+  - common graph tasks
+    - node classification: classify each node (ex: fraud detection)
+    - graph classification: entire graph classification (ex: is it a toxic molecule)
+    - node clustering: identify nodes that are similar to each other (clustering)
+    - link prediction: predict the existence of an edge between two nodes (ex: user liking a particular movie)
+    - influence maximization: find particuclar node that has the most influence on the graph (ex: finding the most influential person in a social network)
+  - representation of graph
+    - adjacency matrix: matrix of size n x n where n is the number of nodes. each entry is 1 if there is an edge between the two nodes, 0 otherwise. can be sparse if there are few edges
+    - feature matrix (X): matrix of size n x d where n is the number of nodes and d is the dimension of the feature vector. each row is the feature vector of the node
+  - how a GNN works?
+    - in convolution: sliding a filter/kernel with particular weights, and does dot product with the underlying pixel values to get a new value
+    - in graphs: local neighborhood for each nodes, perform computation on the neighborhood and update the node
+  - information propagation
+    - information propagates throughout the network if we stack a bunch of layers, layers == shortes path between nodes
+  - key properties
+    - permutation invariance: the order of input nodes does not affect the output of network, a desirable property as it allows the network to learn the underlying structure of the graph
+    - permutation equivariance: permutation applied to input nodes should be the same as applying the same permutation to the output nodes
+  - message passing computation
+    - GNN layer 1
+      - (1) message : compute a message to send to the output node (done in parallel for all nodes)
+      - (2) aggregation : aggregate so order of nodes don't matter (ex: sum, mean, max, etc)
+      - (3) update : update the node embedding
+  - GNN variants
+    - convolution: sum of messages from neighbors normalized by the degree of the node, multiply by a weight matrix, adding the node embedding, and applying a non-linearity function
+    - attention: similar process, but adds an importance score to the nodes
+
+Links 🔗
+
+- [Graph Neural Networks: A gentle introduction](https://www.youtube.com/watch?v=xFMhLp52qKI&t=6)
+- [Stanford CS224W: Machine Learning with Graphs](https://www.youtube.com/playlist?list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn)
+- [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/)
+- [Understanding Convolutions on Graphs](https://distill.pub/2021/understanding-gnns/)
+- [Graph Neural Networks](https://www.youtube.com/playlist?list=PLV8yxwGOxvvoNkzPfCx2i8an--Tkt7O8Z)
+- [Intro to graph neural networks (ML Tech Talks)](https://www.youtube.com/watch?v=8owQBFAHw7E)
+- [Graph Neural Nets | AI Epiphany](https://www.youtube.com/playlist?list=PLBoQnSflObckArGNhOcNg7lQG_f0ZlHF5)

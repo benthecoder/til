@@ -1952,3 +1952,65 @@ Links 🔗
 - [Python Multiprocessing: The Complete Guide](https://superfastpython.com/multiprocessing-in-python/)
 - [multiprocessing — Process-based parallelism — Python 3.11.0 documentation](https://docs.python.org/3/library/multiprocessing.html)
 - [concurrent.futures — Launching parallel tasks — Python 3.11.0 documentation](https://docs.python.org/3/library/concurrent.futures.html)
+
+## Day 88: Nov 26, 2022
+
+- 7 deadly sins of speaking
+  - gossip: speaking negatively behind someone's back
+  - judging: "I'm better than you"
+  - negativity: negative viewpoint on things
+  - complaining: viral misery
+  - excuses: not taking responsibility for actions and blaming others
+  - exaggeration: inflating stuff excessively
+  - dogmatism: conflating facts with opinions
+- foundation of powerful speech (HAIL)
+  - Honesty: being clear and straight, but with love and compassion
+  - Authenticity: being yourselv and not imitating a non-generic persona. "Standing in your own truth"
+  - Integrity: Be your word, do what you say, take responsibility
+  - Love: Wishing people well
+- Toolbox for speech
+  - Register: talk from your chest (not nose or throat), we associate depth with power and authority
+  - Timbre: the way voice feels, "Rich, Smooth, Warm, like hot chocolate"
+  - Prosody: talking with enthusiasm, rythmic voice, not being monotonic
+  - Pace: talk normally and slow right down to emphasize a point
+  - Silence: powerful tool to bring attention
+  - Pitch: deliver an idea or ask a question and being understood
+  - Volumne: quiter the better in bringing attention
+- python tips
+  - use isinstance instead of == to check for type
+  - use if x instead of if len(x) > 0 to check for empty list
+  - don't use range(len(a))
+  - use time.perf_counter() instead of time.time() for timing
+  - use logging instead of print for debugging
+  - don't use shell=True in subprocess.run, it's a security risk, use list instead
+  - python is compiled to bytecode, which is then ran by the python interpreter
+
+```py
+import logging
+
+def my_function():
+  logging.debug("debug message")
+  logging.info("info message")
+  logging.warning("warning message")
+  logging.error("error message")
+  logging.critical("critical message")
+
+def main()
+  level = logging.DEBUG
+  fmt = "%(asctime)s %(levelname)s %(message)s"
+  logging.basicConfig(level=level, format=fmt)
+```
+
+```py
+import subprocess
+
+def my_function():
+  subprocess.run(["ls", "-l"], capture_output=True)
+```
+
+Links 🔗
+
+- [How to speak so that people want to listen](https://www.youtube.com/watch?v=eIho2S0ZahI)
+- [25 nooby Python habits you need to ditch - YouTube](https://www.youtube.com/watch?v=qUeud6DvOWI)
+- [Logging in Python – Real Python](https://realpython.com/python-logging/)
+- [The subprocess Module: Wrapping Programs With Python – Real Python](https://realpython.com/python-subprocess/)

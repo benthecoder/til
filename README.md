@@ -2063,3 +2063,58 @@ Links 🔗
 - [Graph Neural Networks](https://www.youtube.com/playlist?list=PLV8yxwGOxvvoNkzPfCx2i8an--Tkt7O8Z)
 - [Intro to graph neural networks (ML Tech Talks)](https://www.youtube.com/watch?v=8owQBFAHw7E)
 - [Graph Neural Nets | AI Epiphany](https://www.youtube.com/playlist?list=PLBoQnSflObckArGNhOcNg7lQG_f0ZlHF5)
+
+## Day 90: Nov 28, 2022
+
+- Python Generators
+  - used for lazy evaluation
+  - ex: range in Python, file processing
+  - generator pipelines
+    - define generator comprehensions line by line
+    - at teh point of calling the generator, the generator is not evaluated, it is only evaluated when the generator is iterated over
+  - advanced usage: send, throw, close
+    - yield is not just a statement, it also returns a value
+    - generators are bidirectional pipelines, it can yield value to caller, its caller can also send back values to the generator
+    - submit tasks to worker, something drives worker, worker decides how task is scheduled and when to call the function and do the work, this is like async (coroutines are defined with generators)
+  - `yield from` - allows you to yield from another generator
+    - ex: `yield from range(10)` is the same as `for i in range(10): yield i`
+    - true purpose: passing values from caller to subgenerator
+    - caller <-> quiet worker <-> worker
+
+```py
+def worker(f):
+  tasks = collections.deque()
+  value = None
+  while True:
+    batch = yield value
+    value = None
+    if batch is not None:
+      tasks.extend(batch)
+    else:
+      if tasks:
+        args = tasks.popleft()
+        value = f(*args)
+
+def example_worker():
+  w = worker(str)
+  w.send(None)
+  w.send[(1,), (2,), (3,)]
+  w.throw(ValueError) # acts as if the worker threw an exception
+  print(next(w))
+  print(next(w))
+  w.send[(4,), (5,)]
+  w.close() # throws special generator exit exception
+
+def quiet_worker(f):
+  while True:
+    w = worker(f)
+    try:
+      return_of_subgen = yield from w # pass messages from caller directly to worker
+    except Exception as exc:
+      print(f"ignoring {exc.__class__.__name__}")
+```
+
+Links 🔗
+
+- [Python Generators](https://www.youtube.com/watch?v=tmeKsb2Fras&t=737s)
+- [In practice, what are the main uses for the "yield from" syntax in Python 3.3?](https://stackoverflow.com/questions/9708902/in-practice-what-are-the-main-uses-for-the-yield-from-syntax-in-python-3-3)

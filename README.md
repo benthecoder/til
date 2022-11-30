@@ -2118,3 +2118,18 @@ Links 🔗
 
 - [Python Generators](https://www.youtube.com/watch?v=tmeKsb2Fras&t=737s)
 - [In practice, what are the main uses for the "yield from" syntax in Python 3.3?](https://stackoverflow.com/questions/9708902/in-practice-what-are-the-main-uses-for-the-yield-from-syntax-in-python-3-3)
+- [How to Use Generators and yield in Python – Real Python](https://realpython.com/introduction-to-python-generators/)
+
+## Day 91: Nov 30, 2022
+
+- `git reflog` to see the history of your git commits, find the one before you broke everything
+- `git reset HEAD@{index}` to go back to that commit
+- `git commit --amend --no-edit` to make changes to previous commit
+- `git commit --amend` to change last commit message
+- `git revert [saved hash]` to undo a commit
+- `git checkout [saved hash] -- path/to/file` to undo changes to a file
+
+Links 🔗
+
+- [Oh Shit, Git!?!](https://ohshitgit.com/)
+- [SQL Indexing and Tuning e-Book for developers: Use The Index, Luke covers Oracle, MySQL, PostgreSQL, SQL Server, ...](https://use-the-index-luke.com/)

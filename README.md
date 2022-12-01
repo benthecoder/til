@@ -2133,3 +2133,52 @@ Links 🔗
 
 - [Oh Shit, Git!?!](https://ohshitgit.com/)
 - [SQL Indexing and Tuning e-Book for developers: Use The Index, Luke covers Oracle, MySQL, PostgreSQL, SQL Server, ...](https://use-the-index-luke.com/)
+
+## Day 92: Nov 30, 2022
+
+- useful tips I got working on my GPT3 side project
+  - get project directory
+    - `project_dir = Path(__file__).resolve().parents[2]`
+  - find dot env file
+    - `load_dotenv(find_dotenv())`
+- article recommender system
+  - problem: how do we find good follow-up articles?
+  - how? using language models to generate embeddings as a basis for similarity search
+  - implementation and training
+    - effective method for fine tuning is training via triplet loss
+    - loss function: `max⁡{d(a, p)−d(a, n) + 𝛼, 0}`
+      - loss is 0 if anchor a and positive example p are closest and grows in proportion as negative example n gets closer
+      - 𝛼 is slack variable declaring a soft margin - if the difference in distance is within this margin we always penalize this model
+      - d(a, p) is commonly the cosine distance
+      - anchor: source article, positive: follow-up article, negative: random article
+    - model
+      - pre-trained BERT model with average pooling custom head to reduce embedding vector size
+    - evaluation
+      - 5% holdout set of articles, non-customized BERT vs custom BERT, similarity bewteen anchor and recommendation is much higher than random in custom.
+      - visualize embeddings with 3D PCA projection to identify clusters
+    - deployment
+      - AWS Sagemaker endpoint
+      - trigger lambda function that extracts dat and calls endpoint
+      - generated embeddings stored in DynamoDB and OpenSearch cluster
+      - for every request, look up embedding in table, OpenSearch supports fast KNN search
+      - query cluster for recommendations, re-rank them including age and popularity, send top 3 candidates to users
+- triplet loss:
+  - Triplet loss is a type of learning algorithm used in machine learning. It is called "triplet loss" because it uses three things to help a computer learn: a positive example, a negative example, and a "anchor" point.
+  - Imagine you have a computer that is trying to learn what a cat looks like. You show the computer a picture of a cat and say, "This is a cat." This is the positive example. Then, you show the computer a picture of a dog and say, "This is not a cat." This is the negative example. Finally, you show the computer a picture of a cat again and say, "This is also a cat." This is the anchor point.
+  - The computer uses these three examples to learn what a cat looks like. It compares the positive and negative examples and tries to figure out what makes them different. Then, it compares the anchor point to the positive example and tries to make sure they are similar and push it closer to the anchor than the negative example.
+- pooling
+  - The purpose of a custom pooling head is to allow the model to output a fixed-size representation (i.e. a "pooled" representation) of the input text that can be used for downstream tasks, such as classification or regression.
+  - In BERT, the pre-trained model outputs a sequence of hidden states for each input token. These hidden states capture the contextual information about the input, but they are not fixed-size vectors, so they cannot be used directly as input to a downstream task. A custom pooling head solves this problem by aggregating the hidden states in some way (e.g. by taking the mean or maximum value) to produce a fixed-size representation of the input text. This fixed-size representation can then be fed into a downstream task-specific model, such as a classification model or a regression model.
+  - how to choose?
+    - The type of downstream task: Different downstream tasks (e.g. classification, regression, semantic similarity) may require different types of pooled representations of the input text. For example, a classification task may benefit from a pooling head that captures the global context of the input text, while a regression task may benefit from a pooling head that captures the local context of the input text.
+    - The size of the input text: If the input text is very long, a pooling head that captures the global context of the input text may be more appropriate, as it will be able to produce a fixed-size representation that summarizes the entire input text. If the input text is very short, a pooling head that captures the local context of the input text may be more appropriate, as it will be able to produce a fixed-size representation that preserves the fine-grained details of the input text.
+
+Links 🔗
+
+- [Better article recommendations with triplet fine-tuning](https://medium.com/s%C3%BCddeutsche-zeitung-digitale-medien/better-article-recommendations-with-triplet-fine-tuning-6b52a587b85f)
+- [NLP: Everything about Embeddings. Numerical representations are a… | by Mohammed Terry-Jack | Medium](https://medium.com/@b.terryjack/nlp-everything-about-word-embeddings-9ea21f51ccfe)
+- [The Illustrated Word2vec – Jay Alammar – Visualizing machine learning one concept at a time.](https://jalammar.github.io/illustrated-word2vec/)
+- [Embedding projector - visualization of high-dimensional data](http://projector.tensorflow.org/)
+- [7.5. Pooling — Dive into Deep Learning 1.0.0-alpha1.post0 documentation](https://d2l.ai/chapter_convolutional-neural-networks/pooling.html)
+- [Adding Custom Layers on Top of a Hugging Face Model | by Raj Sangani | Towards Data Science](https://towardsdatascience.com/adding-custom-layers-on-top-of-a-hugging-face-model-f1ccdfc257bd)
+- [ENC2045 Computational Linguistics — ENC2045 Computational Linguistics](https://alvinntnu.github.io/NTNU_ENC2045_LECTURES/intro.html)

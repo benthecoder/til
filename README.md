@@ -2182,3 +2182,16 @@ Links 🔗
 - [7.5. Pooling — Dive into Deep Learning 1.0.0-alpha1.post0 documentation](https://d2l.ai/chapter_convolutional-neural-networks/pooling.html)
 - [Adding Custom Layers on Top of a Hugging Face Model | by Raj Sangani | Towards Data Science](https://towardsdatascience.com/adding-custom-layers-on-top-of-a-hugging-face-model-f1ccdfc257bd)
 - [ENC2045 Computational Linguistics — ENC2045 Computational Linguistics](https://alvinntnu.github.io/NTNU_ENC2045_LECTURES/intro.html)
+
+## Day 93: Dec 1, 2022
+
+- worked on gpt3-blog-title
+- docker stuff
+  - `docker build -t [image name] .` to build docker image
+  - `docker run -p 5000:5000 [image name]` to run docker image
+  - `docker builder prune` to remove unused images
+
+Links 🔗
+
+- [benthecoder/gpt3-blog-title: Using GPT-3 to help me get more claps on medium.com](https://github.com/benthecoder/gpt3-blog-title)
+- [Deploy Streamlit using Docker - Streamlit Docs](https://docs.streamlit.io/knowledge-base/tutorials/deploy/docker)

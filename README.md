@@ -2195,3 +2195,53 @@ Links 🔗
 
 - [benthecoder/gpt3-blog-title: Using GPT-3 to help me get more claps on medium.com](https://github.com/benthecoder/gpt3-blog-title)
 - [Deploy Streamlit using Docker - Streamlit Docs](https://docs.streamlit.io/knowledge-base/tutorials/deploy/docker)
+
+!## Day 94: Dec 2, 2022
+
+- What's a CDN?
+  - Content Delivery Network (CDN) was originally developed to speed up the delivery of static content such as HTML pages, images, and JavaScript files. Nowadays it is used whenever HTTP traffic is served
+  - The goal of a CDN is to deliver content to end-users with high availability and high performance.
+  - It is a network of servers that are deployed in multiple data centers around the world, known as PoPs (Points of Presence).
+  - A server inside a PoP is called an Edge Server.
+  - Two common CDNs
+    - DNS-based routing
+      - each PoP has it's own IP address, and the DNS server will return the IP address of the PoP that is closest to the end-user
+    - anycast
+      - all PoPs have the same IP address, and the end-user's request will be routed to the PoP that is closest to the end-user
+  - Each edge server acts as a reverse proxy with huge content cache
+    - greatly reduced the load and latency of the origin server
+  - modern CDN also transforms static content into more optimized format
+    - minify JS bundles on the fly
+    - transform image files to WEBP and AVIF format
+  - TLS handshakes are expensive, so TLS termination is done at the edge server, which reduces latency for user to establish and encrypted connection
+    - This is why modern apps send dynamic uncacheable content directly to the edge server, and let the edge server handle the TLS termination
+  - security
+    - all modern CDNs have huge network capacity at the edge, which prevents DDoS attacks by having a much larger network than attackers
+    - This is especially effective in Anycast which diffuses the attack across all PoPs
+  - improves availability
+    - by nature is highly distributed by having copies of contents available in multiple PoPs, it can handle many more hardware failures than origin server.
+- What is gRPC?
+  - RPC stands for Remote Procedure Call, which enables one machine to call a function on another machine as if it was a local function call
+  - gRPC is a popular implementation of RPC
+  - why is it popular?
+    - thriving developer ecosystem, with support for many languages and the core of this support is the use of Protocol Buffers (protobuf)
+      - What is protobuf?
+        - language-agnostic and platform-agnostic mechanism for encoding structured data
+      - why not JSON?
+        - protobuf supports strongly typed schema data, which means that the data is validated before it is sent over the wire
+        - provide broad tooling support to turn schema defined into data access classes for many languages
+      - gRPC is defined in a .proto file by specifing RPC method parameters and return types.
+      - same tooling is used to generate client and server code from proto file, which is used to make RPC calls (client) and fulfill RPC requests (server)
+    - highly performant out-of-the-box
+      - 1. uses efficieny binary encoding (5x faster than JSON)
+      - 2. Built on http/2, which allows multiply streams of data to be sent over a single long-lived TCP connection. This means it can handle many concurrent RPC calls over a small number of TCP connections
+  - why isn't this popular in web clients and servers?
+    - gRPC relies on lower-level access to http/2 primitives, it's possible with gRPC-web which makes gRPC calls with a proxy. However, the feature set is not fully compatible
+  - when to use it?
+    - inter-service communication mechanism of choice between microservices in data centers
+    - in native mobile clients
+
+Links
+
+- [What Is A CDN? How Does It Work? - YouTube](https://www.youtube.com/watch?v=RI9np1LWzqw)
+- [What is RPC? gRPC Introduction. - YouTube](https://www.youtube.com/watch?v=gnchfOojMk4)

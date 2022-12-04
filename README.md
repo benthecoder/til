@@ -2196,7 +2196,7 @@ Links 🔗
 - [benthecoder/gpt3-blog-title: Using GPT-3 to help me get more claps on medium.com](https://github.com/benthecoder/gpt3-blog-title)
 - [Deploy Streamlit using Docker - Streamlit Docs](https://docs.streamlit.io/knowledge-base/tutorials/deploy/docker)
 
-!## Day 94: Dec 2, 2022
+## Day 94: Dec 2, 2022
 
 - What's a CDN?
   - Content Delivery Network (CDN) was originally developed to speed up the delivery of static content such as HTML pages, images, and JavaScript files. Nowadays it is used whenever HTTP traffic is served
@@ -2245,3 +2245,46 @@ Links
 
 - [What Is A CDN? How Does It Work? - YouTube](https://www.youtube.com/watch?v=RI9np1LWzqw)
 - [What is RPC? gRPC Introduction. - YouTube](https://www.youtube.com/watch?v=gnchfOojMk4)
+
+## Day 95: Dec 3, 2022
+
+- Tips for Writing Functions
+  - (1) do one thing and do it well
+    - take out low-level things and put into another function
+  - (2) separate commands from queries
+    - either retrieve information or perform an action (command-query separation principle)
+  - (3) Only request information you actually need
+    - passing in arguments that the function needs instead of an entire class
+  - (4) keep number of parameters minimal
+    - good indication of how much the function is supposed to do
+    - provide default values if possible
+    - introduce abstraction that represent arguments
+      - Protocol class for function arguments (Card protocol for Customer class)
+      - dataclasses to represent subobjects (respresent data better)
+  - (5) don't create and use object in same function
+    - forces you to use a specific implementation (ex: Stripe class for payment, can't use other payment methods)
+    - either pass in class as argument or introduce abstraction by creating a protocol (ex: Payment protocol)
+  - (6) don't use flag arguments
+    - what are flag arguments? a function argument of a boolean type that alters function behaviour
+    - using this is example of a code smell
+    - should be two functions: one for the case where the flag is true, and one for the case where the flag is false
+  - (7) remember functions are objects
+    - `from typing import Callable`
+      - allow you to pass functions as arguments instead of having to instatiate a class
+    - `from functools import partial`
+      - create a subfunction that is a partial application of another function (ex: `dbl = partial(multiply, 2)`)
+  - Bonus tip
+    - check functions with "and" in name, they should be split up
+    - choose good argument names `publish_info_to_library(lib)` -> `publish_info_to(library)`
+    - should be actions (verbs) and arguments should be nouns
+    - use the same vocabulary for arguments and functions
+    - use naming scheme that language describe (snake_case, camelCase, PascalCase)
+    -
+- Force use of keyword arguments
+  - `def my_function(*, name: str, age: int):` - forces any function call to use keywords
+
+Links 🔗
+
+- [The Ultimate Guide to Writing Functions - YouTube](https://www.youtube.com/watch?v=yatgY4NpZXE)
+- [Building Implicit Interfaces in Python with Protocol Classes](https://andrewbrookins.com/technology/building-implicit-interfaces-in-python-with-protocol-classes/)
+- [Python Protocol](https://www.pythontutorial.net/python-oop/python-protocol/)

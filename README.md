@@ -2288,3 +2288,40 @@ Links 🔗
 - [The Ultimate Guide to Writing Functions - YouTube](https://www.youtube.com/watch?v=yatgY4NpZXE)
 - [Building Implicit Interfaces in Python with Protocol Classes](https://andrewbrookins.com/technology/building-implicit-interfaces-in-python-with-protocol-classes/)
 - [Python Protocol](https://www.pythontutorial.net/python-oop/python-protocol/)
+
+## Day 96: Dec 4, 2022
+
+- docker stuff
+  - copy requirements and install first then copy app so that installation of requirements (which takes longer) is cached
+  - what is docker compose for?
+    - when deploying code to cloud, you need to build docker images just like the way before and tell kubernetes to update the running image to the next version (done with CI/CD like github actions)
+    - doing it locally is not great, every time you change code -> stop server -> rebuild docker image -> restart container
+    - 2 main features `docker-compose.yml`
+      - (1) custom run command that restarts automatically when file has been change
+      - (2) sync folder in your local machine (volume) to a folder running inside the container
+  - use multi-stage builds, docker images' size gets really blown out when you create many layers on them
+  - not use the latest image unless you're running some testing for building docker images, I've met some situations when something changed between let's say python3.6->3.9 and the docker image would be non functional
+  - look into docker-slim after the two-stage images, Your image is probably ~800-900 MB, two stage build with alpine-python or python:slim would make it go to ~100-150MB and after docker slim you could be left with at most 50MB.
+  - building with Kaniko (tool from google) instead of docker build, it's faster, produces slightly lighter images and has better caching at least in my experience
+
+```py
+FROM python:3.9-alpine
+
+# set the working directory
+WORKDIR /app
+
+# install dependencies
+COPY ./requirements.txt /app
+RUN pip install --no-cache-dir --upgrade -r requirements.txt
+
+# copy the scripts to the folder
+COPY . /app
+
+# start the server
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]
+
+```
+
+Links 🔗
+
+- [How To Use Docker To Make Local Development A Breeze - YouTube](https://www.youtube.com/watch?v=zkMRWDQV4Tg)

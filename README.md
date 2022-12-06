@@ -2325,3 +2325,27 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]
 Links 🔗
 
 - [How To Use Docker To Make Local Development A Breeze - YouTube](https://www.youtube.com/watch?v=zkMRWDQV4Tg)
+
+## Day 97: Dec 5, 2022
+
+- Storing passwords
+  - Not to do: storing in plain text
+  - Right way: Open Web Application Security Project (OWASP) guidelines
+    - (1) use modern hashing algorithm
+      - hasing is a one way function, impossible to decrypt a hash to obtain original password
+      - faster functions like md5 and sha1 are not secure enough, they can be cracked with brute force attacks
+      - bcrypt -> slow functions
+    - (2) salt the passwords, salt is unique randomly generated string that is added to each password
+      - hash(password + salt)
+      - why salt? storing password as one-way hash is not sufficient, attacker can defeat it with pre-computation attacks like rainbow tables and database-based lookups to find the password. Adding a salt makes the hash unique to each password
+    - process
+      - password + salt -> hash -> store `id, hash, salt` in database
+      - user login -> lookup user in database -> hash password + salt -> compare with hash in database
+  - additional stuff
+    - In addition to a per-password salt you can also add a random, application-specific "pepper". It's hashed along with the password and the salt, but unlike the salt the pepper is not stored in the DB. A dump is useless without the pepper and an attacker would often need multiple vectors to obtain both.
+
+Links 🔗
+
+- [System Design: How to store passwords in the database? - YouTube](https://youtu.be/zt8Cocdy15c)
+- [Hashing in Action: Understanding bcrypt](https://auth0.com/blog/hashing-in-action-understanding-bcrypt/)
+- [Lecture24.pdf](https://engineering.purdue.edu/kak/compsec/NewLectures/Lecture24.pdf)

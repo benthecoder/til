@@ -2349,3 +2349,33 @@ Links 🔗
 - [System Design: How to store passwords in the database? - YouTube](https://youtu.be/zt8Cocdy15c)
 - [Hashing in Action: Understanding bcrypt](https://auth0.com/blog/hashing-in-action-understanding-bcrypt/)
 - [Lecture24.pdf](https://engineering.purdue.edu/kak/compsec/NewLectures/Lecture24.pdf)
+
+## Day 98: Dec 6, 2022
+
+- Science-Based Tools For Increasing Happiness
+  - describing happiness
+    - Language is not always a sufficient tool for describing states of the brain and body
+    - No single neurotransmitter or neuromodulator is responsible for the state of happiness – but it is true that people with lower levels of dopamine and serotonin at baseline self-report lower levels of happiness
+  - two types of happiness
+    - natural: obtained through gift or effort
+    - synthetic (self-induced): focusing on leveraging opportunities and making choices that enhances happiness
+      - about managing the emotional and reward system of the brain –the anticipation of something can make you as happy as the thing itself
+      - We need to make an effort toward being happy: focus on the things that bring meaning and engage in things that bring meaning – adjust home and work environment so it’s pleasant for you
+  - trends in happiness
+    - Takeaways from the longest longitudinal study on happiness (75 years): (1) money doesn’t create happiness – past a certain level of income, happiness doesn’t scale with money (though it does buffer stress) (2) total amount of time spent working does not create happiness
+    - The trajectory of happiness across one’s lifespan is a U-shaped curve: people in 20s tend to be happiest until responsibilities pick up in their 30s, 40s, and 50s; happiness picks up again in their 60s and 70s when demands reduce
+    - People age 25 or older tend to be less happy on their birthdays because we get a snapshot of where our lives are compared to peers, or what we’ve accomplished relative to age
+  - tips
+    - (1) prosocial spending: giving increases happiness for the giver (money, effort, and time)
+    - (2) staying focused: focusing on the current activity leads to higher self-reported happiness than mind wandering (meditation can enhance ability to focus)
+    - (3) quality social connection: relationships induce happiness, we have a whole area of the brain dedicated to facial recognition
+      - two forms: presence and mutual eye contact and nonsexual physical contact
+    - (4) pet: even seeing dogs stimulates happiness (foster dogs, visit shelters, walk dogs)
+  - sunlight = happiness - viewing direct morning sunlight within 30-60 min helps you fall asleep and stay asleep at night, and optimize cortisol and adenosine levels -
+
+Links 🔗
+
+- [Science-Based Tools for Increasing Happiness | Huberman Lab Podcast #98 - YouTube](https://www.youtube.com/watch?v=LTGGyQS1fZE)
+- [Spending Money on Others Promotes Happiness | Science](https://www.science.org/doi/10.1126/science.1150952)
+- [A Wandering Mind Is an Unhappy Mind | Science](https://www.science.org/doi/10.1126/science.1192439)
+- [The Molecule of More: How a Single Chemical in Your Brain Drives Love, Sex, and Creativity—and Will Determine the Fate of the Human Race by Daniel Z. Lieberman](https://www.goodreads.com/book/show/38728977-the-molecule-of-more)

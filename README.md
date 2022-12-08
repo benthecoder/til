@@ -2379,3 +2379,36 @@ Links 🔗
 - [Spending Money on Others Promotes Happiness | Science](https://www.science.org/doi/10.1126/science.1150952)
 - [A Wandering Mind Is an Unhappy Mind | Science](https://www.science.org/doi/10.1126/science.1192439)
 - [The Molecule of More: How a Single Chemical in Your Brain Drives Love, Sex, and Creativity—and Will Determine the Fate of the Human Race by Daniel Z. Lieberman](https://www.goodreads.com/book/show/38728977-the-molecule-of-more)
+
+## Day 0: Dec 7, 2022
+
+- why is kafka fast
+  - what does fast mean? latency or throughput, compared to what?
+  - kafka is optimized for high throughput, designed to move large number of records in a short amount of time
+    - think of it like a large pipe moving liquid, the bigger the diameter of the pipe, the larger the volume of liquid
+  - kafka is fast in the sense that it can move a lot of data efficiently
+  - kafka's design choices
+    - (1) sequential I/O
+      - two types of access patterns
+        - random : hard drives, takes time to physically move the arm to different locations on the magnetic disk, makes it slow
+        - sequential : arm moves one after the other, much faster to read and write blocks of data since it doesn't have to jump around
+      - uses append-only log as its primary data structure (sequential access pattern)
+      - metrics
+        - sequential: 100MB/s
+        - random: 100KB/s
+      - HDDs 1/3 of price but 3x storage capacity of SSDs
+    - (2) zero copy principle
+      - modern unix systems use zero copy to read data from disk to memory
+      - without zero copy
+        - disc -> OS buffer -> kafka application buffer -> socket buffer -> NIC buffer -> consumer
+      - with zero copy
+        - disc -> OS Buffer -> (direct copy) NIC buffer -> consumer
+        - this copy is done with DMA (direct memory access) which is a hardware feature that allows the NIC to directly access the memory of the OS
+
+Links 🔗
+
+- [System Design: Why is Kafka fast? - YouTube](https://www.youtube.com/watch?v=UNUz1-msbOM)
+- [The Log: What every software engineer should know about real-time data's unifying abstraction | LinkedIn Engineering](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
+- [Confluent Developer: Your Apache Kafka® Journey begins here](https://developer.confluent.io/)
+- [Kafka as a Platform: the Ecosystem from the Ground Up](https://talks.rmoff.net/8OCgKp/kafka-as-a-platform-the-ecosystem-from-the-ground-up)
+- [aiven/python-notebooks-for-apache-kafka: A Series of Notebooks on how to start with Kafka and Python](https://github.com/aiven/python-notebooks-for-apache-kafka)

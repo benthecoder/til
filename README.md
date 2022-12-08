@@ -2412,3 +2412,34 @@ Links 🔗
 - [Confluent Developer: Your Apache Kafka® Journey begins here](https://developer.confluent.io/)
 - [Kafka as a Platform: the Ecosystem from the Ground Up](https://talks.rmoff.net/8OCgKp/kafka-as-a-platform-the-ecosystem-from-the-ground-up)
 - [aiven/python-notebooks-for-apache-kafka: A Series of Notebooks on how to start with Kafka and Python](https://github.com/aiven/python-notebooks-for-apache-kafka)
+
+## Day 0: Dec 8, 2022
+
+- The science of falling in love
+  - first stage of love: infatuation (passionate love) (few months)
+    - show increased activation in Ventral Tegmental Area (VTA)
+      - VTA is reward processing and motivation hub of the brain, firing when you do things like eating a sweet treat or in extreme cases taking drug of abuse
+      - activation releases the "feel good" neurotransmitter dopamine, teaching your brain to repeat behaviours in anticipation of reward
+      - this increase VTA activity is why love is euphoric and what draws you to your new partner
+    - hard to see faults in new partner
+      - this haze is love's influence on higher cortical brain regions
+      - newly infatuated individuals show decreased activity in brains cognitive center, the prefrontal cortex (for critical thoughts and pass judgement)
+  - second stage : attatchment (compassionate love) (longer lasting)
+    - feel relaxed and committed to partner due to oxytocin and vasopressin
+      - known as pair-bonding hormones - signal trust, social support and attatchment, also helsp bond families and friendships
+    - oxytocin inhibit release of stress hormones, which is why you feel relaxed with loved ones
+    - love's suspension of judgement fades, replaced by honest understanding and deeper connection
+    - problems in relationship becomes more evident
+  - heartbrakes
+    - distress of breakup activates insular cortex
+      - regions that processes pain (physical and social)
+      - as time passes, daydream / crave contact with partner, drive to reach out like extreme hunger or thirst
+    - increased activity in VTA
+    - activates your body's alarm system, the stress axis, leaving you shaken and restless
+    - higher cortical regions which oversee reasoning and impulse control pump brakes on the distress and craving signaling
+
+Links 🔗
+
+- [The science of falling in love - Shannon Odell - YouTube](https://www.youtube.com/watch?v=f_OPjYQovAE)
+- [The Anatomy Of Love](https://theanatomyoflove.com/)
+- [Love, Actually: The science behind lust, attraction, and companionship - Science in the News](https://sitn.hms.harvard.edu/flash/2017/love-actually-science-behind-lust-attraction-companionship/)

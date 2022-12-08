@@ -2380,7 +2380,7 @@ Links 🔗
 - [A Wandering Mind Is an Unhappy Mind | Science](https://www.science.org/doi/10.1126/science.1192439)
 - [The Molecule of More: How a Single Chemical in Your Brain Drives Love, Sex, and Creativity—and Will Determine the Fate of the Human Race by Daniel Z. Lieberman](https://www.goodreads.com/book/show/38728977-the-molecule-of-more)
 
-## Day 0: Dec 7, 2022
+## Day 99: Dec 7, 2022
 
 - why is kafka fast
   - what does fast mean? latency or throughput, compared to what?
@@ -2413,7 +2413,7 @@ Links 🔗
 - [Kafka as a Platform: the Ecosystem from the Ground Up](https://talks.rmoff.net/8OCgKp/kafka-as-a-platform-the-ecosystem-from-the-ground-up)
 - [aiven/python-notebooks-for-apache-kafka: A Series of Notebooks on how to start with Kafka and Python](https://github.com/aiven/python-notebooks-for-apache-kafka)
 
-## Day 0: Dec 8, 2022
+## Day 100: Dec 8, 2022
 
 - The science of falling in love
   - first stage of love: infatuation (passionate love) (few months)

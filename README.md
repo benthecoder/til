@@ -2532,3 +2532,53 @@ Links 🔗
 - [rust-lang/rustlings: Small exercises to get you used to reading and writing Rust code!](https://github.com/rust-lang/rustlings)
 - [Read Rust](https://readrust.net/)
 - [This Week in Rust](https://this-week-in-rust.org/)
+
+## Day 102: Dec 10, 2022
+
+- Living a long and awesome life
+  - Fats
+    - eat a higher proportion of (good) fat -> leaner and healthier
+    - types of fat
+      - monounsaturated and polyunsaturated fats (GOOD)
+        - mono : poultry, fish, avocado, olives, or nuts
+        - poly: sesame oil
+        - Omega 3 fatty acids. Salmon, trout, sardines, walnuts, flaxseed or supplements are great sources
+      - saturated fat (NOT GOOD)
+        - animal product like meat, dairy and eggs,
+      - artificial trans fats (BAD)
+        - margarine, most doughnuts, pastries and cookies, powdered creamer, vegetable shortening, fats in deep fried foods
+        - up the chance of heart disease, diabetes, dementia
+  - Carbs
+    - eat more whole grains, reduce less refined carbs and sugar
+    - refined carbs -> increased risk of heart attack, stroke and diabetes
+    - GOOD: Whole wheat, barley, wheat berries, quinoa, oats, brown rice, beans, and foods made with them
+    - pretty GOOD: Oatmeal, sweet potatoes, and some whole-grain crackers.
+    - BAD: Sugar-sweetened soda and fruit juice, white rice, white bread, fries from France, baked potatoes, and pizza.
+  - Protein
+    - get protein from get more of your protein from plants, beans, nuts, fish, and poultry
+    - An ounce of nut = 8 grams of protein, which is the same as a glass of milk
+    - too much red meat -> processed meat is “carcinogenic to humans,” and red meat is “probably carcinogenic.”
+  - Fruits and Veggies
+    - eating lots of fruit and vegetables with “lower risk of dying from any cause.”
+    - Different fruits provided protection from different cancers
+    - Berries were shockingly beneficial. Potatoes and corn act more like refined carbs in your body
+    - Limit fruit juice and smoothies (high sugar and calories)
+  - Beverages
+    - Water >>>>
+    - Coffee: lowers incidence of diabetes and Parkinson’s disease, less liver cancer, reduced kidney stones and gallstones, and lower overall mortality, reduce depression
+    - Tea: no clear evidence of quantum healing effects
+    - alcohol: raises good cholesterol and reduces the chance of heart attack and stroke (younger people)
+    - Vitamins: the basics (especially vitamins B6 and B12, folic acid, vitamin D, and beta-carotene
+  - Sum up
+    - whole grain bread > white bread
+    - brown rice > white rice / potatoes
+    - olive oil > better
+    - peanut butter > cheese
+    - nuts > cheese / sweets
+    - beans, soy, fish, poultry > red/processed meat
+    - yoghurt + fruits > ice cream
+
+Links 🔗
+
+- [This Is How To Have A Long Awesome Life - Barking Up The Wrong Tree](https://bakadesuyo.com/2022/10/nutrition/)
+- [Seven Countries Study - Wikipedia](https://en.wikipedia.org/wiki/Seven_Countries_Study)

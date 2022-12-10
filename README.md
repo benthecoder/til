@@ -2443,3 +2443,92 @@ Links 🔗
 - [The science of falling in love - Shannon Odell - YouTube](https://www.youtube.com/watch?v=f_OPjYQovAE)
 - [The Anatomy Of Love](https://theanatomyoflove.com/)
 - [Love, Actually: The science behind lust, attraction, and companionship - Science in the News](https://sitn.hms.harvard.edu/flash/2017/love-actually-science-behind-lust-attraction-companionship/)
+
+## Day 101: Dec 9, 2022
+
+- Rust in 10 minutes
+  - `let` introduces variable binding - `let x = 5;`
+  - types can be annotated `let x : i32 = 5;`
+    - python is dynamically typed, quietly promote length of integer at runtime, inefficient when you know how big ur numbers will be
+    - use i32 for everything
+  - you can't access unitialised variables
+    - doing `let x;` and passing it into a function without giving it a variable
+    - doing this in C gives undefined behaviour
+  - use `_` to throwaway something - `let _ = get_thing()`
+  - Rust has tuples `let pair = ('a', 17);`
+    - types are nearly always inferred
+    - can be destructured `let (_, right) = slice.split_at(middle)`
+  - semi-colon marks end of statement
+    - can span multiple lines
+  - `fn` declares a function
+    - void functions return an empty tuple `()` pronounced as a "unit"
+    - use -> to indicate return types `fn my_func() -> i32 {4}`
+  - brackets `{}` declares a block
+    - like immediate function in JS
+    - code in block ony lives in that block, does not affect outer scope variables
+    - `let x = 42;` is same as `let x = {42};`
+    - a block can have multiple statements, the final expression is the tail
+    - emitting semi-colon at the end of a function is the same as returning
+    - if conditionals + match are also expression
+  - dots are used to access fields or call method
+  - `::` operates on namespaces
+    - `crate::file::function`
+    - `use` brings a namespace into scope, Rust has strict scoping rules, if you don't see it in your source code, it's not available
+    - types are namespaces too, and methods can be called as regular functions `str::len("hello")`is same as `"hello".len()`
+  - `struct` - lightweight new types that encapsulate the valid states of your system
+    - you can declare methods on types
+    - `struct Number`, then do `impl Number { fn is_positive(&self) {}}`
+  - `match` arms are patterns
+    - it has to be exhaustive, at least one arm needs to match and `_` is a catch-all
+  - variable bindings are immutable by default
+    - like Haskell, C like languages add immutanbility with const
+    - `mut` makes vairable mutable
+  - functions can be generic - `fn foo<T>(arg T) { ... }`
+    - think of them like a template string
+    - structs can be generic too
+    - standard library type `Vec` is a generic too
+  - Macros - `name!()`, `name![]`, `name!{}` are macros
+    - `!` indicates a macro
+    - `vec![]` is a macro that expands to `Vec::new()`
+    - `panic!` is a macro that prints a message and exits the program
+      - `Option` type can contain nothing, if `unwrap()` is called, it panics
+    - macros expands to regular code
+  - Enums - two variants
+    - `Option` : `Some(T)` or `None`
+    - `Result` : it can return a value or an error
+      - also panics when unwrapped containing an error
+      - Rust has a pattern of errors as values which keeps us in the functional world where other languages would have exceptions that breaks us out
+      - `.expect()` for custom error message
+      - handling errors
+        - match and handle error
+        - `if let` to safely destructure the inner value if it is ok
+        - bubble up error, returning it to caller
+      - this pattern of unwrapping a value inside a Result if it's okay is so common that Rust has dedicated syntax for it - `?` operator
+  - iterators
+    - computation only happens when it is called (computed lazily)
+    - `let natural_numbers = 0..;` goes up to std::i32::MAX (2,147,483,647)
+    - the most basic iterators are ranges
+      - `(0..).contains(&100);` (bottom)
+      - `(..=20).contains(&20);` (top)
+      - `(3..6).contains(&4);` (exactly)
+    - anything that is iterable can be used in a for loop
+      - used with Vec, a slice `(&[...])`, or an actual iterator (string is iterable)
+- what is `&` in Rust
+  - passing reference of a variable instead of its value toa function
+  - reference is a pointer that leads to that variable, Rust uses the concept of ownership to manage memory
+  - when a function takes in a reference as a parameter, it is called borrowing
+  - ex: if you have a function that takes in a string, it will take ownership of that string, and you can't use it anymore, but if you pass in a reference, you can still use it later on
+
+Links 🔗
+
+- [Rust for the impatient (Learn Rust in 10 minutes) [RUST-4] - YouTube](https://www.youtube.com/watch?v=br3GIIQeefY&list=PLZaoyhMXgBzoM9bfb5pyUOT3zjnaDdSEP&index=6)
+- [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
+- [Rust articles](https://fasterthanli.me/tags/rust)
+- [The Rust Book](https://doc.rust-lang.org/stable/book/title-page.html)
+- [variables - What does the ampersand (&) before `self` mean in Rust? - Stack Overflow](https://stackoverflow.com/questions/31908636/what-does-the-ampersand-before-self-mean-in-rust/31908687#31908687)
+- [joaocarvalhoopen/How_to_learn_modern_Rust: A guide to the adventurer.](https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust)
+- [Rust By Example](https://doc.rust-lang.org/rust-by-example/index.html)
+- [Rust Application Books - The Little Book of Rust Books](https://lborb.github.io/book/applications.html)
+- [rust-lang/rustlings: Small exercises to get you used to reading and writing Rust code!](https://github.com/rust-lang/rustlings)
+- [Read Rust](https://readrust.net/)
+- [This Week in Rust](https://this-week-in-rust.org/)

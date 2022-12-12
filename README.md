@@ -2582,3 +2582,34 @@ Links 🔗
 
 - [This Is How To Have A Long Awesome Life - Barking Up The Wrong Tree](https://bakadesuyo.com/2022/10/nutrition/)
 - [Seven Countries Study - Wikipedia](https://en.wikipedia.org/wiki/Seven_Countries_Study)
+
+## Day 0: Dec 11, 2022
+
+- Building habits
+  - you're not making a decision, the brain doesn't have to use any energy to make that decision, happens without will power and any effort
+  - invisible architecture of everyday life 40% of life are made of habits
+  - habit loop
+    - (1) queue : trigger
+    - (2) behaviour : routine
+    - (3) reward : why the habbit happens
+  - queue + reward intertwine -> craving that drives the behaviour
+  - world around us is desgined to distract us, we make decisions as a function of the environment
+  - committment effect
+    - sticking to business plan or carreer or relationship long after it's clear that it's descructive because it's become a part of our identity and we don't want past investment to go to waste
+  - look at problems as an outsider
+    - you're trapped within your own perspective and emotions and feelings, but giving advice to someone else, we're not trapped, and can give advice that are more forward looking
+  - thinking about bad habits
+    - "what do I want long term?", "what's really most important to me?"
+  - systems > goals
+    - life is a series of goals (unsuccesful -> hitting the goal -> not satisfied -> next goal ).
+    - Goals are broken processes, they don't tell you how to get to where you're going
+    - setting systems allow you to achieve something consistently (ex: an hour a day of writing)
+    - Systems are geared towards psychological well-being, it gives a positive feedback we seek
+  - temptation bundling
+    - pairing "want" activity with "should" activity
+  - treat is not reward
+    - something you get because you want it, it sounds selfish but it's important to help us get self command. When we give more to ourselves, we can ask more from ourselves
+
+Links 🔗
+
+- [Habits: How to be successful every day | Dan Ariely, Gretchen Rubin & more](https://www.youtube.com/watch?v=Ogc8JUn-F5I)

@@ -2583,7 +2583,7 @@ Links 🔗
 - [This Is How To Have A Long Awesome Life - Barking Up The Wrong Tree](https://bakadesuyo.com/2022/10/nutrition/)
 - [Seven Countries Study - Wikipedia](https://en.wikipedia.org/wiki/Seven_Countries_Study)
 
-## Day 0: Dec 11, 2022
+## Day 103: Dec 11, 2022
 
 - Building habits
   - you're not making a decision, the brain doesn't have to use any energy to make that decision, happens without will power and any effort
@@ -2613,3 +2613,52 @@ Links 🔗
 Links 🔗
 
 - [Habits: How to be successful every day | Dan Ariely, Gretchen Rubin & more](https://www.youtube.com/watch?v=Ogc8JUn-F5I)
+
+## Day 104: Dec 12, 2022
+
+- 40 useful concepts
+
+  - Baader-Meinhof Phenomenon: notice something new, start seeing it more often, leading us to confuse attention with reality itself
+  - Ostrich Effect: we avoid info that we fear will cause us stress (bills and work emails), this is counterproductive and only prolongs problems
+  - Nobel Disease: idolizing people -> inflate their egos and afflict them with hubris to talk abou things they know little about (By celebrating people for their intelligence, we make them stupid.)
+  - Warnock's Dilemma: content that provoke people gets more engagement, incetivizing content creators to be provocative
+  - Google Scholar Effect: top search results dominate a topic, gatekeeping other viewpoints
+  - Paradox of Unanimity: the more people agree, hte less likely they are thinking for themselves, beware of consensus
+  - Epistemic Humility: Try to be less wrong instead of trying to be right, always start with - you don't know enough
+  - Mimetic desire: watching people want a thing makes us want it too, craving is contagious
+  - Overblown Implications effect: People don't judge you by a single success or failure
+  - Ellsberg Paradox: People prefer a clear risk over an unclear one, even if it's no safer (explains market volatility)
+  - Veblen Goods: we attatch value to things that are hard to get
+  - Peter principle: people in hierarchies are promoted until they suck at their jobs, at which they remain where they are (the world is filled with people who suck at their jobs)
+  - Meme Theory: ideology parasitizes the mind, a successful ideology is not configured to be true, but to be easily transmitted and easily believed
+  - Gambler's fallacy: we are not owed luck for being unlucky, probability has no memory
+  - Do something principle: action creates traction, make your task less intimidating by dividing it into steps and focus only on the next step
+  - Lindy Effect: the older something is, the longer it’s likely to be around in the future (good books, intellectual productions, etc.)
+  - The Liar's Dividend: politicians can profit from an environment that is saturated with misinformation, as it creates uncertainty among the public
+  - Shibboleth: absurd ideological belief is tribal signalling, signifies one considers ideology > truth, reason, or sanity
+  - The Potato Paradox: Alice has 100kg of potatoes, which are 99% water. She lets them dry till they are 98% water. What is their new weight? 50kg.
+  - Throat-clearing: Before criticizing their own tribe, people feel the need to reaffirm their loyalty to the tribe. "I support X but..."
+  - Law of Triviality: Projects that require the least attention tend to get the most.
+  - Chilling Effect: When punishment for what people say becomes widespread, people stop saying what they really think and instead say whatever is needed to thrive in the social environment
+  - Reiteration Effect: Repeat a lie often enough and it becomes the truth
+  - Naïve Realism: tendency to believe our perception of the world reflects it exactly as it is, unbiased and unfiltered
+  - Purity Spiral: constnat one-upmanship towards moral superiority causes political tribes to gradually become more extreme (Maoist China)
+  - Kayfabrication: Politics is pro-wrestling in suits. Opposing parties are collaborators in a greater system, whose choreographed conflict entertains and distracts us from what is really going on.
+  - Postjournalism: The new role of the press is not to inform its readers but to confirm what they already believe (tribalism)
+  - Curiosity Zone: curiosity occurs not when you know nothing about something, but when you know a bit about it. So learn a little about as much as you can
+  - Sorites Paradox: difficulty of defining clear boundaries or thresholds for certain concepts or ideas (paradox of the heap)
+  - Brandolini's Law: It takes a lot more energy to refute bullshit than to produce it. (so the world is full of bullshit)
+  - Algorithmic Blindspots: We find growth while searching for other things. Algorithms give us exactly what we want on demand, so we never need to search, and never find what we never knew we needed.
+  - Longtermism: the view that positively influencing the long-term future is the key moral priority of our time
+  - Two minute rule: If a task would take less than two minutes, do it immediately
+  - Promethean Gap: Technology is outpacing wisdom; we're changing the world faster than we can adapt to it. We're amassing the power of gods, yet we remain apes
+  - Information-Action Ratio: The mark of useful info is that it makes us act differently. Stop mindless scrolling and seek out info that changes you.
+  - Gurwinder's Third Paradox: In order for you to beat someone in a debate, your opponent needs to realize they've lost. Therefore, it's easier to win an argument against a genius than an idiot.
+  - Media Naturalness Theory: Writing has existed for <2% of human history, so our brains are not evolved for reading; we need vocal/facial cues for context
+  - Tilting At Windmills: online people who attack you are just attacking their own imagination, no need to take it personally
+  - Principle Of Humanity: Every single person is exactly what you would be if you were them, seek to understand the circumstances that led others to their conclusions
+  - Empty Name: We can be convinced that a concept is real by the mere fact that it has a name, but the world is full of names for things that aren't real
+
+Links 🔗
+
+- [40 Useful Concepts You Should Know - by Gurwinder](https://gurwinder.substack.com/p/40-useful-concepts-you-should-know)

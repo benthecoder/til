@@ -2662,3 +2662,41 @@ Links 🔗
 Links 🔗
 
 - [40 Useful Concepts You Should Know - by Gurwinder](https://gurwinder.substack.com/p/40-useful-concepts-you-should-know)
+
+## Day 105: Dec 12, 2022
+
+- Analytics Engineering
+
+  - act as the bridge between data engineers and data analysts/business users. Some of their jobs are:
+    - To build well tested, up to date and documented datasets that the rest of the company can use to answer their own questions.
+    - Apply software engineering best practices in their data models like version control and CI/CD.
+    - Act as facilitators between the business and technical teams and translate strategic business needs into data models and data visualizations.
+  - Skills required
+
+    - SQL: strong SQL fluency in aggregation, joins, case statements, CTE and window functions
+    - Python: decent knowledge of Python in data types, data structures, if and for loop and how to create functions
+    - Data modelling: the process of structuring your raw data into analytics ready format (Star schema, one big Table, data vault)
+    - Cloud data warehouse: Google BigQuery, Amazon Redshift and Snowflake
+    - Version control: track different versions of your codes and collaborate with other developers
+    - data transformation: structuring and reformatting your raw data into data models, involves integrating transactional data (sales, cost, etc) with operational data (name, place, etc) (popular: dbt)
+    - data quality testing: set up a proper data quality test and ensure that the data has been tested thoroughly before presenting them to the business users
+    - data documentation and lineage:
+      - doc: information about your data that ranges from raw schema information to user-supplied information ([dbt data doc](https://docs.getdbt.com/docs/collaborate/documentation))
+      - lineage: helps technical and business users to understand how the data flows from data sources to consumption by visualizing them with directed acyclic graphs (DAGs) ([dbt Data lineage](https://docs.getdbt.com/terms/data-lineage))
+    - data orchestration: process of gathering the data together from disparate sources and preparing them for data analysis, use tools to automate, schedule and monitor the creation of your dbt models in staging and production environment.
+    - CI/CD: used to deploy dbt models to production (If you don't already have Airflow running in production)
+    - Data visualization: responsible for developing dashboards with BI tools such as Tableau, Looker or PowerBI
+    - Communications: Becoming a better communicator is a skill, not a talent
+
+Links 🔗
+
+- [Becoming An Analytics Engineer in 2023: A Data Analyst Guide](https://medium.com/@baluramachandra90/becoming-an-analytics-engineer-in-2023-a-data-analyst-guide-1faf6d1cc89c)
+- [What is Analytics Engineering?](https://www.getdbt.com/what-is-analytics-engineering/)
+- [SQL Style Guide | GitLab](https://about.gitlab.com/handbook/business-technology/data-team/platform/sql-style-guide/)
+- [Python Guide | GitLab](https://about.gitlab.com/handbook/business-technology/data-team/platform/python-guide/)
+- [The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling, 3rd Edition [Book]](https://www.oreilly.com/library/view/the-data-warehouse/9781118530801/)
+- [Version control basics | dbt Developer Hub](https://docs.getdbt.com/docs/collaborate/git/version-control-basics)
+- [Learn Analytics Engineering with dbt | dbt Learn](https://courses.getdbt.com/collections)
+- [Template Designer Documentation (Macros and jinja)](https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-control-structures)
+- [Data Testing: What and When to Test](https://www.getdbt.com/analytics-engineering/transformation/data-testing/#why-is-testing-a-necessary-part-of-an-analytics-workflow)
+- [Learn Airflow with astronomer](https://docs.astronomer.io/learn)

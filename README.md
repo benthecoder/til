@@ -2663,7 +2663,7 @@ Links 🔗
 
 - [40 Useful Concepts You Should Know - by Gurwinder](https://gurwinder.substack.com/p/40-useful-concepts-you-should-know)
 
-## Day 105: Dec 12, 2022
+## Day 105: Dec 13, 2022
 
 - Analytics Engineering
 
@@ -2700,3 +2700,22 @@ Links 🔗
 - [Template Designer Documentation (Macros and jinja)](https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-control-structures)
 - [Data Testing: What and When to Test](https://www.getdbt.com/analytics-engineering/transformation/data-testing/#why-is-testing-a-necessary-part-of-an-analytics-workflow)
 - [Learn Airflow with astronomer](https://docs.astronomer.io/learn)
+
+## Day 106: Dec 14, 2022
+
+- Carbon Dioxide Tolerance Test
+  - (1) Take three easy, calm breaths in and out through the nose
+  - (2) Take one full nasal inhale, filling the abdomen, upper chest, and lungs
+  - (3) Start a timer as you exhale through the nose, as slow as possible
+  - (4) Stop the timer when you run out of air, swallow, or feel that you must take a breath
+- Interpretation
+  - \>80 seconds: Elite (Advanced pulmonary adaptation, excellent breathing control, excellent stress control)
+  - 60-80 seconds: Advanced (Healthy pulmonary system, good breathing control, relatively good stress control)
+  - 40-60 seconds: Intermediate (Generally improves quickly with focus on CO2 tolerance training)
+  - 20-40 seconds: Average (Moderate to high stress/anxiety state, breathing mechanics need improvement)
+  - <20 seconds: Poor (Very high anxiety and stress sensitivity, mechanical restriction possible, poor pulmonary capacity)
+
+Links 🔗
+
+- [The CO2 Tolerance Test and Why You Should Be Working on Your Lungs - Crux Fitness](https://www.cruxfit.com/the-co2-tolerance-test-and-why-you-should-be-working-on-your-lungs/)
+- [Carbon Dioxide Tolerance Test (CO2TT) - Breathe Your Truth](https://breatheyourtruth.com/carbon-dioxide-tolerance-test-co2tt/)

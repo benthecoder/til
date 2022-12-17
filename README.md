@@ -2761,3 +2761,28 @@ Links 🔗
 
 - [Process vs Thread | Popular Interview Question - YouTube](https://www.youtube.com/watch?v=4rLW7zg21gI)
 - [Thread vs Process in Python](https://superfastpython.com/thread-vs-process/)
+
+## Day 107: Dec 17, 2022
+
+- how to stop overthinking
+  - overthinking = genetic predisposition + stressful precipitating events
+  - (1) awareness
+    - occurs when you shift your attention to your inner and outer experience without judgement, clicning, or resisting
+    - write a stress journal and take note of your thoughts and feelings, write down your stress level systematically so you can analyze, evaluate, and know how to maange them
+  - (2) time and energy management
+    - learn to not prioritize stressful activites but rest and relaxation
+    - relax by taking time out to have fun or just spend time doing nothing
+    - set SMART goals (specific, measurable, attainable, relevat, time-bound)
+    - set time limit for completed goals and use time blocking to avoid multitasking
+  - (3) reduce anxiety
+    - autogenic training: tell yourself "I am alert" while breathing slowly and steadily. feel sensation of what you're saying in various parts of your body
+    - guided imagery and visualization: imagine yourself happy and enjoying it and create a story for 5-20 minutes.
+    - progressive muscle relaxation: relax muscles by first tensing them up from head to toe or vice versa
+  - (4) stop negative thinking
+    - mind, body, and emotion are tightly connected
+    - identify negative thought patterns and replace them with positive attitudes
+    - common cognitive distortion : black and white thinking, perceiving everything in extremes as either terrible or heavenly.
+
+Links 🔗
+
+- [Stop Overthinking: 23 Techniques to Relieve Stress, Stop Negative Spirals, Declutter Your Mind, and Focus on the Present by Nick Trenton](https://www.goodreads.com/en/book/show/57280624-stop-overthinking)

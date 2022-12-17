@@ -2719,3 +2719,45 @@ Links 🔗
 
 - [The CO2 Tolerance Test and Why You Should Be Working on Your Lungs - Crux Fitness](https://www.cruxfit.com/the-co2-tolerance-test-and-why-you-should-be-working-on-your-lungs/)
 - [Carbon Dioxide Tolerance Test (CO2TT) - Breathe Your Truth](https://breatheyourtruth.com/carbon-dioxide-tolerance-test-co2tt/)
+
+## Day 105: Dec 15, 2022
+
+- Read intuitive python development on the plane
+  - learned about debugging with pdb
+  - protobuff and JSON > pickle
+  - threads and processes
+  - default arguments
+  - collections module
+  - installing pip securely with hash
+
+Links 🔗
+
+- [Intuitive Python: Productive Development for Projects that Last by David Muller](https://pragprog.com/titles/dmpython/intuitive-python/)
+
+## Day 106: Dec 16, 2022
+
+- process vs thread
+  - what's a program?
+    - an executable file containing code or set of process instruction that is stored in disk
+    - when the code in a program is loaded into memory and executed by processor, it becomes a process
+  - active process
+    - includes resources - CPU, RAM, I/O managed by OS
+    - ex: processor registers, program counters, stack pointers, memory pages (technically under threads)
+    - important property: each process has it's own memory space, one process cannot corrupt another process, meaning when one process malfunctions, other process can still run.
+    - ex: google chrome tabs
+  - threads
+    - unit of execution within a process, and it can have many threads
+    - each thread has it's own stack, and is possible to communicate between each other using a shared memory address space, which means one misbehaving thread brings down the whole process
+  - context switching
+    - how does OS run a thread/process?
+    - Os stores states of current running process, and resumes state, repeat. (expensive process!)
+    - faster to switch context between threads than context, because no need to switch out virtual memory pages, one of the most exp operation
+    - how to reduce it?
+      - fibers and coroutines
+      - trade complexity for even lower context switching
+      - coperatively scheduled, where you yield control for oters to run, so app itself handles task scheduling, responsibility of application to make sure a long-running task is broken up.
+
+Links 🔗
+
+- [Process vs Thread | Popular Interview Question - YouTube](https://www.youtube.com/watch?v=4rLW7zg21gI)
+- [Thread vs Process in Python](https://superfastpython.com/thread-vs-process/)

@@ -2786,3 +2786,37 @@ Links 🔗
 Links 🔗
 
 - [Stop Overthinking: 23 Techniques to Relieve Stress, Stop Negative Spirals, Declutter Your Mind, and Focus on the Present by Nick Trenton](https://www.goodreads.com/en/book/show/57280624-stop-overthinking)
+
+## Day 108: Dec 18, 2022
+
+- techniques to remember everything
+  - (1) memory palace:
+    - ad Herennium: two types of memory: natural and artificial. Natural is your innate hardware, artificial is the software you run on your hardware
+    - artificial memory has two components
+      - image (actual contents one wishes to remember)
+      - places (where images are stored)
+    - how: form a space in the eye of your mind, a place you can picture easily and fill that place with images representing what you want to remember
+    - rememeber the image of each item multi-sensorily, imagine how it feels to touch and smell it, and if it's edible, how it tastes. the more vivid the image the stronger
+  - (2) break into chunks
+    - George Miller: we can only think about 7 things at a time
+    - when a new thing enters the head, it exists in temporary limbo (working memory)
+      - working memory: collection of brain systems that hold on to things happening in our consciousness at the present moment
+    - to commit info -> long term memory, it has to be repeated over and over again.
+    - Chunking: decreasing the number you have to remember by increasing the size of each item.
+      - ex: remembering 120741091101 vs 120, 741, 091, 101 vs 12/07/41 and 09/11/01
+    - (3) use vivid images to remember things
+      - associate a person's name with something you can clearly imagine
+      - "all our memories are linked together in a web of associations" - Joshua Foer
+      - Baker/baker paradox: the vivid imagery of a baker helped people rmbr Baker surname
+      - tip: turn Bakers -> bakers, Foers -> fours, Raegans -> ray guns
+    - (4) depict long text with images or emotions
+      - methodical : using images to represent each word
+      - emotional : breaking down a long text into small chunks and assign a serios of emotions
+    - (5) major system
+      - code that converts numbers into consonant phonetic sounds -> turned to vivid imagery
+      - PAO system (person-action-object), used by US memory championships
+        - every two number from 00 to 99 is a single image of a person performing an action on an object
+
+Links 🔗
+
+- [Moonwalking with Einstein: The Art and Science of Remembering Everything by Joshua Foer](https://www.goodreads.com/book/show/6346975-moonwalking-with-einstein)

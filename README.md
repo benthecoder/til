@@ -2820,3 +2820,47 @@ Links 🔗
 Links 🔗
 
 - [Moonwalking with Einstein: The Art and Science of Remembering Everything by Joshua Foer](https://www.goodreads.com/book/show/6346975-moonwalking-with-einstein)
+
+## Day 0: Dec 20, 2022
+
+- McKinsey Hypothesis-Driven Framework
+  - (1) gather facts
+    - take a few hours to understand the problem
+    - ask:
+      - what are the causes?
+      - How often does it happen?
+      - What solutions have you tried?
+      - What solutions have failed?
+      - who else should I talk to?
+  - (2) generate initial hypothesis
+    - problems remain unsolved when people look for solution without direction
+    - ask: "Based on initial facts, what do I believe is causing this?"
+  - (3) build issue tree
+    - Solving one big problem is hard, but solving 20 small problems is easy
+    - break down to issue 1 (1.1, 1.2, 1.3), 2, 3
+  - (4) understand big picture
+    - zoom-out again, take a look at the big picture
+    - "What's causing the main problem?"
+    - How can this be fixed?
+    - summarize into one clear recommendation
+  - (5) set the stage
+    - People don’t know how you came up with your recommendation.
+    - SPQA framework
+      - Situation : what's the problem?
+      - Problem : why is this a problem?
+      - Question : client's main question
+      - Answer : what do you recommend
+  - (6) convince the stakeholders
+    - use pyramid principle
+      - restate reccomendation
+      - show supporting arguments
+      - finish with evidence
+  - (7) make impact clcear
+    - explain the problem will go away after implementing the solution
+      - Whats the step-by-step solution plan?
+      - What will the outcome look like?
+      - What steps can be taken for extra impact?
+
+Links 🔗
+
+- [Julia MacDonald on Twitter: "McKinsey is paid to solve complex problems. They created a process that helps find solutions: The Hypothesis-Driven Framework. Let’s dive in.👇" / Twitter](https://twitter.com/julia_m_mac/status/1603727231116890118?s=20&t=8FP0B9c6TZGMQ5WM4K0urw)

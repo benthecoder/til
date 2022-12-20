@@ -2821,7 +2821,7 @@ Links 🔗
 
 - [Moonwalking with Einstein: The Art and Science of Remembering Everything by Joshua Foer](https://www.goodreads.com/book/show/6346975-moonwalking-with-einstein)
 
-## Day 0: Dec 20, 2022
+## Day 109: Dec 19, 2022
 
 - McKinsey Hypothesis-Driven Framework
   - (1) gather facts
@@ -2864,3 +2864,34 @@ Links 🔗
 Links 🔗
 
 - [Julia MacDonald on Twitter: "McKinsey is paid to solve complex problems. They created a process that helps find solutions: The Hypothesis-Driven Framework. Let’s dive in.👇" / Twitter](https://twitter.com/julia_m_mac/status/1603727231116890118?s=20&t=8FP0B9c6TZGMQ5WM4K0urw)
+
+## Day 120: Dec 20, 2022
+
+- Pareto Principle
+  - a minority of causes, inputs, or efforts are responsible for the majority of the results
+  - maximizing profits
+    - Business: focus serving the top 20% and make efforts for reducing losses from bottom 80%. Study your competitors.
+    - Sales: target marketing on 20%, set standards for sales team from top performers, lay off underperforming workers.
+  - productivity
+    - 80% of our results come from 20% of time put in
+    - there are specific times each of us are highly productive, figure out yours from previous productive days and figure out the following:
+      - did you work day or night?
+      - what happened day before? how was your sleep?
+      - how did you handle distractions
+    - document your thoughts and use recurring points as pointers to productivity
+    - improve happiness level
+      - two paper: happiness and achieve island
+      - identify things that made you happy and things you achieved
+  - Relationships
+    - they influence who we become, choose them wisely
+    - studies show we have limited space for close relationship, few people account for 20% of relationships, but make up for 80% of the value.
+    - 5 attributes determining if relationship will work or not
+      - mutual enjoyment of each other's company
+      - respect
+      - shared experience
+      - reciprocity
+      - trust
+
+Links 🔗
+
+- [The 80/20 Principle: The Secret to Achieving More with Less by Richard Koch](https://www.goodreads.com/book/show/181206.The_80_20_Principle)

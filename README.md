@@ -2912,3 +2912,20 @@ Links 🔗
 Links 🔗
 
 - [Make Your Bed: Little Things That Can Change Your Life...And Maybe the World by William H. McRaven](https://www.goodreads.com/book/show/31423133-make-your-bed)
+
+## Day 122: Dec 22, 2022
+
+- Best way to apologize
+  - what are apologies for?
+    - it's not for you, it's not about getting forgiveness and moving on
+    - it's about expressing remorse and accepting accountability
+  - (1) taking victim's perspective
+    - ask other party how you made them feel to recognize your wrong doing
+  - (2) Accepting responsibility
+    - accept how your actions caused harm, frame your apology around it
+  - (3) making concrete offer of repair
+    - indicate exactly how you'll change and repair the damage caused by your expense.
+
+Links 🔗
+
+- [The best way to apologize (according to science) - YouTube](https://www.youtube.com/watch?v=q-ApAdEOm5s)

@@ -2895,3 +2895,20 @@ Links 🔗
 Links 🔗
 
 - [The 80/20 Principle: The Secret to Achieving More with Less by Richard Koch](https://www.goodreads.com/book/show/181206.The_80_20_Principle)
+
+## Day 121: Dec 21, 2022
+
+- Make your bed book CTAs
+  - (1) Start each day with a task completed. It will help you feel more capable
+  - (2) Make as many friends as possible and never forget your success depends on others
+  - (3) Respect everyone who crosses your path. It will teach you dignity
+  - (4) Make peace with the imperfection of life, learn how to react to and deal with the problems of life
+  - (5) Next time you fail hard, don't make things worse by humiliating yourself. Inhale and shift the focus to things that have potential to make your life better.
+    - "life is a paticular pattern of success and failure, wihout the latter you won't know what the former feels like."
+  - (6) Dare to take (calculated) risks, they help you extend your experience and mature.
+  - (7) Make a top 5 list of things that seemed to break you.
+    - Write down what helped you to overcome them, what you learned about yourself from them, and how it made you stronger. For it did.
+
+Links 🔗
+
+- [Make Your Bed: Little Things That Can Change Your Life...And Maybe the World by William H. McRaven](https://www.goodreads.com/book/show/31423133-make-your-bed)

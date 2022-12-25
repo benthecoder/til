@@ -2929,3 +2929,51 @@ Links 🔗
 Links 🔗
 
 - [The best way to apologize (according to science) - YouTube](https://www.youtube.com/watch?v=q-ApAdEOm5s)
+
+## Day 123: Dec 23, 2022
+
+- On Writing well
+  - (1) strip every sentence to it's cleanest components
+    - Simplify, simplify.
+    - Clear thinking becomes clear writing; one can’t exist without the other.
+    - The writer must constantly ask himself: What am I trying to say? Have I said it? Is it clear to someone encountering the subject for the first time?
+  - (2) be yourself
+    - write in the first person: to use "I" and “me" and “we" and “us."
+    - relax, and have confidence.
+  - (3) write for yourself
+    - Never say anything in writing that you wouldn’t comfortably say in conversation.
+  - (4) Leave readers with one provocative thought
+    - "every successful piece of nonfiction should leave the reader with one provocative thought that he or she didn’t have before"
+  - (5) Create a good hook
+    - The most important sentence in any article is the first one. If it doesn’t induce the reader to proceed to the second sentence, your article is dead. And if the second sentence doesn’t induce him to continue to the third sentence, it’s equally dead. Of such a progression of sentences, each tugging the reader forward until he is hooked, a writer constructs that fateful unit, the “lead."
+    - how?
+      - cajole him with freshness, or novelty, or paradox, or humor, or surprise, or with an unusual idea, or an interesting fact, or a question.
+      - provide hard details that tell the reader why the piece was written and why he ought to read it
+      - don’t dwell on the reason. Coax the reader a little more; keep him inquisitive
+  - (7) always collect more material than you will use
+    - look for your material everywhere, not just by reading the obvious sources and interviewing the obvious people.
+  - (6) Create a good ending
+    - The perfect ending should take your readers slightly by surprise and yet seem exactly right.
+    - simple rule: when you’re ready to stop, stop. If you have presented all the facts and made the point you want to make, look for the nearest exit
+    - what usually works best is a quotation. Go back through your notes to find some remark that has a sense of finality, or that’s funny, or that adds an unexpected closing detail.
+    - Surprise is the most refreshing element in nonfiction writing
+  - bits & pieces
+    - Use active verbs unless there is no comfortable way to get around using a passive verb.
+    - Short is better than long.
+    - Most adverbs are unnecessary.
+    - Most adjectives are also unnecessary.
+    - Prune out the small words that qualify how you feel and how you think and what you saw: "a bit", "a little", "sort of", "kind of", "rather", "quite", "very", "too", "pretty much", "in a sense" and dozens more. They dilute your style and your persuasiveness.
+    - Always use "that" unless it makes your meaning ambiguous.
+    - Rewriting is the essence of writing well: it’s where the game is won or lost.
+    - No subject is too specialized or too quirky if you make an honest connection with it when you write about it.
+  - Write as well as you can
+    - If you would like to write better than everybody else, you have to want to write better than everybody else
+    - You must take an obsessive pride in the smallest details of your craft
+    - purposes that writers serve must be their own
+    - What you write is yours and nobody else’s
+    - Writing well means believing in your writing and believing in yourself, taking risks, daring to be different, pushing yourself to excel. You will write only as well as you make yourself write.
+
+Links 🔗
+
+- [On Writing: A Memoir of the Craft by Stephen King](https://www.goodreads.com/book/show/10569.On_Writing)
+- [Summary & Notes](https://www.grahammann.net/book-notes/on-writing-well-william-zinsser)

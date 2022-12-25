@@ -3011,3 +3011,48 @@ Links 🔗
 
 - [Crafting To-Do Lists That Spark Productivity and Joy](https://hulry.com/productive-to-do-list/)
 - [How I Finally Made Sense of Todoist’s Priority Levels](https://hulry.com/todoist-priority-levels-moscow/)
+
+## Day 125: Dec 25, 2022
+
+- what's next for AI
+  - (1) multipurpose chatbots
+    - OpenAI is interested in combining different modalities—such as image or video recognition—with text
+    - Imagine being able to ask a chatbot what’s in an image, or asking it to generate an image, and have these interactions be part of a conversation so that you can refine the results more naturally than is possible with DALL-E.
+    - glimpse of this
+      - DeepMind’s Flamingo, a “visual language model” revealed in April, which can answer queries about images using natural language
+      - Gato, a “generalist” model that was trained using the same techniques behind large language models to perform different types of tasks, from describing images to playing video games to controlling a robot arm.
+    - GPT-4 = power of the best language and image-making AI (and more) in one package
+    - downsides
+      - inability to tell fact from fiction
+      - penchant for prejudice
+  - (2) AI Act
+    - EU's sweeping AI law: include bans on AI practices deemed detrimental to human rights, such as systems that score and rank people for trustworthiness
+    - facial recognition
+      - The use of facial recognition in public places will also be restricted for law enforcement in Europe
+      - momentum to forbid that altogether for both law enforcement and private companies, although a total ban will face stiff resistance from countries that want to use these technologies to fight crime
+    - user data and privacy
+      - Federal Trade Commission is also closely watching how companies collect data and use AI algorithms
+      - a new law to hold AI companies accountable when their products cause harm, such as privacy infringements or unfair decisions made by algorithms.
+    - deepfake
+      - In China, authorities have recently banned creating deepfakes without the consent of the subject
+      - Europeans want to add warning signs to indicate that people are interacting with deepfakes or AI-generated images, audio, or video
+    - All these regulations could shape how technology companies build, use and sell AI technologies. However, regulators have to strike a tricky balance between protecting consumers and not hindering innovation
+    - if new laws are implemented correctly, 2023 could usher in a long-overdue era of AI development with more respect for privacy and fairness.
+  - (3) open source & startups > big tech for AI research
+    - first community-built, multilingual large language model, BLOOM, released by Hugging Face
+    - explosion of innovation around the open-source text-to-image AI model Stable Diffusion, which rivaled OpenAI's DALL-E 2.
+    - AI research is expensive, and as purse strings are tightened, companies will have to be very careful about picking which projects they invest in—and are likely to choose whichever have the potential to make them the most money, rather than the most innovative, interesting, or experimental ones
+    - Startups and academia could become the centers of gravity for fundamental research
+    - flashy new upstarts working on generative AI are seeing a surge in interest from venture capital funds.
+  - (4) Big Pharma + AI = 🚀
+    - DeepMind's AlphaFold
+      - an AI that can predict the structures of proteins (the key to their functions), has cleared a path for new kinds of research in molecular biology, helping researchers understand how diseases work and how to create new drugs to treat them.
+    - Meta's ESMFold
+      - a much faster model for predicting protein structure—a kind of autocomplete for proteins, which uses a technique based on large language models
+    - Both produced structures for hundreds of millions of proteins, including all that are known to science, and shared them in vast public databases
+    - "makes looking up new protein structures almost as easy as searching the web"
+    - DeepMind has spun off its biotech work into a separate company, Isomorphic Labs
+    - hundreds of startups exploring ways to use AI to speed up drug discovery and even design previously unknown kinds of drugs
+    - 19 drugs developed by AI drug companies in clinical trials (up from zero in 2020), with more to be submitted in the coming months
+
+Links 🔗

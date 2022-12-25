@@ -2977,3 +2977,37 @@ Links 🔗
 
 - [On Writing: A Memoir of the Craft by Stephen King](https://www.goodreads.com/book/show/10569.On_Writing)
 - [Summary & Notes](https://www.grahammann.net/book-notes/on-writing-well-william-zinsser)
+
+## Day 124: Dec 24, 2022
+
+- The Bento methodology
+  - an ineffective to-do list = too many task in limited time + filling it with low-value tasks
+  - bento methodology tackles this by having
+    - A handful of well-intended things to do
+    - A mix between high and low-value tasks in the list
+  - it can hold up to 3 tasks
+    - 1 large task: Task that requires deep focus and works towards your goals. (>90 mins)
+    - 1 medium task: Task that is usually busy work like organising reports. (<45 mins)
+    - 1 short task: Daily chores you must do at home or work, like paying your rent. (~15 mins)
+  - Account for energy levels
+    - Our body energy levels fluctuate over the day in the form of Peak-Trough-Rebound
+    - peak = mind and body are at their highest functioning form
+    - through = exhausted from work during your peak period and need time and rest to replenish.
+    - rebound = body is recovering from the low-energy trough and is ready to get back in focus mode for another few hours.
+    - don't waste high-energy time on non-challenging tasks like answering emails or collecting documents for a visa application during the rebound period.
+  - 5-tasks to-do list system
+    - 2 high-value or deep work tasks assigned for the peak and rebound
+    - 2 medium-value or admin work tasks assigned for the trough
+    - 1 low-value or busy work task aimed for the trough or towards the end of the day
+    - in Todoist:
+      - P1: Deep or high-value work. Example: Writing an article or a report, solving complex problems at work, learning a new concept.
+      - P2: Admin work. Example: Collating data for analysis, organising invoices to pay, sending reports to a coworker.
+      - P3: Business or household chores. Example: Catching up on emails, taking your dog for a walk, renewing your car insurance.
+  - preliminary assessment
+    - observe your energy levels, mentally note when you feel most energetic during the day.
+    - Understanding when your energy levels peak and dip will help you assign the right tasks at the right moment each day.
+
+Links 🔗
+
+- [Crafting To-Do Lists That Spark Productivity and Joy](https://hulry.com/productive-to-do-list/)
+- [How I Finally Made Sense of Todoist’s Priority Levels](https://hulry.com/todoist-priority-levels-moscow/)

@@ -3056,3 +3056,14 @@ Links 🔗
     - 19 drugs developed by AI drug companies in clinical trials (up from zero in 2020), with more to be submitted in the coming months
 
 Links 🔗
+
+- [What's next for AI | MIT Technology Review](https://www.technologyreview.com/2022/12/23/1065852/whats-next-for-ai/)
+
+## Day 126: Dec 26, 2022
+
+- watched 30% of fast.ai lecture 1
+- learned about Vint Cerf and his contribution towards the internet
+
+Links 🔗
+
+- [Vint Cerf Helped Create the Internet on the Back of an Envelope - WSJ](https://archive.ph/k1j4H)

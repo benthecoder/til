@@ -3067,3 +3067,24 @@ Links 🔗
 Links 🔗
 
 - [Vint Cerf Helped Create the Internet on the Back of an Envelope - WSJ](https://archive.ph/k1j4H)
+
+## Day 127: Dec 27, 2022
+
+- functional programming week 1
+  - substitution model
+    - all evaluation does is reduce an expression -> value
+    - can be applied to all expression as long as they have no side effects (purely functional)
+    - formalized in λ-calculus
+  - call-by-name: functions applied to unreduce arguments (ignores unused parameters)
+  - call-by-value: functions applied to reduced arguments (evaluates every function arg only once)
+    - ex: `def test(x: Int, y: Int) = x \* x
+      - test(2, 3) - same
+      - test(3+4, 8) - CBV
+      - test(7, 2\*4) - CBN
+      - test(3+4, 2\*4) - same
+  - Scala is call-by-value by default
+  - to use call-by-name, add => like `(y: => Double)`
+
+Links 🔗
+
+- [Functional Programming Principles in Scala notes](https://ivy-zhou.github.io/notes/2020/09/02/progfun.html)

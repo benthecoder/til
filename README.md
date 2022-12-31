@@ -3088,3 +3088,60 @@ Links 🔗
 Links 🔗
 
 - [Functional Programming Principles in Scala notes](https://ivy-zhou.github.io/notes/2020/09/02/progfun.html)
+
+## Day 128: Dec 28, 2022
+
+- Conformal Prediction
+  - a method that takes an uncertainty score and turns it into a rigorous score
+    - heiristic uncertainty -> conformal prediction -> rigorous uncertainty
+  - "rigorous" = output has probablistic guarantees of covering the true outcome
+  - it turns point predictions into prediction sets. for multi-class classification, it turns class output to a set of classes
+    - ex: {cat} (most likely) -> {cat, lion, hamster} (prediction set with probabilistic coverage guarantees)
+  - many advantages
+    - distribution-free : only assumption is data points are exchangable
+    - model-agnostic: can be applied to any predictive model
+    - coverage guarantee : resulting prediction set comes with guarantees of covering true outcome with certain probability.
+  - start with the guarantee
+    - produce a set of predictions for every bean that covers the true class with 95% probability? Seems to be a matter of finding the right threshold
+    - use the model “probabilities” to construct a measure of uncertainty: `s_i = 1 - f(x_i)[y_i]`
+      - A bit sloppy notation for saying that we take 1 minus the model score for the true class (if the ground truth for bean number 8 is “Seker” and the probability score for Seker is 0.9, then s_8 = 0.1).
+    - process:
+      - start with fresh data
+      - compute the scores s_i
+      - sort the scores from low (certain) to high (uncertain)
+      - compute the threshold q where 95% of the s_i’s are lower (=95% quantile)
+    - How is that threshold useful? We know that for bean uncertainties s_i below 0.999 (equivalent to class “probabilities” > 0.001) we can be sure that with a probability of 95% we have the correct class included.
+    - An important part of conformal prediction is that the data (X_calib, y_calib) used for finding that threshold is not used for training the model.
+      - For new data points the data scientist can turn the prediction into prediction sets by using the threshold: `prediction_sets = (1 - model.predict_proba(X_new) <= qhat)`
+  - Coverage
+    - percentage of prediction sets that contain the true label
+    - While conformal predictors always guarantee marginal coverage, conditional coverage is not guaranteed. Adaptive conformal predictors approximate conditional coverage.
+    - Add up all the probabilities, starting with the highest one, until we reach the true class. This algorithm is called “Adaptive Prediction Sets”.
+  - Recipe for CP
+    - Training
+      - Split data into training and calibration
+      - Train model on training data
+    - Calibration
+      - Compute uncertainty scores (aka non-conformity scores) for calibration data
+      - Sort the scores from certain to uncertain
+      - Decide on a confidence level α (α=0.1 means 90% coverage)
+      - Find the quantile q where 1-α (multiplied with a finite sample correction) of non-conformity scores are smaller
+    - Prediction (how you use the calibrated score)
+      - Compute the non-conformity scores for the new data
+      - Pick all y’s that produce a score below q
+      - These y’s form your prediction set or interval
+  - A big differentiator between conformal prediction algorithms is the choice of the score. In addition, they can differ in the details of the recipe and slightly deviate from it as well.
+  - cross-conformal prediction: CP with resampling
+    - find a balance between training the model with as much data as possible, but also having access to “fresh” data for calibration.
+    - 3 methods
+      - Single split: Computation-wise the cheapest. Results in a higher variance of the prediction sets and non-optimal use of data. Ignores variance from model refits. Preferable if refitting the model is expensive.
+      - jackknife: Most expensive, since you have to train n models. The jackknife approach potentially produces smaller prediction sets/intervals as models are usually more stable when trained with more data points. Preferable if model refit is fast and/or the dataset is small.
+      - CV and other resampling methods: balance between single split and jackknife.
+
+Links 🔗
+
+- [valeman/awesome-conformal-prediction: A professionally curated list of awesome Conformal Prediction videos, tutorials, books, papers, PhD and MSc theses, articles and open-source libraries.](https://github.com/valeman/awesome-conformal-prediction)
+- [awslabs/fortuna: A Library for Uncertainty Quantification.](https://github.com/awslabs/fortuna)
+- [Week #1: Getting Started With Conformal Prediction For Classification](https://mindfulmodeler.substack.com/p/week-1-getting-started-with-conformal)
+- [Week #2: Intuition Behind Conformal Prediction](https://mindfulmodeler.substack.com/p/week-2-intuition-behind-conformal)
+- [A Gentle Introduction to Conformal Prediction](https://arxiv.org/pdf/2107.07511.pdf)

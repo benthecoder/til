@@ -3172,3 +3172,38 @@ Links 🔗
 - [GFNOrg/gflownet: Generative Flow Networks](https://github.com/GFNOrg/gflownet)
 - [The What, Why and How of Generative Flow Networks | by Matt Biggs | Towards Data Science](https://towardsdatascience.com/the-what-why-and-how-of-generative-flow-networks-4fb3cd309af0)
 - [Generative Flow Networks - Yoshua Bengio](https://yoshuabengio.org/2022/03/05/generative-flow-networks/)
+
+## Day 130: Dec 30, 2022
+
+- A personal data timeline
+  - we create a lot of data
+    - Photos capture our experiences
+    - phones record our workouts and locations
+    - Internet services log the content we consume and our purchases.
+    - we record our want-to lists: desired travel and dining destinations, books and movies we plan to enjoy, and social activities we want to pursue.
+    - Soon smart glasses will record our experiences in even more detail.
+  - this data is siloed in dozens of applications
+    - we often struggle to retrieve important facts from our past and build upon them to create satisfying experiences on a daily basis
+  - use our data -> improve health, vitality, and productivity?
+    - what if all information we create online were fused in a personal timeline designed to help us stay on track toward our goals, hopes, and dreams?
+    - Vannevar Bush envisioned it in 1945, calling it a memex
+    - Gordon Bell and his colleagues at Microsoft Research built MyLifeBits, a prototype of this vision
+  - Privacy concern
+    - Privacy means that your data is available only to you, but if you want to share parts of it
+    - No single company has all our data or the trust to store all our data
+    - building technology that enables personal timelines should be a community effort that includes protocols for the exchange of data, encrypted storage, and secure processing
+  - 2 AI Challenges
+    - (1) answering questions over personal timelines
+      - question answering requires that we reason explicitly about sets of answers and aggregates computed over them
+      - This is the bread and butter of database systems
+      - Ex: “what cafes did I visit in Tokyo?” or “how many times did I run a half marathon in under two hours?” requires that we retrieve sets as intermediate answers, which is not currently done in natural language processing
+      - Borrowing more inspiration from databases, we also need to be able to explain the provenance of our answers and decide when they are complete and correct
+    - (2) our timelines -> improved personal well-being
+      - Taking inspiration from the field of positive psychology, we can all flourish by creating positive experiences for ourselves and adopting better habits
+      - An AI agent that has access to our previous experiences and goals can give us timely reminders and suggestions of things to do or avoid.
+    - "an AI with a holistic view of our day-to-day activities, better memory, and superior planning capabilities would benefit everyone"
+
+Links 🔗
+
+- [MyLifeBits - Microsoft Research](https://www.microsoft.com/en-us/research/project/mylifebits/)
+- [Memex - Wikipedia](https://en.wikipedia.org/wiki/Memex)

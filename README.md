@@ -3207,3 +3207,28 @@ Links 🔗
 
 - [MyLifeBits - Microsoft Research](https://www.microsoft.com/en-us/research/project/mylifebits/)
 - [Memex - Wikipedia](https://en.wikipedia.org/wiki/Memex)
+
+## Day 131: Dec 31, 2022
+
+- Active Learning
+  - what? - enables machine learning systems to generate their own training examples and request them to be labeled
+  - can enable machine learning systems to:
+    - Adapt to changing conditions
+    - Learn from fewer labels
+    - Keep humans in the loop for the most valuable/difficult examples
+    - Achieve higher performance
+  - generative AI -> boom in Active learning
+    - with recent advances in generative AI for images and text, when a learning algorithm is unsure of the correct label for some part of its encoding space, it can actively generate data from that section to get input from a human
+  - revolutionary approach to ML
+    - allows systems to continuously improve and adapt over time
+    - Rather than relying on a fixed set of labeled data, it seeks out new information and examples that will help it better understand the problem it is trying to solve
+    - more accurate and effective machine learning models, and it could
+    - reduce the need for large amounts of labeled data
+
+Links 🔗
+
+- [Active Learning, part 1: the Theory](https://blog.scaleway.com/active-learning-some-datapoints-are-more-equal-than-others/)
+- [google/active-learning](https://github.com/google/active-learning)
+- [baifanxxx/awesome-active-learning: A curated list of awesome Active Learning](https://github.com/baifanxxx/awesome-active-learning)
+- [rmunro/pytorch_active_learning: PyTorch Library for Active Learning to accompany Human-in-the-Loop Machine Learning book](https://github.com/rmunro/pytorch_active_learning)
+- [[1702.07956] Generative Adversarial Active Learning](https://arxiv.org/abs/1702.07956)

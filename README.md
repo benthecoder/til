@@ -3145,3 +3145,30 @@ Links 🔗
 - [Week #1: Getting Started With Conformal Prediction For Classification](https://mindfulmodeler.substack.com/p/week-1-getting-started-with-conformal)
 - [Week #2: Intuition Behind Conformal Prediction](https://mindfulmodeler.substack.com/p/week-2-intuition-behind-conformal)
 - [A Gentle Introduction to Conformal Prediction](https://arxiv.org/pdf/2107.07511.pdf)
+
+## Day 129: Dec 29, 2022
+
+- Models that reason
+  - Recent advances in deep learning largely have come by brute force: taking SOTA architecture + scale up compute power, data, and engineering
+  - simply scaling up is not going to fill the gap. Instead, building into our models a human-like ability to discover and reason with high-level concepts and relationships between them can make the difference.
+  - No. examples to learn learn a new task = sample complexity.
+    - It takes a huge amount of gameplay to train a deep learning model to play a new video game, while a human can learn this very quickly. Related issues fall under the rubric of reasoning.
+    - A computer needs to consider numerous possibilities to plan an efficient route from here to there, while a human doesn’t
+  - Current systems can't reason
+    - Humans can select the right pieces of knowledge and paste them together to form a relevant explanation, answer, or plan
+    - given a set of variables, humans are pretty good at deciding which is a cause of which
+    - current AI is highly confident that their decision is right, even when it’s wrong, can be life-threatening in a self-driving car or medical diagnosis system.
+  - generative flow networks (GFlowNets)
+    - inspired by the way humans reason through a sequence of steps, adding a new piece of relevant information at each step
+    - like reinforcement learning, because the model sequentially learns a policy to solve a problem.
+    - like generative modeling, because it can sample solutions in a way that corresponds to making a probabilistic inference
+    - ex: think of an interpretation of an image
+      - your thought can be converted to a sentence, but it’s not the sentence itself. It contains semantic and relational information about the concepts in that sentence.
+      - Generally, we represent such semantic content as a graph, in which each node is a concept or variable.
+      - GFlowNets generate such graphs one node or edge at a time, choosing which concept should be added and connected to which others in what kind of relation
+
+Links 🔗
+
+- [GFNOrg/gflownet: Generative Flow Networks](https://github.com/GFNOrg/gflownet)
+- [The What, Why and How of Generative Flow Networks | by Matt Biggs | Towards Data Science](https://towardsdatascience.com/the-what-why-and-how-of-generative-flow-networks-4fb3cd309af0)
+- [Generative Flow Networks - Yoshua Bengio](https://yoshuabengio.org/2022/03/05/generative-flow-networks/)

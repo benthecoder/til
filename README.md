@@ -3262,3 +3262,36 @@ Links 🔗
 Links 🔗
 
 - [22 Problems Solved in 2022 - YouTube](https://www.youtube.com/watch?v=c3dDagZMALQ&t=89s)
+
+## Day 133: Jan 2, 2023
+
+- Conversational skills
+  - (1) Don’t Interrupt
+    - A conversation is best when both parties are interested, engaged, and want to share. If you interrupt you show that you are uninterested and you blunt the other person’s motivation to share
+  - (2) Accept, don't seek
+    - Accept whatever reaction someone gives you, and treat it as though it were correct. If you said something hilarious and they didn’t laugh, act as if it wasn’t funny. Don't seek for laughs or validation, it puts a huge burden on listeners.
+  - (3) gauge interest
+    - tell the quickest version of your story, and leave out any tangents or details. This puts the other person in the driver’s seat and lets them ask about the things that most interest them
+  - (4) ask questions
+    - An ideal conversation is a mix of listening, asking questions, and sharing in a way that allows the other person to politely guide the conversation.
+    - You must ask questions so that the other person knows that you are interested in them and what they are saying.
+    - Factual questions are good, but questions that deepen the conversation are even better (“Was that as hard as it sounds?” “How did you learn how to do that?” “What made you decide to go that route?”)
+  - (5) verbalize when you change your mind
+    - People love to teach and persuade others. When someone has taught you something or changed your mind on something, let them know. Say things like: “Wow, I would have never thought to do that, but that’s a great idea.”, “Ok, maybe you’re right. I hadn’t thought about that before.”, “You know, I used to really think X, but you’ve convinced me Y”
+  - disagree positively
+    - While you want to be an agreeable person, it’s important to share your real thoughts and to express them in proportion with their weight.
+    - ex: John tells you he lives in Vegas but you don’t think that you would like living in Vegas. You ask “Vegas? Casinos and desert? What made you choose that?” and not “Wow, I would never live there. It’s too hot and there are no trees.” (this is a miserable conversation)
+  - benchmarking
+    - "Nice", "Cool", "Ok"
+      - If you get a lot of single word answers, you are not keeping the other person interested. Switch topics or talk less
+    - 50% talk time
+      - Conversations should be just about 50/50, especially if you know each other reasonably well. It is your responsibility to get the ratio correct, either by talking more or by asking more questions to induce the other person to talk more
+    - Depth
+      - Conversation should frequently be making it to a depth where you are learning more about the other person and they are learning more about you
+      - you must be willing to be vulnerable and share things about yourself, and must also have the awareness to ask questions to induce the other person to do the same.
+
+Links 🔗
+
+- [Conversation Skills Essentials – Tynan.com](https://tynan.com/letstalk/)
+- [Creating Emotional Connection Handouts.pdf](https://caps.unl.edu/Creating%20Emotional%20Connection%20Handouts.pdf)
+- [ A low-risk technique for gaining intimacy with people - YouTube](https://www.youtube.com/watch?v=WyKFHd7cSaU&t=108s)

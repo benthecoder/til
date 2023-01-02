@@ -3232,3 +3232,33 @@ Links 🔗
 - [baifanxxx/awesome-active-learning: A curated list of awesome Active Learning](https://github.com/baifanxxx/awesome-active-learning)
 - [rmunro/pytorch_active_learning: PyTorch Library for Active Learning to accompany Human-in-the-Loop Machine Learning book](https://github.com/rmunro/pytorch_active_learning)
 - [[1702.07956] Generative Adversarial Active Learning](https://arxiv.org/abs/1702.07956)
+
+## Day 132: Jan 1, 2023
+
+- 22 Problems Solved in 2022
+  - (1) NASA asteroid program
+  - (2) US joined the Kigali Amendment as part of the federal government's effort to phase out problematic carbon substances
+  - (3) 50 (extinct) species are returning in record numbers
+  - (4) malaria vaccine that can save millions of lives
+  - (5) Lyme disease vaccine nearing market return
+  - (6) US soccer teams strike monumental deal for gender discrimination
+  - (7) free lunches program expand
+  - (8) Europe stnadardizing charging ports in 2024
+  - (9) US EV tipping point hit (5% of total vehicle sales)
+  - (10) $4.7B to plug orphan wells
+  - (11) Canada pilots prescribing outdoor time
+  - (12) US military suicide sees decline
+  - (13) HIV vaccines progressing through trials
+  - (14) art museums solve funding issues
+  - (15) Battery swap technology 500k users (Gogoro)
+  - (16) Ethereum -> Proof of stake model (cuts energy consumption by 99.95%)
+  - (17) MLB solves authentication
+  - (18) Klamath river set for return (salmons)
+  - (19) deepfake detector by Intel (FakeCatcher) 96% accuracy
+  - (20) solution for removing PFAs (forever chemical) found
+  - (21) US states ban prison slavery from states constitution
+  - (22) nuclear fusion breakthrough (more energy produced thatn used)
+
+Links 🔗
+
+- [22 Problems Solved in 2022 - YouTube](https://www.youtube.com/watch?v=c3dDagZMALQ&t=89s)

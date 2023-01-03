@@ -3294,4 +3294,66 @@ Links 🔗
 
 - [Conversation Skills Essentials – Tynan.com](https://tynan.com/letstalk/)
 - [Creating Emotional Connection Handouts.pdf](https://caps.unl.edu/Creating%20Emotional%20Connection%20Handouts.pdf)
-- [ A low-risk technique for gaining intimacy with people - YouTube](https://www.youtube.com/watch?v=WyKFHd7cSaU&t=108s)
+- [A low-risk technique for gaining intimacy with people - YouTube](https://www.youtube.com/watch?v=WyKFHd7cSaU&t=108s)
+
+## Day 134: Jan 3, 2023
+
+- top 10 AI papers
+  - (1) ConvNeXt
+    - purely convolutional arch that outperforms Vision transformers (Swin transformer) and all previous CNN models
+    - new default when it comes to using CNN not only for classification, but also object detection and instance segmentation
+    - a ResNet-50 base architecture + depthwise convolutions, inverted bottleneck layer designs, AdamW, LayerNorm, and many more
+    - modern data augmentation techniques such as Mixup, Cutmix, and others.
+  - (2) MaxViT: Multi-axis Vision Transformer
+    - early vision transformers suffered from quadratic complexity, many tricks have been implemented to apply vision transformers to larger images with linear scaling complexity.
+    - this is achieved by decomposing an attention block into two parts with local-global interaction:
+      - local attention ("block attention");
+      - global attention ("grid attention").
+    - a convolutional transformer hybrid featuring convolutional layers as well.
+    - current trend is ViT + CNN -> hybrid architectures
+  - (3) Stable Diffusion
+    - what are diffusion models?
+      - a type of probabilistic model that are designed to learn the distribution of a dataset by gradually denoising a normally distributed variable.
+      - This process corresponds to learning the reverse process of a fixed Markov Chain over a length of T.
+    - GANS = minimax game between generator and discriminator
+    - Diffusion = likelihood-based models trainsed using MLE (help to avoid mode collapse and other training instabilities)
+    - paper's novelty is in applying diffusion in latent space using pretrained autoencoders instead of using the full-resolution raw pixel input space of the original images directly.
+    - training process
+      - phase 1: pretrain autoencoder to encode input images into lower-dimensional latent space to reduce complexity
+      - phase 2: train diffusion model son latent representation of pretrained autoencoder
+    - another contribution of paper is the cross-attention mechanism for general conditioning
+    - capable of not just unconditional generation, but also inpainting, class-conditional image synthesis, super-resolution, and text-to-image synthesis
+  - (4) Gato
+    - A generalist agent capable of performing over 600 tasks, ranging from playing games to controlling robots.
+  - (5) Training Compute-Optimal Large Language Models.
+    - To achieve optimal computation during training, it's necessary to scale both the model size and the number of training tokens by the same factor.
+    - Chinchilla that outperformed Gopher using 4 times fewer parameters and 4 times more data.
+  - (6) PaLM: Scaling Language Modeling with Pathways:
+    - shows impressive natural language understanding and generation capabilities on various BIG-bench tasks.
+    - To some extent, it can even identify cause-and-effect relationships.
+  - (7) Whisper:
+    - Robust Speech Recognition via Large-Scale Weak Supervision paper
+    - It was trained for 680,000 hours on multilingual tasks and exhibits robust generalization to various benchmarks
+  - (8) Revisiting Pretraining Objectives for Tabular Deep Learning.
+    - highlights and reminds us how important it is to pretrain models on additional (typically unlabeled) data. (You can't easily do this with tree-based models like XGBoost.)
+  - (9) Why do tree-based models still outperform deep learning on tabular data?
+    - tree-based models (random forests and XGBoost) outperform deep learning methods for tabular data on medium-sized datasets (10k training examples). But the
+    - gap between tree-based models and deep learning becomes narrower as the dataset size increases (here: 10k -> 50k).
+  - (10) Evolutionary-scale prediction of atomic level protein structure with a language model.
+    - proposed the largest language model for predicting the three-dimensional structure of proteins to date.
+    - faster than previous methods while maintaining the same accuracy.
+    - created the ESM Metagenomic Atlas, the first large-scale structural characterization of metagenomic proteins, featuring over 617 million structures.
+
+Links 🔗
+
+- [Ahead of AI #4: A Big Year For AI - by Sebastian Raschka](https://magazine.sebastianraschka.com/p/ahead-of-ai-4-a-big-year-for-ai)
+- [[2201.03545] A ConvNet for the 2020s](https://arxiv.org/abs/2201.03545)
+- [[2204.01697] MaxViT: Multi-Axis Vision Transformer](https://arxiv.org/abs/2204.01697)
+- [[2112.10752] High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752)
+- [[2205.06175] A Generalist Agent](https://arxiv.org/abs/2205.06175)
+- [[2203.15556] Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556)
+- [[2204.02311] PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311)
+- [[2212.04356] Robust Speech Recognition via Large-Scale Weak Supervision](https://arxiv.org/abs/2212.04356)
+- [[2207.03208] Revisiting Pretraining Objectives for Tabular Deep Learning](https://arxiv.org/abs/2207.03208)
+- [[2207.08815] Why do tree-based models still outperform deep learning on tabular data?](https://arxiv.org/abs/2207.08815)
+- [Evolutionary-scale prediction of atomic level protein structure with a language model | bioRxiv](https://www.biorxiv.org/content/10.1101/2022.07.20.500902v3)

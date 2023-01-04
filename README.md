@@ -3357,3 +3357,37 @@ Links 🔗
 - [[2207.03208] Revisiting Pretraining Objectives for Tabular Deep Learning](https://arxiv.org/abs/2207.03208)
 - [[2207.08815] Why do tree-based models still outperform deep learning on tabular data?](https://arxiv.org/abs/2207.08815)
 - [Evolutionary-scale prediction of atomic level protein structure with a language model | bioRxiv](https://www.biorxiv.org/content/10.1101/2022.07.20.500902v3)
+
+## Day 135: Jan 3, 2023
+
+- 5 mindset to be confident
+  - (1) attract others with personality, the most attractive trait is confidence
+    - make people feel special: be authentic and focus on what people say, think "what do i admire about this person?"
+    - say more than necessary: if people ask how are you? say how your day went and something that happened, make them feel comfortable and able to latch on to something
+    - emanate warmth: smile with your eyes
+    - make use of touch: exercise judgement, only appropriate touch, talk closely, look in their eyes
+    - speak with calm, gentle voice
+  - (2) live in accordance with your values
+    - make a list of values, access how you've been living by them, and start fixing what you haven't been living up to
+    - figure out your main values, the ones you truly live for
+    - note down what others who have those values do, follow them, evaluate in your own behaviours and actions
+  - (3) act like you're not nervous
+    - everyone is awkward at some level, don't judge yourself for it
+    - don't cut out mistakes, but laugh about them, it shows personality and you're not devoid of humor
+    - don't take yourself too seriously, it shows you're insecure because you care what others think
+  - (4) put in the work, then aim for the top
+    - biggest lie is you shouldn't go for your dreams
+    - aim for jobs you think you want, not what you can get
+    - don't settle for relationships
+  - (5) stop caring what people think about you
+    - the only opinion that matters is yourself
+    - some people are going to dislike you
+    - don't take criticism from people you wouldn't take advice from
+    - if you're not ruffling some feathers, then you're doing something wrong
+- Attract the right people
+  - (1) list all traits that you want around you (for partner, friend, family member)
+  - (2) highlight traits that you don't have
+  - (3) identify steps you need to take to bridge those gaps (SMART goals: specific, measurable, actionable, relevant and time based)
+  - (4) put it into action (weekly goals, check in with yourself)
+
+Links 🔗

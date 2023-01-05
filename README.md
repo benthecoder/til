@@ -3358,7 +3358,7 @@ Links 🔗
 - [[2207.08815] Why do tree-based models still outperform deep learning on tabular data?](https://arxiv.org/abs/2207.08815)
 - [Evolutionary-scale prediction of atomic level protein structure with a language model | bioRxiv](https://www.biorxiv.org/content/10.1101/2022.07.20.500902v3)
 
-## Day 135: Jan 3, 2023
+## Day 135: Jan 4, 2023
 
 - 5 mindset to be confident
   - (1) attract others with personality, the most attractive trait is confidence
@@ -3391,3 +3391,54 @@ Links 🔗
   - (4) put it into action (weekly goals, check in with yourself)
 
 Links 🔗
+
+- [5 Mindsets to be Confident & Well-Liked - YouTube](https://www.youtube.com/watch?v=4P9Qp2Q3mLo)
+- [How to attract the right people by working on yourself - YouTube](https://www.youtube.com/watch?v=Mj9J_zsYvtE)
+
+## Day 136: Jan 4, 2023
+
+- Tensors
+
+  - x - Scalar, 0D Tensor (single value)
+  - [ x, y ] - Vector, 1D Tensor, 1D Array or simply Array (multiple values in one row)
+  - [ [x, y, z], [a, b, c] ] - Matrix, 2D Tensor, 2D Array (multiple values in multiple rows and columns)
+  - they are used as a useful way of packing large volumes of data in a single variable that is represented like nD Tensor, and then perform your regular math on these tensors
+  - Since GPUs are optimized to do math on geometrical objects (in a 3D game, for example), they are particularly well suited for the job of making calculations that involve complex data represented as Tensors
+  - PyTorch
+    - in-memory : `x = torch.empty(3, 4)`
+    - initialize values : `torch.zeros()`, `torch.ones()`, `torch.rand()`
+    - seed: `torch.manual_seed(69)`
+    - shapes: `torch.empty(2, 2, 3)` = 3d tensor of 2x2x3 shape
+    - same shape: `torch.*_like()`
+    - already have data: `torch.tensor()`
+    - data types: `torch.int16`, `float64`
+    - math: `torch.abs`, `torch.ceil`, `torch.floor`, `torch.clamp`
+    - trig: `torch.sin`, `torch.asin`
+    - bitwise: `torch.bitwise_xor`
+    - equality: `torch.eq`
+    - reductions: `torch.max`, `torch.std`, `torch.prod`, `torch.unique`
+    - vector: `torch.cross`, `torch.matmul`, `torch.svd`
+    - ater in place: append `_` to function (ex: `torch.add_(b)`)
+    - specify tensor to receive output: `out = c`
+    - copy tensor: `.clone()`
+    - turn on autograd : `requires_grad=True`
+    - check GPU: `if torch.cuda.is_available(): my_device=torch.device('cuda')`
+    - query count: `torch.cuda.device_count()`
+    - device handle: `torch.rand(2,2,device=my_device)`
+    - add dimensions of size 1: `x.unsqueeze(0)` (adds a zeroth dimension)
+    - remove dimension of size 1: `x.squeeze(1)`
+    - reshape: `reshape(features x width x height)`
+
+- Broadcasting Tensors rules
+  - Each tensor must have at least one dimension - no empty tensors.
+  - Comparing the dimension sizes of the two tensors, going from last to first:
+    - Each dimension must be equal, or
+    - One of the dimensions must be of size 1, or
+    - The dimension does not exist in one of the tensors
+
+Links 🔗
+
+- [Visualization of tensors - part 1 - YouTube](https://www.youtube.com/watch?v=YxXyN2ifK8A)
+- [Tensors for Neural Networks, Clearly Explained!!! - YouTube](https://www.youtube.com/watch?v=L35fFDpwIM4)
+- [Multi-Dimensional Data (as used in Tensors) - Computerphile - YouTube](https://www.youtube.com/watch?v=DfK83xEtJ_k)
+- [Introduction to PyTorch Tensors — PyTorch Tutorials 1.13.1+cu117 documentation](https://pytorch.org/tutorials/beginner/introyt/tensors_deeper_tutorial.html)

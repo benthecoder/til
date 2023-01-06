@@ -3395,7 +3395,7 @@ Links 🔗
 - [5 Mindsets to be Confident & Well-Liked - YouTube](https://www.youtube.com/watch?v=4P9Qp2Q3mLo)
 - [How to attract the right people by working on yourself - YouTube](https://www.youtube.com/watch?v=Mj9J_zsYvtE)
 
-## Day 136: Jan 4, 2023
+## Day 136: Jan 5, 2023
 
 - Tensors
 
@@ -3442,3 +3442,23 @@ Links 🔗
 - [Tensors for Neural Networks, Clearly Explained!!! - YouTube](https://www.youtube.com/watch?v=L35fFDpwIM4)
 - [Multi-Dimensional Data (as used in Tensors) - Computerphile - YouTube](https://www.youtube.com/watch?v=DfK83xEtJ_k)
 - [Introduction to PyTorch Tensors — PyTorch Tutorials 1.13.1+cu117 documentation](https://pytorch.org/tutorials/beginner/introyt/tensors_deeper_tutorial.html)
+
+## Day 137: Jan 6, 2023
+
+- finished fastai lesson 1 and chapter 1
+  - universal approximation theorem:
+    - NNs can theoretically represent any mathematical function. However, practically, due to limits of available data and computer hardware, it is impossible, but can get very close.
+  - Positive feedback loop:
+    - ex: a model that predict crimes. use current arests as training data (biased) -> build model -> use model -> increase arrests in that area -> used in training data -> more bias
+  - Segmentation:
+    - pixelwise classification problem, we predict a label for every single pixel in the image. this provides a mask for which parts of image corresponds with label
+  - metric vs loss:
+    - metric measures quality of model's prediction with validation set, loss is measure of performance of model, meant for optimization algorithms (SGD) to efficiently update model parameters. metrics are human-interpretable
+  - head of model:
+    - in pretrained model, later layers of model are useful for original task, but replaced with one/more new layers with randomized weights approrpiate for the current dataset for fine-tuning, these new layers are head
+
+Links 🔗
+
+- [Fastbook Chapter 1 questionnaire solutions (wiki) - Part 1 (2020) - fast.ai Course Forums](https://forums.fast.ai/t/fastbook-chapter-1-questionnaire-solutions-wiki/65647)
+- [1. Your Deep Learning Journey - Deep Learning for Coders with fastai and PyTorch [Book]](https://www.oreilly.com/library/view/deep-learning-for/9781492045519/ch01.html)
+- [fastbook/01_intro.ipynb at master · fastai/fastbook](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb)

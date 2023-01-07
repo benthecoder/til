@@ -3462,3 +3462,59 @@ Links 🔗
 - [Fastbook Chapter 1 questionnaire solutions (wiki) - Part 1 (2020) - fast.ai Course Forums](https://forums.fast.ai/t/fastbook-chapter-1-questionnaire-solutions-wiki/65647)
 - [1. Your Deep Learning Journey - Deep Learning for Coders with fastai and PyTorch [Book]](https://www.oreilly.com/library/view/deep-learning-for/9781492045519/ch01.html)
 - [fastbook/01_intro.ipynb at master · fastai/fastbook](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb)
+
+## Day 138: Jan 7, 2023
+
+- From model to production
+  - When selecting a project, the most important consideration is data availability
+  - Computer vision
+    - if what you are trying to classify are sounds, you might try converting the sounds into images of their acoustic waveforms and then training a model on those images
+  - Text (NLP)
+    - text generation models will always be technologically a bit ahead of models for recognizing automatically generated text
+  - text + images
+    - a model can be trained on input images with output captions written in English, and can learn to generate surprisingly appropriate captions automatically for new images
+    - an automatic system can be used to identify potential stroke victims directly from CT scans, and send a high-priority alert to have those scans looked at quickly, but require human-in-the-loop
+  - tabular data
+    - Tree models are still faster, but DL greatly increase the variety of columns that you can include—for example, columns containing natural language (book titles, reviews, etc.) and high-cardinality categorical columns (large number of discrete choices, such as zip code or product ID).
+  - recommender systems
+    - special type of tabular data, generally have a high-cardinality categorical variable representing users, and another one representing products (or something similar)
+    - A company like Amazon represents every purchase that has ever been made by its customers as a giant sparse matrix, with customers as the rows and products as the columns.
+    - if customer A buys products 1 and 10, and customer B buys products 1, 2, 4, and 10, the engine will recommend that A buy 2 and 4.
+    - nearly all machine learning approaches have the downside that they tell you only which products a particular user might like, rather than what recommendations would be helpful for a user
+  - drivetrain approach
+    - objective -> levers (controllable inputs) -> data -> models (how levers influence objective)
+    - ex: Google
+      - objective = "show the most relevant search result."
+      - levers = ranking of the search results
+      - data = implicit information regarding which pages linked to which other pages
+      - models take both the levers and any uncontrollable variables as their inputs; the outputs from the models can be combined to predict the final state for our objective
+    - ex: recommendation systems
+      - objective = drive additional sales
+      - lever = ranking of recs
+      - data = randomized experiments to collect data that is representative
+      - model = build two, conditional on seeing / not seeing recs
+        - difference between the two probability is utility function for a given rec to customer
+        - low when: algo rec familiar book customer already rejected (both are low) or book that they would have bought even without recs (both ar elarge, cancel each other out)
+  - practical implementation of model is more than just training the model. You’ll often need to run experiments to collect more data, and consider how to incorporate your models into the overall system you’re developing
+  - why different image size is a problem:
+    - we feed images in batches -> tensor (fails, has to be same size)
+    - batches -> transform -> tensor
+    - squish/stretch leads to unrealistic shape, cropping removes important features, best way: randomly select different parts of an image and crop
+  - error analysis:
+    - sort images by loss (high to low) -> debug where errors are occuring (due to mislabelling, bad data, or model problem)
+    - loss is high when : confident of incorrect answer / unconfident of correct answer
+  - deployment issues
+    - out-of-domain data (data drift) : data used to train model is very different from production
+    - domain shift: type of data model sees changes over time (insurance company represent different risk over time, model no longer relevant)
+  - solution
+    - manual process: human checking model output
+    - limited scope deployment: supervised and deployed on a trial basis
+    - gradual expansion: implement good reporting systems and consider what could go wrong
+  - thought experiment for rolling out ML systems
+    - “What would happen if it went really, really well?”
+    - who would be most impacted? What would the most extreme results potentially look like? How would you know what was really going on?
+    - help you to construct a more careful rollout plan, with ongoing monitoring systems and human oversight
+
+Links 🔗
+
+- [2. From Model to Production | Deep Learning for Coders with fastai and PyTorch](https://learning.oreilly.com/library/view/deep-learning-for/9781492045519/ch02.html#idm46668598893488)

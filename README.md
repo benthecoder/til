@@ -3518,3 +3518,24 @@ Links 🔗
 Links 🔗
 
 - [2. From Model to Production | Deep Learning for Coders with fastai and PyTorch](https://learning.oreilly.com/library/view/deep-learning-for/9781492045519/ch02.html#idm46668598893488)
+
+## Day 139: Jan 8, 2023
+
+- worked on bird/plane model with fastai
+
+Links 🔗
+
+- [is it a bird or a plane](https://www.kaggle.com/code/benthecoder/is-it-a-bird-or-a-plane)
+
+## Day 140: Jan 9, 2023
+
+- ChatGPT for seo
+  - Keyword research : "Keyword ideas for TOPIC"
+  - Ideas: "10 blog ideas for TITLE"
+  - outlines: "Blog outlines for: TOPIC"
+  - titles: "Write an SEO optimized title that will improve click through rate in a playful tone for: TITLE"
+  - semantic keywords: "Semantic keywords for: TOPIC"
+
+Links 🔗
+
+- [ChatGPT to 10x SEO](https://twitter.com/barrettjoneill/status/1610629309236150272?s=48&t=j92cl6mXt2Vb2cVtBOBo2w)

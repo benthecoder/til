@@ -3539,3 +3539,28 @@ Links 🔗
 Links 🔗
 
 - [ChatGPT to 10x SEO](https://twitter.com/barrettjoneill/status/1610629309236150272?s=48&t=j92cl6mXt2Vb2cVtBOBo2w)
+- [f/awesome-chatgpt-prompts: This repo includes ChatGPT promt curation to use ChatGPT better.](https://github.com/f/awesome-chatgpt-prompts)
+- [Why SEO Pros Need To Master Prompts: The ChatGPT Revolution](https://www.searchenginejournal.com/why-seo-pros-need-to-master-prompts-the-chatgpt-revolution/473780/#close)
+
+## Day 0: Jan 11, 2023
+
+- extreme questions
+  - "If you were forced to increase your prices by 10x, what would you have to do to justify it?"
+  - "If all our customers vanished, and we had to earn our growth and brand from scratch, what would we do?"
+  - "If you were never allowed to provide tech support, in any form, what would have to change?"
+  - "What would be the most fun thing to build?"
+  - "If our biggest competitor copied every single feature we have, how would we still win?"
+  - "What if we are forced to ship a full, completed (at least MVP) new feature, in just two weeks, that would delight and surprise some fraction of our customers."
+  - "What if you were forced to charge customers in a completely different manner?"
+  - "If you were not allowed to have a website, how would you still grow your business?"
+  - "What if you made your most introverted teammates’ dreams come true: No more synchronous meetings, ever again?"
+  - "If we could never talk to our customers again, how would we figure out what to build?"
+  - "What if it didn’t matter how unprofitable you were?"
+  - What if you could change anything, regardless of what anyone thinks or feels?"
+  - "What externality has the potential to kill the entire company?"
+  - "What if our only goal was to create the most good in the world, personally for our customers?"
+  - "What if you could only ship one thing this year?"
+
+Links 🔗
+
+- [Extreme questions to trigger new, better ideas | A Smart Bear: Longform](https://longform.asmartbear.com/posts/extreme-questions/)

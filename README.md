@@ -3542,7 +3542,7 @@ Links 🔗
 - [f/awesome-chatgpt-prompts: This repo includes ChatGPT promt curation to use ChatGPT better.](https://github.com/f/awesome-chatgpt-prompts)
 - [Why SEO Pros Need To Master Prompts: The ChatGPT Revolution](https://www.searchenginejournal.com/why-seo-pros-need-to-master-prompts-the-chatgpt-revolution/473780/#close)
 
-## Day 0: Jan 11, 2023
+## Day 141: Jan 11, 2023
 
 - extreme questions
   - "If you were forced to increase your prices by 10x, what would you have to do to justify it?"
@@ -3564,3 +3564,41 @@ Links 🔗
 Links 🔗
 
 - [Extreme questions to trigger new, better ideas | A Smart Bear: Longform](https://longform.asmartbear.com/posts/extreme-questions/)
+
+## Day 142: Jan 12, 2023
+
+- happiness habits
+  - \>7 hours of sleep
+  - Personal hobby (art, writing, music, cooking, reading, gaming)
+  - exercise / sports
+  - spend time in nature (marvel at flowers, plants, birds, insects.)
+  - meditate
+  - pray
+  - spend time with friends outside of office/professional setting
+  - engage with support groups or therapist
+  - spend time with family outside of household
+- cope on bad days and dealing with stress
+  - comedic movies
+  - reading poetry
+  - breathing exercises
+  - revisit favorite book
+  - listen to upbeat songs
+  - journaling
+  - talk to a friend
+- social relationships = building blocks of happiness.
+  - We all stand to benefit from close friendships, romantic partners, and a “general sense of respect and belonging in a community,”
+- meaning of happiness? subjective, but has these ingredients:
+  - a sense of control and autonomy over one’s life
+  - being guided by meaning and purpose
+  - connecting with others
+- happiness can be measured, strengthened, and taught
+  - "The more you notice how happy or how grateful you are, the more it grows,"
+- "Money can’t buy happiness"
+  - BUT it can buy many things that contribute mightily: such as exciting experiences.
+  - Spending money on others is also linked to happiness
+
+Links 🔗
+
+- [The Daily Habits of Happiness Experts | TIME](https://time.com/6241099/daily-habits-happiness-experts/)
+- [The Happiness Revival Guide | TIME](https://time.com/collection/happiness-revival-guide/)
+- [The Computer Science Book: a complete introduction to computer science in one book](https://thecomputersciencebook.com/)

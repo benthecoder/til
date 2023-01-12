@@ -3542,7 +3542,7 @@ Links 🔗
 - [f/awesome-chatgpt-prompts: This repo includes ChatGPT promt curation to use ChatGPT better.](https://github.com/f/awesome-chatgpt-prompts)
 - [Why SEO Pros Need To Master Prompts: The ChatGPT Revolution](https://www.searchenginejournal.com/why-seo-pros-need-to-master-prompts-the-chatgpt-revolution/473780/#close)
 
-## Day 141: Jan 11, 2023
+## Day 141: Jan 10, 2023
 
 - extreme questions
   - "If you were forced to increase your prices by 10x, what would you have to do to justify it?"
@@ -3565,7 +3565,7 @@ Links 🔗
 
 - [Extreme questions to trigger new, better ideas | A Smart Bear: Longform](https://longform.asmartbear.com/posts/extreme-questions/)
 
-## Day 142: Jan 12, 2023
+## Day 142: Jan 11, 2023
 
 - happiness habits
   - \>7 hours of sleep
@@ -3602,3 +3602,38 @@ Links 🔗
 - [The Daily Habits of Happiness Experts | TIME](https://time.com/6241099/daily-habits-happiness-experts/)
 - [The Happiness Revival Guide | TIME](https://time.com/collection/happiness-revival-guide/)
 - [The Computer Science Book: a complete introduction to computer science in one book](https://thecomputersciencebook.com/)
+
+## Day 0: Jan 12, 2023
+
+- context switching
+  - "most people average only 3 minutes on any given task before switching to something else (and only 2 minutes on a digital tool before moving on)."
+  - Taking on additional tasks simultaneously can destroy up to 80% of your productive time:
+    - Focusing on one task at a time = 100% of your productive time available.
+    - Juggling two tasks at a time = 40% of your productive time for each and 20% lost to context switching.
+    - Juggling three tasks at a time = 20% of your productive time for each and 40% lost to context switching.
+  - 5 ways
+    - (1) Batch and timeblock your schedule to create clearer ‘focus boundaries
+    - (2) Build a habit of single-tasking throughout the day
+      - Remove as many distractions as possible
+      - start small and set a timer
+      - Get rid of the ‘drains and incompletions’ that compete for your attention
+    - (3) Add in routines and rituals that remove ‘attention residue’
+      - “People need to stop thinking about one task in order to fully transition their attention and perform well on another. Yet, results indicate it is difficult for people to transition their attention away from an unfinished task and their subsequent task performance suffers.”
+      - batch similar tasks together
+      - build routines and rituals for when you need to ‘hard’ switch tasks
+    - (4) Use regular breaks and rests to recharge
+      - Do the 20/20/20 exercise to help reduce eye strain
+      - Use breathing exercises to combat stress
+      - Stretch, workout, or do a quick walk
+      - Watch a funny video or something else relaxing
+    - (5) Master the end-of-day shift from work to non-work mode
+      - “If you strictly follow this after-work routine, you’ll soon discover that not only are you working harder when you work, but your time after work is more meaningful and restorative than ever before.”
+      - strategies
+        - Record your progress.
+        - Organize any uncompleted tasks
+        - glance at week ahead
+        - acknowledge day is over
+
+Links 🔗
+
+- [Context switching: Why jumping between tasks is killing your productivity](https://blog.rescuetime.com/context-switching/)

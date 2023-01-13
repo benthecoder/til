@@ -3603,7 +3603,7 @@ Links 🔗
 - [The Happiness Revival Guide | TIME](https://time.com/collection/happiness-revival-guide/)
 - [The Computer Science Book: a complete introduction to computer science in one book](https://thecomputersciencebook.com/)
 
-## Day 0: Jan 12, 2023
+## Day 143: Jan 12, 2023
 
 - context switching
   - "most people average only 3 minutes on any given task before switching to something else (and only 2 minutes on a digital tool before moving on)."
@@ -3637,3 +3637,19 @@ Links 🔗
 Links 🔗
 
 - [Context switching: Why jumping between tasks is killing your productivity](https://blog.rescuetime.com/context-switching/)
+
+## Day 144: Jan 13, 2023
+
+- Make the most of our 24 hours
+  - (1) be intentional at the start of each day
+    - make a list of 5 things you want to do
+  - (2) don’t shoot for doing more, do what matters
+    - doing 30+ things in a day won’t get rid of the time scarcity — in fact, it often makes the stress even worse
+  - (3) create moments of transcendence.
+    - A moment of transcendence is something each of us has experienced: when we feel incredibly connected to the world around us, when we lose our sense of separate self and feel a part of something bigger (Flow state)
+  - (4) reflect with gratitude
+    - take a few moments to reflect back on your day and think about what you’re grateful for
+
+Links 🔗
+
+- [How to Make the Most of Your 24 Hours - zen habits zen habits](https://zenhabits.net/transcendent/)

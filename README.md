@@ -3653,3 +3653,31 @@ Links 🔗
 Links 🔗
 
 - [How to Make the Most of Your 24 Hours - zen habits zen habits](https://zenhabits.net/transcendent/)
+
+## Day 145: Jan 14, 2023
+
+- Forward-Forward algorithm (FF)
+  - what: a technique for training neural networks that uses two forward passes of data through the network, instead of backpropagation, to update the model weights.
+  - why: backprop requires full knowledge of the computation in the forward pass to compute derivatives and storing activation values during training
+  - advantages
+    - can be used when the precise details of the forward computation are unknown
+    - can learn while pipelining sequential data through a neural network without ever storing the neural activities or stopping to propagate error derivatives
+    - a model of learning in cortex and as a way of making use of very low-power analog hardware without resorting to reinforcement learning
+  - how:
+    - The first forward pass operates on positive data from a training set, and the network weights are adjusted to cause this input to increase a layer's goodness value
+    - In the second forward pass, the network is given a generated negative example that is not taken from the dataset.
+  - performance:
+    - the FF-trained networks performed "only slightly worse" than those trained using backpropagation for CV task on MNIST and CIFAR datasets
+    - Hinton’s paper proposed 2 different Forward-Forward algorithms, which I called Base and Recurrent. ... Base FF algorithm can be much more memory efficient than the classical backprop, with up to 45% memory savings for deep networks
+  - 4 concepts
+    - Local training. Each layer is trained just comparing the outputs for positive and negative streams
+    - No need to store the activations. Activations are needed during the backpropagation to compute gradients, but often result in nasty Out of Memory errors.
+    - Faster weights layer update. Once the output of a layer has been computed, the weights can be updated right away, i.e. no need to wait the full forward (and part of the backward) pass to be completed.
+    - Alternative goodness metrics. Hinton’s paper uses the sum-square of the output as goodness metric, but I expect alternative metrics to pop up in scientific literature over the coming months.
+
+Links 🔗
+
+- [paper](https://www.cs.toronto.edu/~hinton/FFA13.pdf)
+- [implementation](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/forward_forward)
+- [pytorch implementation](https://github.com/mohammadpz/pytorch_forward_forward)
+- [twitter thread](https://twitter.com/diegofiori_/status/1605242573311709184)

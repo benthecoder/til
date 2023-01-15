@@ -3681,3 +3681,19 @@ Links 🔗
 - [implementation](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/forward_forward)
 - [pytorch implementation](https://github.com/mohammadpz/pytorch_forward_forward)
 - [twitter thread](https://twitter.com/diegofiori_/status/1605242573311709184)
+
+## Day 146: Jan 15, 2023
+
+- Polars
+  - a blazingly fast DataFrame library written in Rust on top of Apache Arrow
+  - CPU's today's come with many cores and with their superscalar designs and SIMD registers allow for even more parallelism. Polars is written from the ground up to fully utilize the CPU's of this generation
+  - Besides blazingly fast algorithms, cache efficient memory layout and multi-threading, it consist of a lazy query engine, allowing Polars to do several optimizations that may improve query time and memory usage.
+
+Links 🔗
+
+- [GitHub](https://github.com/pola-rs/polars)
+- [Introduction - Polars](https://pola-rs.github.io/polars-book/user-guide/)
+- [Modern Polars](https://kevinheavey.github.io/modern-polars/?ref=blef-fr)
+- [Polars: Blazingly Fast DataFrames in Rust and Python - YouTube](https://www.youtube.com/watch?v=kVy3-gMdViM)
+- [Calmcode - polars: Introduction](https://calmcode.io/polars/introduction.html)
+- [I wrote one of the fastest DataFrame libraries | Ritchie Vink](https://www.ritchievink.com/blog/2021/02/28/i-wrote-one-of-the-fastest-dataframe-libraries/)

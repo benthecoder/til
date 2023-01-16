@@ -3697,3 +3697,56 @@ Links 🔗
 - [Polars: Blazingly Fast DataFrames in Rust and Python - YouTube](https://www.youtube.com/watch?v=kVy3-gMdViM)
 - [Calmcode - polars: Introduction](https://calmcode.io/polars/introduction.html)
 - [I wrote one of the fastest DataFrame libraries | Ritchie Vink](https://www.ritchievink.com/blog/2021/02/28/i-wrote-one-of-the-fastest-dataframe-libraries/)
+
+## Day 147: Jan 16, 2023
+
+- 4000 weeks
+  - The average human life is only four thousand weeks (~80 yo)
+  - The pressure to be more productive and fit ever-increasing quantities of activity into a stubbornly non-increasing quantity of time leads to productivity anxiety, shriveled attention spans, and burn-out.
+  - productivity is a trap
+    - The day will never arrive when you finally have everything under control
+    - "Time feels like an unstoppable conveyer belt, bringing us new tasks as fast as we can dispatch the old ones; and becoming “more productive” just seems to cause the belt to speed up."
+  - adopt a limit-embracing attitude
+    - it's irrational to feel troubled by an overwhelming to-do list, Surrender to the reality that things just take the time they take, and confront your limitations
+  - how you spend your time is a choice
+    - accept that there will always be too much to do
+    - understand that you’re guaranteed to miss out on almost every experience the world has to offer
+    - you'll get to focus on fully enjoying the tiny slice of experiences you actually do have time for
+  - importance of rest
+    - Its absence can lead to stress, burnout, and counterintuitively overall poor performance despite the extra hours worked
+    - Leisure is not merely an opportunity for recovery and replenishment for the purposes of further work, but for its intrinsic satisfactions
+- 10 tools for embracing finitude
+  - (1) Adopt a fixed volume approach to productivity
+    - Establish pre-determined time boundaries on your work, and make decisions in light of those limits.
+    - ex: I need to finish this by 5:30, so I'm have 4 hours left and I should use it wisely and not waste it on other lower value tasks
+  - (2) Serialize, Serialize, Serialize
+    - Focus on one big project at a time, and see it to completion before moving onto the next.
+    - ex: i shouldn't start two articles, a side project, and my assignment all at once, I won't make much progress. Instead, I should train myself to consciously postpone everything except the one most important thing
+  - (3) Strategic underachievement
+    - you can't except excellence in all areas of life, decide in advance what to fail at.
+    - ex: I know I'm not good at experimental design, expect I won't get perfect grades in my exam
+  - (4) celebrate wins
+    - keep a "done" list which starts empty and fills up over the day, lower the bar for accomplishments, small wins accrue
+    - ex: even though I didn't finish that article, I gathered resources for that article, read a couple interesting blog posts, learned something new, read a chapter of a book. note all this down
+  - (5) consolidate care
+    - Consciously choose your battles in industry, charity, activism, and politics.
+    - ex: focus on caring what matters the most: having good conversations, developing relationships w God and important people in my life, making real-impact to the world, care less about what others think, and monetary things
+  - (6) Embrace boring & single-purpose technology
+    - make your devices boring, remove distracting apps, choose single-purpose devices
+    - ex: my ipad is for notes and reading, no distracting apps, I have bedtime mode and grayscale on after 10
+  - (7) seek novelty in mundane
+    - pay more attention to every moment no matter how mundane, whatevery draws your attention more fully to the present
+    - ex: practice meditating, go on spontaneous walks, take pictures, journal everyday, be more mindful
+  - (8) Be a researcher in relationships
+    - when talking with someone, adopt an attitude of curiosity, where your goal is to figure out who this human being is
+    - ex: next time when I'm striking up convo with a stranger, imagine I have to write a paper about them
+  - (9) Cultivate instantaneous generosity
+    - act on generous impulse right away, we are social creatures, generosity makes us happy
+    - ex: give compliments when I think of them, check in on friends, praise someone, thank others.
+  - (10) Practice doing nothing
+    - "If you can’t bear the discomfort of not acting you’re far more likely to make poor choices with your time simply to feel as if you’re acting"
+    - ex: set a 5min timer, sit down and do nothing, notice you do something (thinking, focusing on breahth, self-criticism), STOP IT.
+
+Links 🔗
+
+- [Four Thousand Weeks](https://leebyron.com/4000/)

@@ -3750,3 +3750,32 @@ Links 🔗
 Links 🔗
 
 - [Four Thousand Weeks](https://leebyron.com/4000/)
+
+## Day 148: Jan 17, 2023
+
+- data science interview tips
+  - (1) Master communication and storytelling
+    - "You may be the strongest technical candidate, but you need to clearly articulate why you made certain decisions, identify caveats and limitations, and be concise in your answers, especially when you talk about the impact and route to the value of the work completed"
+    - write down the context of the things you highlighted on your resume
+      - why you picked this solution over another
+      - what the impact or outcome was
+      - whether or not the business implemented your solution
+    - change the level of detail, going from executive and high-level summaries to detailed technical deep dives
+  - (2) Understand the fundamentals of the company
+    - invest some time to understand the company you are interviewing for,
+      - primary purpose and positioning in the market
+      - source of revenue
+      - significant competitors
+    - how?
+      - visit corporate website: get a feel for the brand and what it stands for
+      - Look for some financial information through the investor relations section or Yahoo Finance
+      - Reach out to employees, convey your interest in the firm, and ask for 15 minutes of their time
+    - two more tips
+      - Demonstrate you have a keen sense for identifying pragmatic solutions and a strong product sense (a strong focus on the impact and outcome of the work rather than the work itself)
+      - Be your authentic self, and don’t assume anything in the conversation
+  - "Your preparation will set you apart from other candidates, especially in how you communicate, tell your story, and demonstrate your grasp of the company."
+
+Links 🔗
+
+- [What I've learned from interviewing more than 300 Data Scientists](https://medium.com/@martinleitner_33020/what-ive-learned-from-interviewing-more-than-300-data-scientists-dc5426a6df9d)
+- [What skill is a significant differentiator for a Data Scientist?](https://medium.com/@martinleitner_33020/what-skill-is-a-significant-differentiator-for-a-data-scientist-d0a4af725a86)

@@ -3779,3 +3779,19 @@ Links 🔗
 
 - [What I've learned from interviewing more than 300 Data Scientists](https://medium.com/@martinleitner_33020/what-ive-learned-from-interviewing-more-than-300-data-scientists-dc5426a6df9d)
 - [What skill is a significant differentiator for a Data Scientist?](https://medium.com/@martinleitner_33020/what-skill-is-a-significant-differentiator-for-a-data-scientist-d0a4af725a86)
+
+## Day 149: Jan 18, 2023
+
+- Neuroscience of Achieving Your Goals
+  - (1) The 85% Rule — you should set your goals so that you achieve them 85.13% of the time (failing 15% of the time despite your best efforts)
+  - (2) Make A Plan — SMART goals, create a specific set of action steps that get right down to details about what success would look like
+  - (3) Imagine The Worst — write down/talk about how bad it will be if you don't achieve your goals, it’s motivating to think about what it will be like if you fail.
+  - (4) Outsmart Your Obstacles — identify potential obstacles ahead of time and then planning out how to defeat them (foreshadow failure)
+  - (5) Procrastinate with Other Tasks — pre-task multitasking before a work session can actually help you generate adrenaline and get you into action
+  - (6) Focus Your Eyes to Focus Your Mind — Focus your visual attention on a single point for 30-60 seconds, it increases levels of systolic blood pressure and adrenaline
+  - (7) Have A Weekly Check In — review the progress you’ve made on your goals once a week, “dopamine milestone” — a pit stop where you signal to your brain that things are moving forward
+  - (8) Reward Your Effort — the next time you make an effort on something important — take note, and then take pride. Celebrate progress, not perfection, pat yourself on the brain
+
+Links 🔗
+
+- [The Neuroscience of Achieving Your Goals - Superorganizers - Every](https://every.to/superorganizers/the-neuroscience-of-achieving-your-goals)

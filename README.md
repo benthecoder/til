@@ -3795,3 +3795,37 @@ Links 🔗
 Links 🔗
 
 - [The Neuroscience of Achieving Your Goals - Superorganizers - Every](https://every.to/superorganizers/the-neuroscience-of-achieving-your-goals)
+
+## Day 150: Jan 19, 2023
+
+- blogging lessons
+  - (1) writing output == input
+    - if writing as a way to organize our thoughts, then there should be thoughts to begin with
+    - writing is thinking, we collate these thoughts from different inputs, and transform them into something uniquely our own
+    - have a backlog of ideas and curate content you consume from internet, and take notes
+  - (2) Optimize for readers who skim
+    - Ask yourself, would a reader get what you're trying to say if they just skimmed through your post
+    - tell a story through headings: headings should at least form a sentence when read from start to end
+    - include a lot of illustrations deliberately
+  - (3) views are nice, but they're not everything
+    - figure out why you're writing, if it's to trace your DS journey, see yourself grow, views don't measure that
+    - write fewer begineer posts
+    - “two [blog posts] for me and one for them [the audience].”
+    - endow your perspective when writing beginner articles, there could be a good analogy or compelling project, your views and take on it make it unique
+  - (4) Blogging is half marketing
+    - marketing starts before writing - search for keywords to use to title posts
+    - Rule for good topic: if you labor over a concept/problem, and resources on internet are scarce
+  - (5) Write a first draft when I’m inspired
+    - inspiration has a half-life, write a first draft when it's peaking
+    - pre-writing -> editing mode -> (if not interesting) discard
+    - pre-writing: have materials and references ready, workshop a title, draft headings, write key takeaways, then expand these into bullet points
+    - discarding drafts that do not spark joy
+  - (6) Keep a changelog for every blog post
+    - informs readers on how the blog post evolved, with all its corrections and feedback
+    - blogs are also a record of your thoughts, past and present
+    - blogpost annealing: apply heat (like metal) in form of feedback on blog post to shape it in a better form
+
+Links 🔗
+
+- [Lessons from six years of blogging](https://ljvmiranda921.github.io/life/2023/01/07/six-years/)
+- [Blogpost Annealing](https://www.swyx.io/blogpost-annealing)

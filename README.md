@@ -3829,3 +3829,28 @@ Links 🔗
 
 - [Lessons from six years of blogging](https://ljvmiranda921.github.io/life/2023/01/07/six-years/)
 - [Blogpost Annealing](https://www.swyx.io/blogpost-annealing)
+
+## Day 151: Jan 20, 2023
+
+- How to understand things
+  - 'intelligence' is as much about virtues such as honesty, integrity, and bravery, as it is about 'raw intellect’
+  - Intelligent people simply aren’t willing to accept answers that they don’t understand — no matter how many other people try to convince them of it, or how many other people believe it, if they aren’t able to convince them selves of it, they won’t accept it.
+  - (1) energy and intrinsic motivation: thinking hard takes effort
+    - It’s easy to think that you understand something, when you actually don’t
+    - to test understanding: attack the thing from multiple angles and see if you understand it
+    - This requires a lot of intrinsic motivation, because it’s so hard; so most people simply don’t do it.
+    - You have the drive, the will to know : not understanding something — or having a bug in your thinking — bothers you a lot
+  - honesty, or integrity: a sort of compulsive unwillingness, or inability, to lie to yourself.
+    - "first rule of science is that you do not fool yourself" - Feynman
+  - (2) unafraid to look stupid
+    - looking stupid takes courage, and sometimes it’s easier to just let things slide
+  - Go slow
+    - Read slowly, think slowly, really spend time pondering the thing.
+    - Start by thinking about the question yourself before reading a bunch of stuff about it.
+    - A week or a month of continuous pondering about a question will get you surprisingly far.
+  - understanding is not a binary “yes/no”. It has layers of depth
+
+Links 🔗
+
+- [understanding - nabeelqu](https://nabeelqu.co/understanding)
+- [Noticing Confusion - Sequence](https://www.readthesequences.com/Noticing-Confusion-Sequence)

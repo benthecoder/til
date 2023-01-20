@@ -3854,3 +3854,57 @@ Links 🔗
 
 - [understanding - nabeelqu](https://nabeelqu.co/understanding)
 - [Noticing Confusion - Sequence](https://www.readthesequences.com/Noticing-Confusion-Sequence)
+
+## Day 152: Jan 21, 2023
+
+- OpenAI Embeddings
+  - what:
+    - vector (list) of floating point numbers
+    - The distance between two vectors measures their relatedness. (closer = high relatedness and vice versa)
+  - use cases:
+    - Search (where results are ranked by relevance to a query string)
+    - Clustering (where text strings are grouped by similarity)
+    - Recommendations (where items with related text strings are recommended)
+    - Anomaly detection (where outliers with little relatedness are identified)
+    - Diversity measurement (where similarity distributions are analyzed)
+    - Classification (where text strings are classified by their most similar label)
+  - embedding models
+    - second generation: `text-embedding-ada-002`, uses the `cl100k_base` tokenizer, has `8191` max input tokens
+  - limitation and risks
+    - social bias:
+      - evidence of bias from SEAT (May et al, 2019) and the Winogender (Rudinger et al, 2018) benchmarks
+      - models more strongly associate (a) European American names with positive sentiment, when compared to African American names, and (b) negative stereotypes with black women
+    - english only
+      - perform poorly on dialects or uses of English that are not well represented on the Internet
+    - blind to recent events
+      - contain some information about real world events up until 8/2020. If you rely on the models representing recent events, then they may not perform well.
+  - FAQ
+    - how to get number of tokens
+      - second gen models no way to count locally, need call API first
+      - first gen, use [OpenAI tokenizer page](https://beta.openai.com/tokenizer) or [transformers.GPT2TokenizerFast](https://huggingface.co/docs/transformers/model_doc/gpt2#transformers.GPT2TokenizerFast)
+    - how to retrive K nearest embeddings vectors quickly
+      - [Pinecone](https://www.pinecone.io/), a fully managed vector database
+      - [Weaviate](https://weaviate.io/), an open-source vector search engine
+      - [Faiss](https://engineering.fb.com/2017/03/29/data-infrastructure/faiss-a-library-for-efficient-similarity-search/), a vector search algorithm by Facebook
+  - code
+    - [amazon food reviews](https://github.com/openai/openai-cookbook/blob/main/examples/Obtain_dataset.ipynb)
+    - [visualize embeddings 2d](https://github.com/openai/openai-cookbook/blob/main/examples/Visualizing_embeddings_in_2D.ipynb)
+    - [regression](https://github.com/openai/openai-cookbook/blob/main/examples/Regression_using_embeddings.ipynb)
+    - [classification](https://github.com/openai/openai-cookbook/blob/main/examples/Classification_using_embeddings.ipynb)
+    - [zero shot classification](https://github.com/openai/openai-cookbook/blob/main/examples/Zero-shot_classification_with_embeddings.ipynb)
+    - [user and product embeddings](https://github.com/openai/openai-cookbook/blob/main/examples/User_and_product_embeddings.ipynb)
+    - [clustering](https://github.com/openai/openai-cookbook/blob/main/examples/Clustering.ipynb)
+    - [semantic text search](https://github.com/openai/openai-cookbook/blob/main/examples/Semantic_text_search_using_embeddings.ipynb)
+    - [code search](https://github.com/openai/openai-cookbook/blob/main/examples/Code_search.ipynb)
+    - [recommendations](https://github.com/openai/openai-cookbook/blob/main/examples/Recommendation_using_embeddings.ipynb)
+    - [question answering](https://github.com/openai/openai-cookbook/blob/main/examples/Question_answering_using_embeddings.ipynb)
+
+Links 🔗
+
+- [Introducing Text and Code Embeddings](https://openai.com/blog/introducing-text-and-code-embeddings/)
+- [OpenAI API - examples](https://beta.openai.com/docs/guides/embeddings/what-are-embeddings)
+- [paper](https://ar5iv.labs.arxiv.org/html/2201.10005)
+- [code examples](https://github.com/openai/openai-cookbook/tree/main/examples)
+- [namuan/dr-doc-search: Converse with book - Built with GPT-3](https://github.com/namuan/dr-doc-search)
+- [hwchase17/langchain: ⚡ Building applications with LLMs through composability ⚡](https://github.com/hwchase17/langchain)
+- [jerryjliu/gpt_index: An index created by GPT to organize external information and answer queries!](https://github.com/jerryjliu/gpt_index)

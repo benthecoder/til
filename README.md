@@ -3908,3 +3908,19 @@ Links 🔗
 - [namuan/dr-doc-search: Converse with book - Built with GPT-3](https://github.com/namuan/dr-doc-search)
 - [hwchase17/langchain: ⚡ Building applications with LLMs through composability ⚡](https://github.com/hwchase17/langchain)
 - [jerryjliu/gpt_index: An index created by GPT to organize external information and answer queries!](https://github.com/jerryjliu/gpt_index)
+
+## Day 153: Jan 22, 2023
+
+- Used Pycaret for a simple regression problem, some notes
+  - i had issues with installation of lightgbm, needed to do brew install cmake and brew install and create a new conda environment
+  - easy to use, really is automated machine learning, run setup with preprocessing parameters, run compare_models to train multiple algorithms, you have options to tune and create specific models with cross validation, and then stack or blend models, etc.
+  - It also has mlflow experiment logging built in
+  - only downside is it's pretty slow, but it's understandable since it's training so many algorithms and I'm on my laptop
+  - only tried regression, can be used for classification, time series, topic modelling and more.
+
+Links 🔗
+
+- [website](https://pycaret.org/)
+- [docs](https://pycaret.gitbook.io/docs/)
+- [Tutorials](https://pycaret.gitbook.io/docs/get-started/tutorials)
+- [github](https://github.com/pycaret/pycaret)

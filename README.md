@@ -3924,3 +3924,17 @@ Links 🔗
 - [docs](https://pycaret.gitbook.io/docs/)
 - [Tutorials](https://pycaret.gitbook.io/docs/get-started/tutorials)
 - [github](https://github.com/pycaret/pycaret)
+
+## Day 154: Jan 23, 2023
+
+- learned about hadoop ecosystem and got some data engineering resources
+  - Hadoop: A framework for storing and processing large amounts of data across a cluster of computers.
+  - HDFS: The Hadoop Distributed File System for storing data.
+  - MapReduce: A programming model for processing data in parallel.
+  - Pig: A platform for analyzing large data sets using a high-level language.
+  - Hive: A data warehousing tool for querying and managing large data sets stored in HDFS.
+
+Links 🔗
+
+- [How to learn data engineering](https://www.blef.fr/learn-data-engineering/)
+- [Hadoop and Big Data - hadoop](https://jheck.gitbook.io/hadoop/)

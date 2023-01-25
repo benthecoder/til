@@ -1,15 +1,10 @@
 # Today I Learned
 
-## Progress
+Other TILs on the internet
 
-|                           Course/Book                           |        Status         |
-| :-------------------------------------------------------------: | :-------------------: |
-| [Machine Learning Specialization](https://tinyurl.com/2kydp9km) |   Course 2, Week 2    |
-|         [MLOps Zoomcamp](https://tinyurl.com/2eyfcvbq)          | Week 4: ML Deployment |
-|    [Data Engineering Zoomcamp](https://tinyurl.com/2egmk5yx)    |   Week 2 : Airflow    |
-|                      Statistics Done Wrong                      |       Chapter 1       |
-|                           Hands on ML                           |       Chapter 5       |
-|                          Fluent Python                          |       Chapter 5       |
+- [Hashrocket - Today I Learned](https://til.hashrocket.com/)
+- [Today I Learned - koaning.io](https://koaning.io/til/)
+- [Simon Willison: TIL](https://til.simonwillison.net/)
 
 ## Day 1: 31 Aug 2022
 
@@ -3938,3 +3933,17 @@ Links 🔗
 
 - [How to learn data engineering](https://www.blef.fr/learn-data-engineering/)
 - [Hadoop and Big Data - hadoop](https://jheck.gitbook.io/hadoop/)
+
+## Day 155: Jan 24, 2023
+
+- normalizing constant in bayes rule
+  - the idea is integrate P(θ|y) ha to be one because it is a probability, so we need p(y) to make the numerator one. p(y) is our normalizing constant
+  - if it’s missing, we need simulation to find what p(y) is, ex: MCMC
+- integration is a weighted average
+  - the weighted aspect is the probability (height of the curve)
+  - the average is dividing by the number of points (slices) we are integrating over
+
+Links 🔗
+
+- [probability - Normalizing constant in Bayes theorem - Cross Validated](https://stats.stackexchange.com/questions/12112/normalizing-constant-in-bayes-theorem)
+- [Bayes' Theorem](https://chrispiech.github.io/probabilityForComputerScientists/en/part1/bayes_theorem/)

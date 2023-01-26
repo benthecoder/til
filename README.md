@@ -3947,3 +3947,32 @@ Links 🔗
 
 - [probability - Normalizing constant in Bayes theorem - Cross Validated](https://stats.stackexchange.com/questions/12112/normalizing-constant-in-bayes-theorem)
 - [Bayes' Theorem](https://chrispiech.github.io/probabilityForComputerScientists/en/part1/bayes_theorem/)
+
+## Day 156: Jan 25, 2023
+
+- why Bayesian?
+  - theoretical reason
+    - if p(𝛉) and p(y|𝛉) represents a rational person's belief, Bayesian is the optimal way to update that
+    - optimal here = minimizes the expected loss
+    - Bayesian estimates are > frequentist estimates
+    - classical estimates of SE and CIs are overly optimistic because it doesn't account for all sources of uncertainty in the parameters
+    - ex: mixed moels
+      - 1. get estimates of variance components (VCs) of fixed and random effects
+      - want to estimate BLUEs and BLUPs
+      - proceed as VCs are known -> plug in
+      - estimates of BLUPs are not accurate because you're acting as if you knew the VCs
+  - practical reasons
+    - choosing good P(θ) can be difficult and ad-hoc choices are used
+    - even so, P(𝛉) leads to useful P(θ|y) given enough data (once n is large enough, effects of priors are negligible)
+    - intepreration is more useful
+  - in summary
+    - bayesian: use probability to describe beliefs about parameters incorporating prior info and conditioning on the data
+    - frequentist: treats parameters as unknown fixed quantities, base exclusively on the data and averages over the sample (randomly sample data -> calculations)
+
+Links 🔗
+
+- [Regression: What’s it all about? [Bayesian and otherwise] | Statistical Modeling, Causal Inference, and Social Science](https://statmodeling.stat.columbia.edu/2015/03/29/bayesian-frequentist-regression-methods/)
+- [Bayesian vs Frequentist A/B Testing (and Does it Even Matter?)](https://cxl.com/blog/bayesian-frequentist-ab-testing/)
+- [Statistical Alignment: Bayesian or Frequentist? | Built In](https://builtin.com/data-science/frequentist-vs-bayesian)
+- [Bayesians are frequentists | Statistical Modeling, Causal Inference, and Social Science](https://statmodeling.stat.columbia.edu/2018/06/17/bayesians-are-frequentists/)
+- [Bayes.ppt](https://www.cse.psu.edu/~rtc12/CSE586/lectures/BayesianEstimation.pdf)

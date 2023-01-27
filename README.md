@@ -3976,3 +3976,32 @@ Links 🔗
 - [Statistical Alignment: Bayesian or Frequentist? | Built In](https://builtin.com/data-science/frequentist-vs-bayesian)
 - [Bayesians are frequentists | Statistical Modeling, Causal Inference, and Social Science](https://statmodeling.stat.columbia.edu/2018/06/17/bayesians-are-frequentists/)
 - [Bayes.ppt](https://www.cse.psu.edu/~rtc12/CSE586/lectures/BayesianEstimation.pdf)
+
+## Day 156: Jan 26, 2023
+
+- sql window functions
+  - to get particular rank, do rank in subquery, and in outer query do where rank = N
+  - to do rolling averages, create CTE with counts, then do partition and order by and the key terms PRECEDING, CURRENT ROW, FOLLOWING, and UNBOUNDED, etc. to get sliding window. To get 3-day i.e. is `ROWS BETWEEN 2 PRECEDING AND CURRENT ROW`
+- tips for prompt engineering
+  - Good results won’t come ASAP, it takes me 6-12 attempts to get a prompt to a point where I think it’s decent. Don’t expect magic on the first try.
+  - Iterate fast, and don’t get too attached to specific prompts you’re working on.
+  - If your output doesn’t end up looking as good as mine, that’s fine. GPT-3’s output can vary wildly based on a few words even.
+  - Don’t get sucked in trying to make one specific prompt work. After 6-12 attempts, feel free to say fuck it and either a) start the prompt from scratch and change it up a ton or b) move on to the next lesson.
+- Temperature
+  - Temperature is basically how risky you want the model to be.
+  - A higher temperature = model will be a bit more unhinged and make more mistakes.
+  - A lower temperature means the model will take less risks and just give the more standard “right answer”.
+- basics of GPT-3
+  - made up of lots of parameters, each parameter is a specialized number
+  - input sentence -> combine sentence with parameters -> prediction
+  - 175 billion parameters (800 GB)
+  - each parameter looks like -> `output = input * parameter`
+  - sentences -> tokens through embeddings that are essentially a dictionary created that maps pieces of words to numbers
+  - GPT-3 understands language as a collection of numbers and relationship those numbers have with parameters
+  - parameters
+    - trained on the entire dataset: wikipedia, books, news, etc on nearly 500 billion tokens
+  - it costs about $5M in GPU time to train GPT-3.
+
+Links 🔗
+
+- [Build your own AI writing assistant w/ GPT-3](https://buildspace.so/builds/ai-writer)

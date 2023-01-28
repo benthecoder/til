@@ -4005,3 +4005,17 @@ Links 🔗
 Links 🔗
 
 - [Build your own AI writing assistant w/ GPT-3](https://buildspace.so/builds/ai-writer)
+
+## Day 0: Jan 27, 2023
+
+- the Big Mac Index
+  - bi-annual update by The Economist
+  - telling you how much a McDonalds burger will cost on your winter vacation
+  - lighthearted test of the economic theory of purchasing power parity (PPP)
+    - the idea that exchange rates should settle at a place where identical goods and services cost the same in every country.
+  - this is a rudimentary means of testing the theory, using only the Big Mac’s ingredients as the “basket of goods” rather than the hundreds used in more comprehensive PPP studies
+  - If you’re an FX trader who believes in the theory of PPP, the index gives you plenty of ideas to work with
+
+Links 🔗
+
+- [Our Big Mac index shows how burger prices are changing | The Economist](https://www.economist.com/big-mac-index?utm_source=chartr&utm_medium=newsletter&utm_campaign=chartr_20230127)

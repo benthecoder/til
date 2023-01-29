@@ -4006,7 +4006,7 @@ Links 🔗
 
 - [Build your own AI writing assistant w/ GPT-3](https://buildspace.so/builds/ai-writer)
 
-## Day 0: Jan 27, 2023
+## Day 157: Jan 27, 2023
 
 - the Big Mac Index
   - bi-annual update by The Economist
@@ -4019,3 +4019,14 @@ Links 🔗
 Links 🔗
 
 - [Our Big Mac index shows how burger prices are changing | The Economist](https://www.economist.com/big-mac-index?utm_source=chartr&utm_medium=newsletter&utm_campaign=chartr_20230127)
+
+## Day 158: Jan 28, 2023
+
+- `EXPLAIN` - cost of the query(“cost units are arbitrary, but conventionally mean disk page fetches”)
+- `EXPLAIN ANALYZE` - cost to execute the query and get the actual time taken as well
+- flush DNS cache - `sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder`
+
+Links 🔗
+
+- [PostgreSQL: Documentation: 9.3: EXPLAIN](https://www.postgresql.org/docs/9.3/sql-explain.html)
+- [6 Key Concepts, to Master Window Functions · Start Data Engineering](https://www.startdataengineering.com/post/6-concepts-to-clearly-understand-window-functions/)

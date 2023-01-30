@@ -4030,3 +4030,13 @@ Links 🔗
 
 - [PostgreSQL: Documentation: 9.3: EXPLAIN](https://www.postgresql.org/docs/9.3/sql-explain.html)
 - [6 Key Concepts, to Master Window Functions · Start Data Engineering](https://www.startdataengineering.com/post/6-concepts-to-clearly-understand-window-functions/)
+
+## Day 159: Jan 29, 2023
+
+- `MOD()` or `%` - to get remainder of division in SQL
+- `SUM(CASE WHEN <CONDITION> THEN <COLUMN_TO_SUM> ELSE 0 END)` - to get sum of column that meet condition
+- `date_part` is same as extract, but `date_part` is for postgres while extract is for standard SQL
+
+Links 🔗
+
+- [PostgreSQL: Documentation: 15: 9.9. Date/Time Functions and Operators](https://www.postgresql.org/docs/current/functions-datetime.html)

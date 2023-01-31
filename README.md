@@ -4040,3 +4040,29 @@ Links 🔗
 Links 🔗
 
 - [PostgreSQL: Documentation: 15: 9.9. Date/Time Functions and Operators](https://www.postgresql.org/docs/current/functions-datetime.html)
+
+## Day 160: Jan 30, 2023
+
+- black and white movies absolutely worth watching
+  - Seven Samurai, original 1954 version
+  - Casablanca
+  - Yojimbo
+  - Sanjuro
+  - Double Indemnity
+  - Sunset Blvd.
+  - Witness for the Prosecution
+  - Some Like It Hot
+  - Twelve Angry Men (1957)
+  - The Man From Earth (2007)
+  - Young Frankenstein
+  - To Kill a Mockingbird
+  - Arsenic and old lace
+  - Harvey (1950)
+  - All About Eve
+  - The Night of the Hunter
+  - Roman Holiday
+  - Gaslight
+  - Metropolis
+  - Night of the living dead
+
+Links 🔗

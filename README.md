@@ -4066,3 +4066,22 @@ Links 🔗
   - Night of the living dead
 
 Links 🔗
+
+- [Which black and white movies are absolutely worth watching? : AskReddit](https://www.reddit.com/r/AskReddit/comments/10opflg/which_black_and_white_movies_are_absolutely_worth/)
+
+## Day 161: Jan 31, 2023
+
+- performance measures for algos (4 ways)
+  - Completeness; Does it always find a solution if one
+    exists?
+  - Optimality; Does it always find a least-cost solution?
+  - Time Complexity; Number of nodes generated?
+  - Space Complexity; Number of nodes stored in memory during search?
+- Time and space complexity are measured in terms of problem difficulty - size of state space - defined by:
+  - b – (maximum) branching factor of the search tree
+  - d - depth of the shallowest optimal solution
+  - m - maximum length of the state space
+
+Links 🔗
+
+- [Search Control](https://www.cs.miami.edu/home/geoff/Courses/COMP6210-10M/Content/SearchControl.shtml)

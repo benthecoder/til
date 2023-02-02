@@ -4085,3 +4085,37 @@ Links 🔗
 Links 🔗
 
 - [Search Control](https://www.cs.miami.edu/home/geoff/Courses/COMP6210-10M/Content/SearchControl.shtml)
+
+## Day 162: Feb 1, 2023
+
+- UDFs
+  - User-defined functions (UDFs) are custom functions defined by a user to allow for the reuse of custom logic in an environment. UDFs can be written in Python and used when writing Spark SQL queries, or they can be designed to compute on each row or groups of rows
+- stateless hashing
+  - Stateless hashing is a type of hash-based cryptography that does not require the use of a stateful signature scheme.
+  - It is based on the eXtended Merkle Signature Scheme (XMSS) and uses a tree-of-trees structure with a number of few time signatures at the bottom.
+  - This allows it to be used as a drop-in replacement for current signature schemes.
+  - Stateful hash-based cryptography, on the other hand, uses a single Merkle public key to hash one-time public keys.
+- bourgeois vs managerial capitalism
+  - bourgeois: owner and manager of company (ex: a16z)
+  - manageriol: owner is separate from manager, managers don't create new things, people leave companies, create startup under bourgeois capitalism
+- data semantics
+  - A semantic layer is a business representation of data that provides a consistent way of interpreting data and enables end-users to quickly discover and access data using standard search terms. It maps complex data into familiar terms and offers a unified and consolidated view of data across an organization
+- sufficient statistic
+  - A sufficient statistic is a statistic that summarizes all of the information in a sample about a chosen parameter. It is said to be sufficient for a parameter if the conditional distribution of the sample given a value of the statistic does not depend on the parameter. Intuitively, this means that no other statistic can provide more information about the parameter than the sufficient statistic[. Examples include the sample mean, which estimates the population mean, and T, which is said to be sufficient if the statistician who knows its value can do just as well as someone who knows all of the data points.
+- fanout join
+  - Fanout join can be used in SQL to LEFT JOIN two data models with a one-to-many relationship. This can cause issues when trying to aggregate data, such as when using SUM with a fanout on a join. To avoid this, it is important to define primary keys correctly and use the COALESCE function to see zeros instead of nulls. Additionally, fan traps can arise from the fundamental properties of SQL joins, so it is important to be aware of these potential issues.
+- variance reduction
+  - Variance reduction is a technique used in Monte Carlo methods to increase the precision of estimates obtained from a given simulation or computational effort. It is achieved by reducing the variance of the estimator, which is the measure of how far an estimate deviates from its expected value. This can be done by either increasing the number of simulations (i.e. running the simulation for a longer time) or by using variance reduction techniques such as splitting and Russian roulette, with ant colony methods as builders of importance maps. By reducing the variance, more accurate estimates can be obtained with fewer simulations, thus saving time and resources
+  - Variance reduction techniques can be used to improve the power of A/B tests by attempting to reduce the variability of the results. This can be done by computing the covariance, variance, and mean of X and Y, as well as using methods such as CUPED (Covariate-Uniformly Partitioned Experiment Design)[
+- sequential testing
+  - Sequential testing is a practice of making decisions during an A/B test by sequentially monitoring the data as it accrues.
+  - It is a type of statistical analysis where the sample size is not fixed in advance, and involves calculating test statistics using a specific type of sequential test called mixture Sequential Probability Ratio Test (SPRT).
+  - This can lead to three different outcomes: reject the null hypothesis, accept the null hypothesis, or continue collecting data
+
+Links 🔗
+
+- [scientism on Twitter: "The tech billionaire crowd represent a kind of 'trad capitalism' that valorizes the owner-manager. They imagine themselves like the great industrialists and oppose themselves to modern capital where owners are divorced from management by dozens of layers of financial abstraction." / Twitter](https://twitter.com/mr_scientism/status/1519041920806395907)
+- [Experimentation Platform in a Day | by Dan Frank | Deliberate Data Science | Medium](https://medium.com/deliberate-data-science/experimentation-platform-in-a-day-c60646ef1a2)
+- [Data semantics: the missing layer of your data warehouse - Blog](https://www.coinbase.com/blog/data-semantics-the-missing-layer-of-your-data-warehouse)
+- [What is a Semantic Layer?  - Datameer](https://www.datameer.com/blog/what-is-a-semantic-layer/)
+- [Increasing the sensitivity of A/B tests by utilizing the variance estimates of experimental units - Meta Research | Meta Research](https://research.facebook.com/blog/2020/10/increasing-the-sensitivity-of-a-b-tests-by-utilizing-the-variance-estimates-of-experimental-units/)

@@ -4119,3 +4119,61 @@ Links 🔗
 - [Data semantics: the missing layer of your data warehouse - Blog](https://www.coinbase.com/blog/data-semantics-the-missing-layer-of-your-data-warehouse)
 - [What is a Semantic Layer?  - Datameer](https://www.datameer.com/blog/what-is-a-semantic-layer/)
 - [Increasing the sensitivity of A/B tests by utilizing the variance estimates of experimental units - Meta Research | Meta Research](https://research.facebook.com/blog/2020/10/increasing-the-sensitivity-of-a-b-tests-by-utilizing-the-variance-estimates-of-experimental-units/)
+
+## Day 0: Feb 2, 2023
+
+- 7 steps in AB testing
+  - (1) problem statement: what is the goal?
+    - clarify user journey (user funnel)
+      - ex: user visit -> search -> browse -> view item -> purchase
+    - success metric
+      - measurable: can the behaviour be tracked?
+      - attributable: can you establish the cause -> effect relationship?
+      - sensitive: does it have low variability to distinguish trt from control?
+      - timely: can you measure success behavior in a short term?
+  - (2) hypothesis testing: what results do you hypothesize from experiment
+    - state hypothesis statements
+      - null: no difference between trt and control
+      - alternative: there is a difference between trt and control
+    - set significance level (alpha)
+      - the decision threshold, commonly 0.05, tells us that what we observed wasn't due to chance alone
+      - alpha = probability of rejecting null hypothesis when it is true (false positive)
+      - interpretation of alpha = 0.05: if we run the experiment 100 times, we expect 5 of them to be false positives
+    - set statistical power (1-beta)
+      - beta: probability of accepting null hypothesis when it is false (false negative)
+      - power: probability of detecting an effect given alternative hypothesis is true (true positive)
+    - set minimum detectable effect (MDE)
+      - practical significance: how much difference is meaningful to the business?
+      - typically 1% lift
+      - ex: revenue per day: if change is at least 1% in higher in revenue per day, then it is practically significant
+  - (3) experiment design: what are exp parameters?
+    - set randomization unit
+      - user, cookie, page or session level, device, etc.
+    - target population in experiment
+      - where to target in the funnel, ex: users who are searching something
+    - determine sample size
+      - n = 16 \* $\sigma^2$ / $\delta^2$
+        - $\sigma$ is sample standard deviation
+        - $\delta$ is difference between control and treatment
+    - duration?
+      - typically 1-2 weeks (to prevent day of the week effect)
+  - (4) run experiment: what are requirements?
+    - set up instruments and data pipelines to collect data
+    - avoid peeking p-values
+      - increases risk of false positive
+  - (5) validity checks: did experiment run as expected?
+    - instrumentation effect: guardrail metrics (bugs, glitches)
+    - external factors: holiday, competition, economic disruptions
+    - selection bias: A/A test (distribution of control == treatment)
+    - sample ratio mismatch: chi-square goodness of fit test
+    - novelty effect: segment by new and old visitors
+  - (6) interpret results: which direction is metric significant statistically and practically
+    - at signficance level at 0.05, there is/isn't statistical significance to reject the H0 and conclude that \_\_\_\_
+  - (7) launch decision: based on result and tradeoffs, should we launch or not?
+    - metric trade-offs: primary metric may improve but secondary decline
+    - cost of launching: launching and maintaining change might be costly
+    - risk of false positive: negative consequence to user -> churn -> revenue loss
+
+Links 🔗
+
+- [A/B Testing in Data Science Interviews by a Google Data Scientist | DataInterview - YouTube](https://www.youtube.com/watch?v=DUNk4GPZ9bw)

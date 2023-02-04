@@ -4187,3 +4187,45 @@ Links 🔗
 - [Python’s “Disappointing” Superpowers - lukeplant.me.uk](https://lukeplant.me.uk/blog/posts/pythons-disappointing-superpowers/)
 - [Understanding all of Python, through its builtins](https://sadh.life/post/builtins/)
 - [dair-ai/Transformers-Recipe: 🧠 A study guide to learn about Transformers](https://github.com/dair-ai/Transformers-Recipe)
+
+## Day 165: Feb 4, 2023
+
+- 8 key data structure that power modern databases
+  - skip list -> sorted set
+    - allows for fast lookup, ranged queries
+    - alt. to balance tree, efficient search and insertion and deletion
+    - redis
+  - hash index
+    - efficiently map key to values
+    - fast lookups, insertion and deletion
+    - redis, MySQL, PostgreSQL
+  - LSM Tree
+    - LSM tree: SStable + Memtable
+      - SStable + memtable work together to handle high volumne of write operations
+      - SSTable: sorted string table
+        - store data on disk in sorted order
+        - file based DS to store large amounts table in highly compressed and efficient format
+      - Memtable: in memory table DS taht stores recent writes
+    - cassandra, RocksDB, leveldb
+  - B-tree
+    - efficiently store and retrive large amounts of data on disk
+    - balance tree: each node can have multiple children and keeps data sorted
+    - b+ tree: all data is stored in leaf nodes and internal nodes only hold keys
+    - MYSql, PostgreSQL, Oracle
+  - Inverted Index
+    - efficiently search and retrieve large collections of text data
+    - maps words to documents in which they appear
+    - why inverted? maps words to docs rather than the other way round
+    - elastic search
+  - suffix tree
+    - efficient text search
+  - R-tree
+    - spacial index DS that organizes data based on geometric boundaries
+    - efficiently search and retrive spacial data
+    - PostGIS, Mongodb, elastic search
+
+Links 🔗
+
+- [8 Key Data Structures That Power Modern Databases - YouTube](https://www.youtube.com/watch?v=W_v05d_2RTo)
+- [The Secret Sauce Behind NoSQL: LSM Tree - YouTube](https://www.youtube.com/watch?v=I6jB0nM9SKU&t=0s)
+- [Database Internals](https://www.databass.dev/)

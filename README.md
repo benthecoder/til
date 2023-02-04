@@ -4120,7 +4120,7 @@ Links 🔗
 - [What is a Semantic Layer?  - Datameer](https://www.datameer.com/blog/what-is-a-semantic-layer/)
 - [Increasing the sensitivity of A/B tests by utilizing the variance estimates of experimental units - Meta Research | Meta Research](https://research.facebook.com/blog/2020/10/increasing-the-sensitivity-of-a-b-tests-by-utilizing-the-variance-estimates-of-experimental-units/)
 
-## Day 0: Feb 2, 2023
+## Day 163: Feb 2, 2023
 
 - 7 steps in AB testing
   - (1) problem statement: what is the goal?
@@ -4177,3 +4177,13 @@ Links 🔗
 Links 🔗
 
 - [A/B Testing in Data Science Interviews by a Google Data Scientist | DataInterview - YouTube](https://www.youtube.com/watch?v=DUNk4GPZ9bw)
+
+## Day 164: Feb 3, 2023
+
+- Python and transformer study guide
+
+Links 🔗
+
+- [Python’s “Disappointing” Superpowers - lukeplant.me.uk](https://lukeplant.me.uk/blog/posts/pythons-disappointing-superpowers/)
+- [Understanding all of Python, through its builtins](https://sadh.life/post/builtins/)
+- [dair-ai/Transformers-Recipe: 🧠 A study guide to learn about Transformers](https://github.com/dair-ai/Transformers-Recipe)

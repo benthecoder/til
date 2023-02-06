@@ -4229,3 +4229,38 @@ Links 🔗
 - [8 Key Data Structures That Power Modern Databases - YouTube](https://www.youtube.com/watch?v=W_v05d_2RTo)
 - [The Secret Sauce Behind NoSQL: LSM Tree - YouTube](https://www.youtube.com/watch?v=I6jB0nM9SKU&t=0s)
 - [Database Internals](https://www.databass.dev/)
+
+## Day 166: Feb 5, 2023
+
+- history of tech
+  - Platform I: Creating the ‘Silicon Valley’ (60s Semiconductor boom)
+    - 1940s: invention of transistors
+    - 1954: first silicon transistor
+    - 1957: tratorous eight -> fairchild semiconductor
+    - 1960s: Intel, AMD, Applied materials (valley of silicon)
+  - Platform II: Inventing the PC (70s and 80s PC boom)
+    - 1975: MITS Altair 8800
+    - 1976: Apple I
+    - 1977: PC “trinity” – the Apple II, Commodore’s PET, and RadioShack’s TRS-80
+    - Microsoft (1975), Oracle (1977), Adobe (1982)
+  - Platform III: Creating the Internet Economy (90s Internet boom)
+    - 90s: Amazon, Google, and PayPal
+    - 1998: advent of the world wide web
+    - 1999: dotcom bubble
+    - 2004: 48% of dotcom companies
+    - Tesla and Palantir (2003), Facebook (2004), and Palo Alto Networks (2005)
+  - Platform IV: Mobile computing (00s mobile boom)
+    - 2007: launch of iphone
+    - Airbnb (2008), Uber (2009), Snapchat (2011)
+  - Platformization Conjecture
+    - Company success is more likely when founded to exploit a new leap of technology.
+    - Company success is more likely when founded during a period of higher-than-average interest rates.
+    - Company success is even more likely when companies are founded to exploit a technology innovation that involves both software and hardware during periods of higher-than-average interest rates.
+  - Platform V: Energy and compute become free and abundant
+    - The first is the marginal cost of energy going to zero. This happens through a proliferation of zero-carbon solutions like solar and wind, along with moderately intensive solutions like natural gas, all working to create energy that quickly approaches $0/kwh.
+    - Second, complementing this new energy model is a shift away from Moore’s Law and CPUs to the proliferation of GPUs. This would support scaling Moore’s Law through parallelism, which favors applications of machine learning and AI. As a result, the marginal cost of compute will go to zero.
+
+Links 🔗
+
+- [Higher Rates Will Lead to the Next Generation of Great Tech Startups](https://chamathreads.substack.com/p/higher-rates-will-lead-to-the-next)
+- [All-In with Chamath, Jason, Sacks & Friedberg - E114: Markets update: whipsaw macro picture, big tech, startup mass extinction event, VC reckoning](https://podcasts.google.com/feed/aHR0cHM6Ly9hbGxpbmNoYW1hdGhqYXNvbi5saWJzeW4uY29tL3Jzcw/episode/MzQ0MTJhZWYtMWJmNC00Yjk0LWIxMDEtYTU0ODA2YzAxMmZk?hl=en&ved=2ahUKEwjzut2pm__8AhXxl4kEHWhaCAsQjrkEegQICBAF&ep=6)

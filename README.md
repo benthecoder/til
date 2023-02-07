@@ -4264,3 +4264,29 @@ Links 🔗
 
 - [Higher Rates Will Lead to the Next Generation of Great Tech Startups](https://chamathreads.substack.com/p/higher-rates-will-lead-to-the-next)
 - [All-In with Chamath, Jason, Sacks & Friedberg - E114: Markets update: whipsaw macro picture, big tech, startup mass extinction event, VC reckoning](https://podcasts.google.com/feed/aHR0cHM6Ly9hbGxpbmNoYW1hdGhqYXNvbi5saWJzeW4uY29tL3Jzcw/episode/MzQ0MTJhZWYtMWJmNC00Yjk0LWIxMDEtYTU0ODA2YzAxMmZk?hl=en&ved=2ahUKEwjzut2pm__8AhXxl4kEHWhaCAsQjrkEegQICBAF&ep=6)
+
+## Day 167: Feb 6, 2023
+
+- how to choose priors
+  - literature or scientific knowledge
+  - elicit information from experts
+  - choose prior that is mathematically convenient
+  - difficulty: condense info in form of distribution
+- conjugate prior
+  - formal def: F a class of sampling distributions and P a class of prior distributions. Then P is conjugate for F if p(θ) ∈ P and p(y|θ) ∈ F implies that p(θ|y) ∈ P.
+  - all likelihood from exponential family has conjugate
+  - beta prior + binomial likelihood → Beta(a*, b*)
+    - a\* = number of success + a
+    - b\* = number of failures + b
+    - a and b will get their own prior (hierarchical model)
+  - conjugate because posterior is same form as prior
+  - why nice? before you do anything, you know what posterior will look like
+  - posterior mean is weighted average of prior mean and data mean
+- non informative prior
+  - A prior distribution for θ is non-informative if it is invariant to monotone transformations of θ.
+
+Links 🔗
+
+- [Bayesian method (1). The prior distribution | by Xichu Zhang | Towards Data Science](https://towardsdatascience.com/bayesian-method-1-1cbdb1e6b4)
+- [Chapter 9 Considering Prior Distributions | An Introduction to Bayesian Reasoning and Methods](https://bookdown.org/kevin_davisross/bayesian-reasoning-and-methods/prior.html)
+- [How Should You Think About Your Priors for a Bayesian Analysis? | Steven V. Miller](http://svmiller.com/blog/2021/02/thinking-about-your-priors-bayesian-analysis/)

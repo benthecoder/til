@@ -4290,3 +4290,16 @@ Links 🔗
 - [Bayesian method (1). The prior distribution | by Xichu Zhang | Towards Data Science](https://towardsdatascience.com/bayesian-method-1-1cbdb1e6b4)
 - [Chapter 9 Considering Prior Distributions | An Introduction to Bayesian Reasoning and Methods](https://bookdown.org/kevin_davisross/bayesian-reasoning-and-methods/prior.html)
 - [How Should You Think About Your Priors for a Bayesian Analysis? | Steven V. Miller](http://svmiller.com/blog/2021/02/thinking-about-your-priors-bayesian-analysis/)
+
+## Day 168: Feb 7, 2023
+
+- transformers resources
+
+Links 🔗
+
+- [The Illustrated Transformer – Jay Alammar – Visualizing machine learning one concept at a time.](https://jalammar.github.io/illustrated-transformer/)
+- [The Transformer Family | Lil'Log](https://lilianweng.github.io/posts/2020-04-07-the-transformer-family/)
+- [Transformer models: an introduction and catalog — 2023 Edition - AI, software, tech, and people, not in that order… by X](https://amatriain.net/blog/transformer-models-an-introduction-and-catalog-2d1e9039f376/)
+- [karpathy/nanoGPT: The simplest, fastest repository for training/finetuning medium-sized GPTs.](https://github.com/karpathy/nanoGPT)
+- [Introduction to Deep Learning](https://sebastianraschka.com/blog/2021/dl-course.html#l19-self-attention-and-transformer-networks)
+- [Understanding Large Language Models -- A Transformative Reading List](https://sebastianraschka.com/blog/2023/llm-reading-list.html)

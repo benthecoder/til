@@ -4293,7 +4293,7 @@ Links 🔗
 
 ## Day 168: Feb 7, 2023
 
-- transformers resources
+- transformers resources and papers
 
 Links 🔗
 
@@ -4303,3 +4303,14 @@ Links 🔗
 - [karpathy/nanoGPT: The simplest, fastest repository for training/finetuning medium-sized GPTs.](https://github.com/karpathy/nanoGPT)
 - [Introduction to Deep Learning](https://sebastianraschka.com/blog/2021/dl-course.html#l19-self-attention-and-transformer-networks)
 - [Understanding Large Language Models -- A Transformative Reading List](https://sebastianraschka.com/blog/2023/llm-reading-list.html)
+
+## Day 167: Feb 8, 2023
+
+- GP resources
+
+Links 🔗
+
+- [Gaussian Processes: a versatile data science method that packs infinite dimensions – @aurimas](https://aurimas.eu/blog/2022/03/intro-to-gaussian-processes/)
+- [Implement A Gaussian Process From Scratch | by Shuai Guo | Towards Data Science](https://towardsdatascience.com/implement-a-gaussian-process-from-scratch-2a074a470bce)
+- [Gaussian processes (1/3) - From scratch](https://peterroelants.github.io/posts/gaussian-process-tutorial/)
+- [jwangjie/Gaussian-Processes-Regression-Tutorial: An Intuitive Tutorial to Gaussian Processes Regression](https://github.com/jwangjie/Gaussian-Processes-Regression-Tutorial)

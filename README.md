@@ -4314,3 +4314,28 @@ Links 🔗
 - [Implement A Gaussian Process From Scratch | by Shuai Guo | Towards Data Science](https://towardsdatascience.com/implement-a-gaussian-process-from-scratch-2a074a470bce)
 - [Gaussian processes (1/3) - From scratch](https://peterroelants.github.io/posts/gaussian-process-tutorial/)
 - [jwangjie/Gaussian-Processes-Regression-Tutorial: An Intuitive Tutorial to Gaussian Processes Regression](https://github.com/jwangjie/Gaussian-Processes-Regression-Tutorial)
+
+## Day 168: Feb 9, 2023
+
+- think fast, talk smart: communication techniques
+  - Anxiety management
+    - 85% of people are nervous when they speak in public. Anxiety isn't inherently a bad thing it can help you focus. However, excessive anxiety could impair our ability to speak spontaneously.
+    - The techniques used in anxiety management:
+      - When anxiety symptoms kick in few minutes before public speaking (as in gurgly stomach, shaking limbs, etc.), just be mindful about them, acknowledge them and don't resist them "We simply greet our anxiety and say hey" Take a deep breath and don't let anxiety spiral out of control.
+      - Re-framing public speaking as a conversation and not a performance. There is no "right" or "wrong" way of presenting (although there are certainly better or worse ways). there are multiple ways to make it as a conversation like:
+      - Start with questions: they are dialogic in nature. They could be rhetorical, polling, or simply asking for information.
+      - Using conversational language. Using an inclusive language and not distance the audience from ourselves and the speech, in addition to having a relaxed body language.
+      - Be present oriented. Don't think about the far future. This in turn will clear your mind and make you less nervous. There are some ways of becoming present in the moment such as doing pushups, walking, listening to music, tongue twisters (they can help in warming up the voice as an added benefit) or it could be anything that brings the attention and use some cognitive resources.
+  - Ground rules for being comfortable in speaking in spontaneous situations
+    - Get out of your own way. Dare to be dull. Don't worry about being perfect or doing stuff flawlessly. Improvise, don't stockpile information, let your brain act spontaneously. Train the skill of improvisation. Because aiming at greatness could be in your way due to over evaluation, and over analyzation which leads to freezing up.
+    - See things as opportunities and not as challenges or threats. Make it a conversation and don't make it an adversarial situation. Make it an opportunity to clarify and explain what's in your head, and understand what people are thinking. Take a "Yes, and.." approach instead of "No, but..".
+    - Slow down and listen. "You need to understand the demands of the requirement you find yourself in, in order to respond appropriately". Don't jump to conclusions without gathering enough information. So, slow down and listen to understand and be in touch with the receiver to fulfill your obligation as a communicator. "Don't just do something, stand there."
+    - Tell a story. Respond in a structured way. Having a structure is key to having a successful spontaneous, and planned speaking. It increases processing fluency which is how effective we process information. We process and retain structured information 40% more reliably and accurately than non-structured ones. For example to memorize a string of 10 numbers we structure them into 3,3, and 4 numbers. Structure helps us Remember.
+  - A couple of useful structures:
+    - The "Problem > Solution > Benefit" Structure. You firstly start talking about what is the problem, then talk about a way/ways to solve the problem, and finally, talk about the benefit of solving it. Never lose your audience. Set expectations and provide a structure to keep the listener on track, and this structure helps with that. Could be re-framed as "Opportunity > Solution [steps to achieve it] > Benefit"
+    - The "What? So what? Now what?" structure. Start firstly by talking about what the problem/idea is, why is it important, and then what the next steps are. This is a good formula for answering questions, and introducing people [Who they are? Why are they important? And what to do next with them (listening,drinking, etc..)]. In a spontaneous speaking situation we have to think about two things simultaneously; Figure out what to say and how to say it.
+  - Practicing these structures is a key skill for effective spontaneous thinking. "Structure sets you free."
+
+Links 🔗
+
+- [Think Fast, Talk Smart: Communication Techniques - YouTube](https://www.youtube.com/watch?v=HAnw168huqA)

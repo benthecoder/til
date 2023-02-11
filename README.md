@@ -4339,3 +4339,20 @@ Links 🔗
 Links 🔗
 
 - [Think Fast, Talk Smart: Communication Techniques - YouTube](https://www.youtube.com/watch?v=HAnw168huqA)
+
+## Day 0: Feb 11, 2023
+
+- halfway into Kafka project
+  - stream : unbounded sequence of ordered, immutable data
+  - stream processing: continual calculations performned on one or more streams
+  - immutable data: data that cannot be changed
+  - event: immutable fact about something that has happened in the past
+  - broker: a single member server of kafka cluster
+  - cluster: a group of one or more kafka brokers working together to satisfy kafka production and consumption
+  - Node: a single computing instance (physical server in datacenter or virtual machine in cloud)
+  - zookeper: used by kafka brokers to determine which broker is the leader of a given partition and topic, and track cluster membership and configuration for kafka
+  - data partition: kaflka topics consist of one or more partitions. partition is a log which provides ordering guarantees for all data contained, they are chosen by hashing key values.
+
+Links 🔗
+
+- [📈 Stock Market Real-Time Data Analysis Using Kafka | End-To-End Data Engineering Project - YouTube](https://www.youtube.com/watch?v=KerNf0NANMo)

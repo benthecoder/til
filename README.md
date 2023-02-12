@@ -4340,7 +4340,7 @@ Links 🔗
 
 - [Think Fast, Talk Smart: Communication Techniques - YouTube](https://www.youtube.com/watch?v=HAnw168huqA)
 
-## Day 0: Feb 11, 2023
+## Day 169: Feb 10, 2023
 
 - halfway into Kafka project
   - stream : unbounded sequence of ordered, immutable data
@@ -4356,3 +4356,16 @@ Links 🔗
 Links 🔗
 
 - [📈 Stock Market Real-Time Data Analysis Using Kafka | End-To-End Data Engineering Project - YouTube](https://www.youtube.com/watch?v=KerNf0NANMo)
+
+## Day 170: Feb 11, 2023
+
+- ideas -> words
+  - Writing about something, even something you know well, usually shows you that you didn't know it as well as you thought. Putting ideas into words is a severe test
+  - It's not just having to commit your ideas to specific words that makes writing so exacting. The real test is reading what you've written. You have to pretend to be a neutral reader who knows nothing of what's in your head, only what you wrote
+  - there were things I didn't consciously realize till I had to explain them
+  - A great deal of knowledge is unconscious, and experts have if anything a higher proportion of unconscious knowledge than beginners.
+  - Putting ideas into words doesn't have to mean writing, of course. You can also do it the old way, by talking. But in my experience, writing is the stricter test. You have to commit to a single, optimal sequence of words
+
+Links 🔗
+
+- [Putting Ideas into Words](http://www.paulgraham.com/words.html)

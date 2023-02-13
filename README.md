@@ -4369,3 +4369,12 @@ Links 🔗
 Links 🔗
 
 - [Putting Ideas into Words](http://www.paulgraham.com/words.html)
+
+## Day 171: Feb 12, 2023
+
+- assign method pandas
+
+Links
+
+- [Chaining in Pandas | //gardnmi](https://gardnmi.github.io/blog/jupyter/pandas/python/2021/08/22/chaining-in-pandas.html)
+- [Professional Pandas: The Pandas Assign Method and Chaining](https://ponder.io/professional-pandas-the-pandas-assign-method-and-chaining/)

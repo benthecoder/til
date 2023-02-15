@@ -4394,3 +4394,11 @@ Links
 Links 🔗
 
 - [Which country should I open an investing account as an international in the US with an F1 visa? : eupersonalfinance](https://www.reddit.com/r/eupersonalfinance/comments/po7imd/comment/j8f9eph/?context=3)
+
+## Day 173: Feb 14, 2023
+
+- interview cheatsheet
+
+Links 🔗
+
+- [Job Search & Interview Cheatsheet](https://benthecoder.notion.site/Job-Search-Interview-Cheatsheet-709acbb9f1cc45e4bcfd2e77ec20f3b0)

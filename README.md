@@ -4402,3 +4402,21 @@ Links 🔗
 Links 🔗
 
 - [Job Search & Interview Cheatsheet](https://benthecoder.notion.site/Job-Search-Interview-Cheatsheet-709acbb9f1cc45e4bcfd2e77ec20f3b0)
+
+## Day 174: Feb 15, 2023
+
+- finished Kafka mini project
+- Programming Language - Python
+  - [dpkp/kafka-python: Python client for Apache Kafka](https://github.com/dpkp/kafka-python)
+  - [fsspec/s3fs: S3 Filesystem](https://github.com/fsspec/s3fs)
+- Apache Kafka
+- Amazon Web Service (AWS)
+  - EC2 - host kafka server
+  - S3 (Simple Storage Service) - store data
+  - Glue Crawler - create schema for data in S3
+  - Glue Catalog - store schema for data in S3
+  - Athena - Query data in S3
+
+Links 🔗
+
+- [benthecoder/kafka-stock-market](https://github.com/benthecoder/kafka-stock-market)

@@ -4420,3 +4420,35 @@ Links 🔗
 Links 🔗
 
 - [benthecoder/kafka-stock-market](https://github.com/benthecoder/kafka-stock-market)
+
+## Day 175: Feb 16, 2023
+
+- update docker compose on mac
+
+```bash
+    sudo rm /usr/local/lib/docker/cli-plugins/docker-compose
+```
+
+Install with brew
+
+```bash
+    brew install docker-compose
+```
+
+and symlink it
+
+```bash
+    mkdir -p ~/.docker/cli-plugins
+    ln -sfn /opt/homebrew/opt/docker-compose/bin/docker-compose ~/.docker/cli-plugins/docker-compose
+```
+
+if you want to check where it was installed
+
+```bash
+    docker info --format '{{range .ClientInfo.Plugins}}{{if eq .Name "compose"}}{{.Path}}{{end}}{{end}}'
+```
+
+Links 🔗
+
+- [Uninstall Docker Compose | Docker Documentation](https://docs.docker.com/compose/install/uninstall/)
+- [Docker desktop mac wont update docker compose - Stack Overflow](https://stackoverflow.com/questions/72663581/docker-desktop-mac-wont-update-docker-compose)

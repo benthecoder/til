@@ -4452,3 +4452,33 @@ Links 🔗
 
 - [Uninstall Docker Compose | Docker Documentation](https://docs.docker.com/compose/install/uninstall/)
 - [Docker desktop mac wont update docker compose - Stack Overflow](https://stackoverflow.com/questions/72663581/docker-desktop-mac-wont-update-docker-compose)
+
+## Day 176: Feb 17, 2023
+
+- Search War
+  - Google
+    - Google Search = 93 percent of all search-driven traffic
+    - Google's in house models
+      - Imagen image generator
+      - LaMDA conversation generator
+      - MusicLM music generator
+      - PaLM large language model.
+    - An astronomer quickly pointed out that the system had misstated the accomplishments of the James Web Space Telescope. The tech press pounced, and Google promptly lost roughly 8 percent of its market value.
+  - microsoft
+    - bing = 3 percent of search-driven traffic.
+    - bing, edge and teams will utilize ai chatbot that will respond to conversational queries, summarize answers from multiple web pages, and generate text for emails, essays, advice, and so on.
+    - A layer called Prometheus is intended to filter out incorrect or inappropriate results
+      - prompts:
+        - “informative, visual, logical, and actionable” as well as “positive, interesting, entertaining, and engaging.”
+        - avoid answers that are “vague, controversial, or off-topic,”
+        - present them with logic that is “rigorous, intelligent, and defensible.”
+        - It must search the web — up to three times per conversational turn — whenever a user seeks information.
+  - baidu
+    - Baidu manages 65 percent of China’s search-driven traffic but less than 1 percent worldwide.
+    - Baidu announced its own chatbot, Wenxin Yiyan, based on ERNIE. The company expects to complete internal testing in March and deploy the system soon afterward.
+  - The cost of enhancing Google Search with ChatGPT output would approach $36 billion a year (roughly 65 percent of Google Search’s annual profit)
+
+Links 🔗
+
+- [AI Titans Clash, Deepfaked Propaganda Spreads, Generative Models Resurrect Seinfeld and more](https://www.deeplearning.ai/the-batch/issue-184/)
+- [Can ChatGPT-like Generative Models Guarantee Factual Accuracy? On the Mistakes of Microsoft's New Bing - DEV Community 👩‍💻👨‍💻](https://dev.to/ruochenzhao3/can-chatgpt-like-generative-models-guarantee-factual-accuracy-on-the-mistakes-of-microsofts-new-bing-111b)

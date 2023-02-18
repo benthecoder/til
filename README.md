@@ -4482,3 +4482,11 @@ Links 🔗
 
 - [AI Titans Clash, Deepfaked Propaganda Spreads, Generative Models Resurrect Seinfeld and more](https://www.deeplearning.ai/the-batch/issue-184/)
 - [Can ChatGPT-like Generative Models Guarantee Factual Accuracy? On the Mistakes of Microsoft's New Bing - DEV Community 👩‍💻👨‍💻](https://dev.to/ruochenzhao3/can-chatgpt-like-generative-models-guarantee-factual-accuracy-on-the-mistakes-of-microsofts-new-bing-111b)
+
+## Day 177: Feb 18, 2023
+
+- set new remote origin `git remote set-url origin git://new.url.here`
+
+Links 🔗
+
+- [How to remove remote origin from a Git repository - Stack Overflow](https://stackoverflow.com/questions/16330404/how-to-remove-remote-origin-from-a-git-repository)

@@ -4490,3 +4490,39 @@ Links 🔗
 Links 🔗
 
 - [How to remove remote origin from a Git repository - Stack Overflow](https://stackoverflow.com/questions/16330404/how-to-remove-remote-origin-from-a-git-repository)
+
+## Day 178: Feb 19, 2023
+
+```py
+import multiprocessing
+import time
+
+# bar
+def bar():
+    for i in range(100):
+        print "Tick"
+        time.sleep(1)
+
+if __name__ == '__main__':
+    # Start bar as a process
+    p = multiprocessing.Process(target=bar)
+    p.start()
+
+    # Wait for 10 seconds or until process finishes
+    p.join(10)
+
+    # If thread is still active
+    if p.is_alive():
+        print "running... let's kill it..."
+
+        # Terminate - may not work if process is stuck for good
+        p.terminate()
+        # OR Kill - will work for sure, no chance for process to finish nicely however
+        # p.kill()
+
+        p.join()
+```
+
+Links 🔗
+
+- [python - Timeout on a function call - Stack Overflow](https://stackoverflow.com/questions/492519/timeout-on-a-function-call)

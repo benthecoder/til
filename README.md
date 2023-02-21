@@ -4526,3 +4526,11 @@ if __name__ == '__main__':
 Links 🔗
 
 - [python - Timeout on a function call - Stack Overflow](https://stackoverflow.com/questions/492519/timeout-on-a-function-call)
+
+## Day 179: Feb 20, 2023
+
+- Christianity -> human rights
+
+Links 🔗
+
+- [Why You're Christian - David Perell](https://perell.com/essay/why-youre-christian/)

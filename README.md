@@ -4534,3 +4534,31 @@ Links 🔗
 Links 🔗
 
 - [Why You're Christian - David Perell](https://perell.com/essay/why-youre-christian/)
+
+## Day 180: Feb 22, 2023
+
+- capture output of Process object
+
+```python
+import multiprocessing
+
+ret = {'foo': False}
+
+def worker(queue):
+    ret = queue.get()
+    ret['foo'] = True
+    queue.put(ret)
+
+if __name__ == '__main__':
+    queue = multiprocessing.Queue()
+    queue.put(ret)
+    p = multiprocessing.Process(target=worker, args=(queue,))
+    p.start()
+    p.join()
+    print(queue.get())  # Prints {"foo": True}
+
+```
+
+Links 🔗
+
+- [python - How to get the return value of a function passed to multiprocessing.Process? - Stack Overflow](https://stackoverflow.com/questions/10415028/how-to-get-the-return-value-of-a-function-passed-to-multiprocessing-process/37736655#37736655)

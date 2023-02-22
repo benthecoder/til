@@ -308,7 +308,7 @@ Links 🔗
 
 - [SQL Server EXISTS and NOT EXISTS](https://blog.devart.com/sql-exists-and-not-exists.html)
 
-## Day 17: 16 Sepp 2022
+## Day 17: 16 Sep 2022
 
 - finished week 1 of advanced learning algorithms ML specialization
   - learned about sequential, activation functions, epochs, batches, logistic unit, vectorization, numpy broadcasting
@@ -4535,7 +4535,7 @@ Links 🔗
 
 - [Why You're Christian - David Perell](https://perell.com/essay/why-youre-christian/)
 
-## Day 180: Feb 22, 2023
+## Day 180: Feb 21, 2023
 
 - capture output of Process object
 
@@ -4562,3 +4562,37 @@ if __name__ == '__main__':
 Links 🔗
 
 - [python - How to get the return value of a function passed to multiprocessing.Process? - Stack Overflow](https://stackoverflow.com/questions/10415028/how-to-get-the-return-value-of-a-function-passed-to-multiprocessing-process/37736655#37736655)
+
+## Day 181: Feb 22, 2023
+
+- tqdm example
+
+```python
+    with tqdm(
+        total=len(files * len(algs)),
+    ) as t:
+        for file in files:
+            for alg in algs:
+                t.set_description(f"Running {alg} on {file}")
+                result = subprocess.run(
+                    ["python", "main.py", "--fPath", f"{dir}/{file}", "--alg", alg],
+                    capture_output=True,
+                )
+                if result.stderr:
+                    raise subprocess.CalledProcessError(
+                        returncode=result.returncode,
+                        cmd=result.args,
+                        stderr=result.stderr,
+                    )
+                with open(f"{out}/part2.txt", "a") as f:
+                    f.write(f"--Fpath {file} --alg {alg} \n")
+                    f.write(f"{result.stdout.decode('utf-8')} \n")
+
+                t.update(1)
+
+```
+
+Links 🔗
+
+- [tqdm/tqdm: A Fast, Extensible Progress Bar for Python and CLI](https://github.com/tqdm/tqdm)
+- [Understanding Subprocesses in Python - Earthly Blog](https://earthly.dev/blog/subprocesses-in-python/)

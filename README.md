@@ -4596,3 +4596,11 @@ Links 🔗
 
 - [tqdm/tqdm: A Fast, Extensible Progress Bar for Python and CLI](https://github.com/tqdm/tqdm)
 - [Understanding Subprocesses in Python - Earthly Blog](https://earthly.dev/blog/subprocesses-in-python/)
+
+## Day 182: Feb 25, 2023
+
+- Learned about the meaning behind derivatives, and how backprop is actually just 100 lines of code and neural networks are 50 lines of code
+
+Links 🔗
+
+- [benthecoder/neural-networks-from-scratch](https://github.com/benthecoder/neural-networks-from-scratch)
